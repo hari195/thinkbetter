@@ -4,7 +4,11 @@ module.exports = {
     fontFamily:{
       'inter': ['Inter'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'regal-blue': '#243c5a',
+      }
+    },
   },
   variants: {},
   plugins: [],

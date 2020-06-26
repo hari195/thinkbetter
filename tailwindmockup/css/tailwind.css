@@ -3,3 +3,27 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.theme-light {
+    --primary-100: #3ab5bf;
+    --primary-500: #3ab5bf;
+    --primary-900: #3ab5bf;
+    --secondary-100: #3ab5bf;
+    --secondary-500: #3ab5bf;
+    --secondary-900: #3ab5bf;
+    --copy-100: #3ab5bf;
+    --copy-500: #3ab5bf;
+    --copy-900: #3ab5bf;
+}
+
+.theme-dark {
+    --primary-100: #43ef34;
+    --primary-500: #43ef34;
+    --primary-900: #43ef34;
+    --secondary-100: #43ef34;
+    --secondary-500: #43ef34;
+    --secondary-900: #43ef34;
+    --copy-100: #43ef34;
+    --copy-500: #43ef34;
+    --copy-900: #43ef34;
+}

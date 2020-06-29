@@ -18531,15 +18531,15 @@ video {
 }
 
 .theme-light {
-  --primary-100: #3ab5bf;
-  --primary-500: #3ab5bf;
-  --primary-900: #3ab5bf;
-  --secondary-100: #3ab5bf;
-  --secondary-500: #3ab5bf;
-  --secondary-900: #3ab5bf;
-  --copy-100: #3ab5bf;
-  --copy-500: #3ab5bf;
-  --copy-900: #3ab5bf;
+  --primary-100: #2C4D7F ;
+  --primary-500: #2C4D7F ;
+  --primary-900: #2C4D7F ;
+  --secondary-100: #2C4D7F ;
+  --secondary-500: #2C4D7F ;
+  --secondary-900: #2C4D7F ;
+  --copy-100: #2C4D7F ;
+  --copy-500: #2C4D7F ;
+  --copy-900: #2C4D7F ;
 }
 
 .theme-dark {

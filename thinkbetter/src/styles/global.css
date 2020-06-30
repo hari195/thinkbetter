@@ -1,0 +1,33 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.theme-light {
+    --primary-100: #2C4D7F ;
+    --primary-500: #2C4D7F ;
+    --primary-900: #2C4D7F ;
+    --secondary-100: #2C4D7F ;
+    --secondary-500: #2C4D7F ;
+    --secondary-900: #2C4D7F ;
+    --copy-100: #2C4D7F ;
+    --copy-500: #2C4D7F ;
+    --copy-900: #2C4D7F ;
+}
+
+.theme-dark {
+    --primary-100: #43ef34;
+    --primary-500: #43ef34;
+    --primary-900: #43ef34;
+    --secondary-100: #43ef34;
+    --secondary-500: #43ef34;
+    --secondary-900: #43ef34;
+    --copy-100: #43ef34;
+    --copy-500: #43ef34;
+    --copy-900: #43ef34;
+}

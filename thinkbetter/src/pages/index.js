@@ -8,7 +8,7 @@ export default function Home() {
     
     <div>
       <Header />
-      <h1>Hello Gatsby!</h1>
+      <h1 class="bg-gray-500">Hello Gatsby!</h1>
       <p>What a world.</p>
       <Footer />
     </div>

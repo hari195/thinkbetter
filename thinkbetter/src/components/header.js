@@ -7,7 +7,7 @@ export default function Header() {
   
 </head>
 
-<header class="z-10 theme-light bg-primary-100 fixed shadow-lg md:h-auto w-full md:px-8 py-1  items-center justify-between"> 
+<header class="mb-4 z-10 theme-light bg-primary-100 fixed shadow-lg md:h-auto w-full md:px-8 py-1 transition-all duration-300 items-center justify-between"> 
     
         <div class="md:flex items-center justify-around md:justify-between">
             <a href="www.google.com">
@@ -43,6 +43,7 @@ export default function Header() {
         </div>
 
 </header>
+
 </div>
   );
 }

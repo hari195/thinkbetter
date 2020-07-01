@@ -10,8 +10,9 @@ export default function Home() {
     <div>
       <Layout />
       <Header />
-      <h1 class="bg-gray-500">Hello Gatsby!</h1>
-      <p>What a world.</p>
+        <br>
+        </br>
+        <br></br>
       <Footer />
     </div>
   );

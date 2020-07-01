@@ -18,5 +18,6 @@ module.exports = {
       icon: `src/images/bolt512.png`,
     },
   },
+  'gatsby-plugin-offline',
   'gatsby-plugin-postcss'],
 }

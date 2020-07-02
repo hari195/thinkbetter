@@ -8,12 +8,13 @@ export default function Home() {
   return (
     
     <div>
-      <Layout />
+      <Layout>
       <Header />
         <br>
         </br>
         <br></br>
       <Footer />
+      </Layout>
     </div>
   );
 }

@@ -4,9 +4,7 @@ const Header = () => {
    
   return (
 <div>
-    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-    <head profile="http://www.w3.org/2005/10/profile">
-    </head>
+
 
     <header class="mb-4 z-10 theme-light bg-primary-100 fixed shadow-lg md:h-auto w-full md:px-8 py-1 transition-all duration-300 items-center justify-between"> 
     

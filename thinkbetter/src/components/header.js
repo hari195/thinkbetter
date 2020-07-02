@@ -1,13 +1,14 @@
 import React from "react"
-export default function Header() {
+
+const Header = () => {
+   
   return (
 <div>
-<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-<head profile="http://www.w3.org/2005/10/profile">
-  
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <head profile="http://www.w3.org/2005/10/profile">
+    </head>
 
-<header class="mb-4 z-10 theme-light bg-primary-100 fixed shadow-lg md:h-auto w-full md:px-8 py-1 transition-all duration-300 items-center justify-between"> 
+    <header class="mb-4 z-10 theme-light bg-primary-100 fixed shadow-lg md:h-auto w-full md:px-8 py-1 transition-all duration-300 items-center justify-between"> 
     
         <div class="md:flex items-center justify-around md:justify-between">
             <a href="www.google.com">
@@ -20,7 +21,9 @@ export default function Header() {
             </a>
                
             <div class=" flex items-center flex-wrap text-center font-inter px-1 md:px-0 justify-around">
-                <a class="text-blue-900 hover:text-white hover:bg-gray-800 rounded-lg p-2 px-4 md:p-4 fill-current" href="/articles">
+                
+
+                <a class="text-blue-200 hover:text-white hover:bg-gray-800 rounded-lg p-2 px-4 md:p-4 fill-current" href="/articles">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="w-6 h-6">
                         <path d="M16.32 14.9l5.39 5.4a1 1 0 01-1.42 1.4l-5.38-5.38a8 8 0 111.41-1.41zM10 16a6 6 0 100-12 6 6 0 000 12z"/>
                     </svg>
@@ -38,12 +41,11 @@ export default function Header() {
                 <a class="uppercase rounded-lg  mr-1 md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold bg-blue-900 text-white hover:bg-gray-100 hover:text-gray-900 hover:border-black border" href="#subscribe">
                     Subscribe
                 </a>
-            </div>
-            
+            </div>  
         </div>
-
-</header>
-
+    </header>
 </div>
   );
 }
+
+export default Header

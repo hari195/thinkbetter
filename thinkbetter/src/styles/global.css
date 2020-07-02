@@ -9,26 +9,38 @@
 
 
 .theme-light {
-    --primary-100: #2C4D7F ;
+    --primary-100: #2c4d7fa6 ;
+    --primary-300: #2C4D7F ;
     --primary-500: #2C4D7F ;
+    --primary-700: #2C4D7F ;
     --primary-900: #2C4D7F ;
     --secondary-100: #2C4D7F ;
+    --secondary-300: #2C4D7F ;
     --secondary-500: #2C4D7F ;
+    --secondary-700: #2C4D7F ;
     --secondary-900: #2C4D7F ;
     --copy-100: #2C4D7F ;
+    --copy-300: #2C4D7F ;
     --copy-500: #2C4D7F ;
+    --copy-700: #2C4D7F ;
     --copy-900: #2C4D7F ;
 }
 
 .theme-dark {
     --primary-100: #43ef34;
+    --primary-300: #43ef34;
     --primary-500: #43ef34;
+    --primary-700: #43ef34;
     --primary-900: #43ef34;
     --secondary-100: #43ef34;
+    --secondary-300: #43ef34;
     --secondary-500: #43ef34;
+    --secondary-700: #43ef34;
     --secondary-900: #43ef34;
     --copy-100: #43ef34;
+    --copy-300: #2C4D7F ;
     --copy-500: #43ef34;
+    --copy-700: #2C4D7F ;
     --copy-900: #43ef34;
 }
 

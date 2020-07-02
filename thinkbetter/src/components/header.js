@@ -23,7 +23,7 @@ const Header = () => {
                 
             <ThemeToggler>
               {({ theme, toggleTheme }) => (
-                <label>
+                <button>
                   <input
                     type="checkbox"
                     className="hidden"
@@ -45,7 +45,7 @@ const Header = () => {
                         </svg>   
                     </div>
                   )}     
-                </label>
+                </button>
               )}
             </ThemeToggler>
 
@@ -64,7 +64,7 @@ const Header = () => {
                     Chatter
                 </a>
 
-                <a class="uppercase rounded-lg  mr-1 md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold bg-blue-900 text-white hover:bg-gray-100 hover:text-gray-900 hover:border-black border" href="#subscribe">
+                <a class="uppercase rounded-lg  mr-1 md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold bg-blue-900 text-white hover:bg-gray-100 hover:text-gray-900 hover:border-black" href="#subscribe">
                     Subscribe
                 </a>
             </div>  

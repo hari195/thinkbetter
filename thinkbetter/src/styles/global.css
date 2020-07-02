@@ -9,7 +9,7 @@
 
 
 .theme-light {
-    --primary-100: #2c4d7fa6 ;
+    --primary-100: #2c4d7f ;
     --primary-300: #2C4D7F ;
     --primary-500: #2C4D7F ;
     --primary-700: #2C4D7F ;
@@ -24,6 +24,8 @@
     --copy-500: #2C4D7F ;
     --copy-700: #2C4D7F ;
     --copy-900: #2C4D7F ;
+    transition-property: all;
+    transition-duration: 300ms;
 }
 
 .theme-dark {
@@ -42,5 +44,7 @@
     --copy-500: #43ef34;
     --copy-700: #2C4D7F ;
     --copy-900: #43ef34;
+    transition-property: all;
+    transition-duration: 300ms;
 }
 

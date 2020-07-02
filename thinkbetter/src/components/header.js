@@ -23,7 +23,7 @@ const Header = () => {
                 
             <ThemeToggler>
               {({ theme, toggleTheme }) => (
-                <button>
+                <label id="theme-toggler">
                   <input
                     type="checkbox"
                     className="hidden"
@@ -45,7 +45,7 @@ const Header = () => {
                         </svg>   
                     </div>
                   )}     
-                </button>
+                </label>
               )}
             </ThemeToggler>
 

@@ -2,7 +2,7 @@ import React from "react"
 export default function Footer() {
   return (
 
-    <div class="bottom-0 md:flex mb-4 mt-8 mx-16 ">
+    <div class=" bottom-0 md:flex mb-4 mt-8 mx-16 ">
         <div class="w-full md:w-1/3 mt-4 text-center md:px-2">
             <div class="font-bold uppercase mb-2">
                 <div class="mt-2 font-bold uppercase mb-2">
@@ -22,8 +22,8 @@ export default function Footer() {
             </div>
         </div>
         <div class="w-full md:w-1/3 border-t mt-2 md:border-l md:border-t-0 border-gray-500 text-center">
-            <div class="mt-2 font-bold uppercase mb-2">
-                <div class="mt-2 font-bold uppercase mb-2">
+            <div class="mt-3 font-bold uppercase mb-2">
+                <div class="mt-3 font-bold uppercase mb-2">
                     <div class="flex uppercase justify-center text-gray-900 items-center whitespace-no-wrap px-2 md:py-1 text-center  font-inter  font-bold  md:rounded-lg">
                         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 mr-1">
                             <path d="M10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10zM7.879 7.879l7.778-3.536-3.536 7.778-7.778 3.536L7.88 7.879zM10 11a1 1 0 100-2 1 1 0 000 2z"/>

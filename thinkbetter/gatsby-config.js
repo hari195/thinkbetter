@@ -6,11 +6,21 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [{
+  siteMetadata: {
+    title: `THINKBETTER`,
+  },
+  plugins: [    {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `src`,
+      path: `${__dirname}/src/`,
+    },
+  },
+  {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `GatsbyJS`,
-      short_name: `GatsbyJS`,
+      name: `THINKBETTER`,
+      short_name: `thinkbetter`,
       start_url: `/`,
       background_color: `#f7f0eb`,
       theme_color: `#000000`,
@@ -20,5 +30,6 @@ module.exports = {
   },
   'gatsby-plugin-offline',
   'gatsby-plugin-postcss',
+  `gatsby-transformer-remark`,
   'gatsby-plugin-dark-mode'],
 }

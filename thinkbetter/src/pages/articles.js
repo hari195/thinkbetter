@@ -1,11 +1,24 @@
-
 import React from "react"
-import Header from "../components/header"
-export default function About() {
+import { graphql } from "gatsby"
+import Layout from "../components/layout"
+import CondensedPost from "../components/full-post"
+
+
+export default function Home() {
   return (
-    <div >
-      <Header />
-      <p></p>
+    
+    <div>
+      <Layout>
+
+        <br>
+        </br>
+        <div className="mt-16"> 
+
+      </div>
+      <FullPost />
+        <br>
+        </br>
+      </Layout>
     </div>
-  )
+  );
 }

@@ -17,6 +17,7 @@ export default function Home() {
       </div>
       <CondensedPost />
         <br>
+        
         </br>
       </Layout>
     </div>

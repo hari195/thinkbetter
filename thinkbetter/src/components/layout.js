@@ -5,7 +5,8 @@ import Header from "./header"
 
 export default function Layout({ children }) {
     return (
-        <div id="layout">
+        <div id="layout" >
+            <div class="bg-pattern">
             <Helmet>
                 <head profile="http://www.w3.org/2005/10/profile" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,6 +15,7 @@ export default function Layout({ children }) {
             <Header />
             {children}
             <Footer />
+            </div>
         </div>
     );
 }

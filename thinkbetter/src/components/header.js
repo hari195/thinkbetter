@@ -11,11 +11,11 @@ const Header = () => {
     
         <div class="md:flex items-center justify-around md:justify-between">
             <a href="www.google.com">
-            <h1 class="flex uppercase justify-center text-gray-900 items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-inter  font-light md:text-2xl md:rounded-lg hover:shadow-2xl tracking-widest hover:bg-blue-900 hover:text-gray-200 ">
+            <h1 class="flex justify-center text-gray-900 items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-inter font-bold tracking-tighter md:text-3xl md:rounded-lg hover:shadow-2xl hover:bg-blue-900 hover:text-gray-200 ">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 md:w-6 md:h-6">
                     <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
                 </svg>   
-                think better
+                Think Better
             </h1>
             </a>
                
@@ -61,12 +61,12 @@ const Header = () => {
                     Articles
                 </a>
 
-                <a class="uppercase rounded-lg  md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold md:font-bold hover:bg-gray-400 hover:text-gray-800" href="www.google.com">
+                <a class="hidden uppercase rounded-lg  md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold md:font-bold hover:bg-gray-400 hover:text-gray-800" href="www.google.com">
                     Chatter
                 </a>
 
                 <a class="uppercase rounded-lg  mr-1 md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold bg-blue-900 text-white hover:bg-gray-100 hover:text-gray-900 hover:border-black" href="#subscribe">
-                    Subscribe
+                    Subscribe <span class="text-lg mt-1">&#x2709;</span>
                 </a>
             </div>  
         </div>

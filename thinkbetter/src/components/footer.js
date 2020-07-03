@@ -41,7 +41,7 @@ export default function Footer() {
             <div>
                 Articles
             </div>
-            <div>
+            <div class="hidden">
                 Chatter
             </div>
         </div>
@@ -57,8 +57,8 @@ export default function Footer() {
                     <div class="flex border-b border-gray-600 items-center py-2">
                       <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="example@example.com" aria-label="E-MAIL ADDRESS">
                           </input>
-                      <button class="uppercase rounded-lg  mr-1 md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold bg-blue-900 text-white hover:bg-gray-100 hover:text-gray-900 hover:border-black border" type="button">
-                        Subscribe
+                      <button id="subscribe" class="uppercase rounded-lg  mr-1 md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold bg-blue-900 text-white hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:shadow-outline focus:bg-red-800 whitespace-no-wrap" type="button">
+                        Subscribe <span class="text-lg mt-1">&#x2709;</span>
                       </button>
                         
                     </div>

@@ -4,7 +4,7 @@ date: "2017-08-09"
 condensed: "2222 This is the short text"
 article: true
 published: true
-dispalydate: "Bla"
+displaydate: "July 9, 2020"
 ---
 Second post Pandas are really sweet.
 Here's a video of a panda eating sweets.

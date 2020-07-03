@@ -1,7 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import CondensedPost from "../components/full-post"
+import CondensedArticles from "../components/condensed-articles"
+import AllArticles from "../components/all-articles"
 
 
 export default function Home() {
@@ -12,12 +13,18 @@ export default function Home() {
 
         <br>
         </br>
-        <div className="mt-16"> 
+        <div class="mt-16 font-inter rounded-lg ml-8 mr-8 sm:ml-16 sm:mr-16 px-8 py-4 md:px-20 text-left">
+          <div class="text-2xl -ml-1 md:text-3xl font-semibold hover:bg-gray-500 rounded px-1  pl-1" href="#"> 
+            Articles 
+        
+          </div>
+        </div>
 
-      </div>
-      <FullPost />
+        <AllArticles/>
         <br>
         </br>
+
+        
       </Layout>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
+import {Link} from "gatsby"
 
 const Header = () => {
    
@@ -7,15 +8,15 @@ const Header = () => {
 <div>
 
 
-    <header class="mb-4 z-10 bg-primary-100 fixed shadow-lg md:h-auto w-full md:px-8 py-2 transition-all duration-300 items-center justify-between"> 
+    <header class="top-0 mb-4 z-10 bg-primary-100 fixed shadow-lg md:h-auto w-full md:px-8 py-2 transition-all duration-300 items-center justify-between"> 
     
         <div class="md:flex items-center justify-around md:justify-between">
             <a href="www.google.com">
-            <h1 class="flex justify-center text-gray-900 items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-inter font-bold tracking-tighter md:text-3xl md:rounded-lg hover:shadow-2xl hover:bg-blue-900 hover:text-gray-200 ">
+            <h1 class="flex justify-center text-black items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-inter font-bold tracking-tighter md:text-3xl md:rounded-lg hover:shadow-2xl hover:bg-blue-900 hover:text-gray-200 ">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 md:w-6 md:h-6">
                     <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
                 </svg>   
-                Think Better
+                <Link to="/">Think Better</Link>
             </h1>
             </a>
                
@@ -58,7 +59,7 @@ const Header = () => {
 
 
                 <a class="uppercase rounded-lg md:ml-1 px-2 py-1 md:px-4 md:py-2 font-normal hover:bg-gray-800 hover:text-gray-200" href="www.google.com">
-                    Articles
+                    <Link to="/articles/">Articles</Link>
                 </a>
 
                 <a class="hidden uppercase rounded-lg  md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold md:font-bold hover:bg-gray-400 hover:text-gray-800" href="www.google.com">
@@ -71,6 +72,7 @@ const Header = () => {
             </div>  
         </div>
     </header>
+
 </div>
   );
 }

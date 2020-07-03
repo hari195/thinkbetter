@@ -19,7 +19,6 @@ export default function CondensedArticles (props) {
                 date
                 condensed
                 article
-                chatter
                 published
                 displaydate
               }

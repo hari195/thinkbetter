@@ -1,4 +1,6 @@
 import React from "react"
+import {Link} from "gatsby"
+
 export default function Footer() {
   return (
 <div>
@@ -32,14 +34,14 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div>
-                Search
+            <div class="hover:text-gray-300 hover:bg-blue-900 rounded-lg mx-48">
+                <Link to="/search/">Search</Link>
             </div>
             <div>
                 Tags
             </div>
-            <div>
-                Articles
+            <div class="hover:text-gray-300 hover:bg-blue-900 rounded-lg mx-48">
+                <Link to="/articles/">Articles</Link>
             </div>
             <div class="hidden">
                 Chatter
@@ -77,13 +79,13 @@ export default function Footer() {
     </br>
     <div class="mt-1 pb-4 px-10  flex text-gray-600 justify-around">
         <div class=" bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
-            Terms of Use
+            <Link to="/legal/">Terms of Use</Link>
         </div>  
         <div class=" bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
-            Privacy Policy
+        <Link to="/legal/">Privacy Policy</Link>
         </div>
-        <div class="theme-light bg-primary-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
-            Cookies
+        <div class="bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
+        <Link to="/legal/">Cookies</Link>
         </div>
     </div>
 </div>

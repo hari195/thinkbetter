@@ -51,14 +51,14 @@ const Header = () => {
             </ThemeToggler>
             </div>
 
-                <a class="text-blue-200 hover:text-white hover:bg-gray-800 rounded-lg p-2 px-2 ml-1 fill-current" href="/articles">
+                <Link to="/search/" class="text-blue-200 hover:text-white hover:bg-gray-800 rounded-lg p-2 px-2 ml-1 fill-current" >
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="w-6 h-6">
                         <path d="M16.32 14.9l5.39 5.4a1 1 0 01-1.42 1.4l-5.38-5.38a8 8 0 111.41-1.41zM10 16a6 6 0 100-12 6 6 0 000 12z"/>
                     </svg>
-                </a>
+                </Link>
 
 
-                <a class="uppercase rounded-lg md:ml-1 px-2 py-1 md:px-4 md:py-2 font-normal hover:bg-gray-800 hover:text-gray-200" href="www.google.com">
+                <a class="uppercase rounded-lg md:ml-1 px-2 py-1 md:px-4 md:py-2 font-normal hover:bg-gray-800 hover:text-gray-200">
                     <Link to="/articles/">Articles</Link>
                 </a>
 

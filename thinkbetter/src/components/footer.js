@@ -1,8 +1,8 @@
 import React from "react"
 export default function Footer() {
   return (
-
-    <div class=" bottom-0 md:flex mb-4 mt-8 mx-16 ">
+<div>
+    <div class=" bottom-0 md:flex pb-4 mt-8 mx-16 ">
         <div class="w-full md:w-1/3 mt-4 text-center md:px-2">
             <div class="font-bold uppercase mb-2">
                 <div class="mt-2 font-bold uppercase mb-2">
@@ -66,6 +66,28 @@ export default function Footer() {
             </div>
         </div>
     </div>
+    <div class="flex justify-center items-center tracking-widest font-medium mt-2 uppercase">
+        &copy; 2020 
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 md:w-6 md:h-6">
+            <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
+        </svg>    
+        think better
+    </div>
+    <br>
+    </br>
+    <div class="mt-1 pb-4 px-10  flex text-gray-600 justify-around">
+        <div class=" bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
+            Terms of Use
+        </div>  
+        <div class=" bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
+            Privacy Policy
+        </div>
+        <div class="theme-light bg-primary-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
+            Cookies
+        </div>
+    </div>
+</div>
+    
     
   );
 }

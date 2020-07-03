@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 export default function CondensedArticles (props) {
    
@@ -13,6 +13,9 @@ export default function CondensedArticles (props) {
           totalCount
           edges {
             node {
+              fields {
+                slug
+              }
               id
               frontmatter {
                 title
@@ -43,9 +46,9 @@ export default function CondensedArticles (props) {
           </div>
         </div>
         <div>
-          <a class="text-2xl -ml-1 md:text-3xl font-medium hover:text-gray-200 hover:bg-red-400 rounded px-1  pl-1" href="#"> 
+          <Link to={node.fields.slug} class="text-2xl -ml-1 md:text-3xl font-medium hover:text-gray-200 hover:bg-red-400 rounded px-1  pl-1" href="#"> 
           {node.frontmatter.title}{" "}
-          </a>
+          </Link>
         </div>
         <div class="flex justify items-center flex-wrap ">
             <div class="p-1 -ml-2">
@@ -68,7 +71,7 @@ export default function CondensedArticles (props) {
         <div class="mt-1 text-gray-600 text-justify ">
           <p>{node.frontmatter.condensed}...
             <span class="uppercase text-blue-900 text-sm font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">
-            continue reading
+            <Link to={node.fields.slug}>continue reading</Link>
             </span>
           </p>
         </div>

@@ -21,7 +21,7 @@ export default function Footer() {
                 </p>
             </div>
         </div>
-        <div class="w-full md:w-1/3 border-t mt-2 md:border-l md:border-t-0 border-gray-500 text-center">
+        <div class="w-full md:w-1/3 border-t mt-4 md:border-l md:border-t-0 border-gray-500 text-center">
             <div class="mt-3 font-bold uppercase mb-2">
                 <div class="mt-3 font-bold uppercase mb-2">
                     <div class="flex uppercase justify-center text-gray-900 items-center whitespace-no-wrap px-2 md:py-1 text-center  font-inter  font-bold  md:rounded-lg">
@@ -45,7 +45,7 @@ export default function Footer() {
                 Chatter
             </div>
         </div>
-        <div class="w-full md:w-1/3 border-t mt-2 md:border-l md:border-t-0 border-gray-500 text-center">
+        <div class="w-full md:w-1/3 border-t mt-5 md:border-l md:border-t-0 border-gray-500 text-center">
             <div class="mt-2 font-bold uppercase mb-2">
                 <div class="flex uppercase justify-center text-gray-900 items-center whitespace-no-wrap px-2 md:py-1 text-center  font-inter  font-bold  md:rounded-lg">
                     <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2zm16 3.38V6H4v1.38l8 4 8-4zm0 2.24l-7.55 3.77a1 1 0 0 1-.9 0L4 9.62V18h16V9.62z"/></svg>

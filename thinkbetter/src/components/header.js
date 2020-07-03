@@ -19,8 +19,8 @@ const Header = () => {
             </h1>
             </a>
                
-            <div class=" flex items-center flex-wrap text-center font-inter px-1 md:px-0 justify-around">
-                
+            <div class=" flex items-center flex-wrap text-center align-center font-inter px-1 md:px-0 justify-around">
+            <div class="rounded-lg p-2 align-center  px-4 md:p-4 md:pt-5  hover:text-white hover:bg-gray-800 fill-current">
             <ThemeToggler>
               {({ theme, toggleTheme }) => (
                 <label id="theme-toggler">
@@ -34,7 +34,7 @@ const Header = () => {
                   />
                   {theme === "theme-dark" ? (
                     <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="w-6 h-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="fill-current w-6 h-6 md:w-6 md:h-6">
                             <path fill="#FFF" d="M13.719 1.8A8.759 8.759 0 111.8 13.719c3.335 1.867 7.633 1.387 10.469-1.449 2.837-2.837 3.318-7.134 1.45-10.47z"/>
                         </svg>
                     </div>
@@ -48,8 +48,9 @@ const Header = () => {
                 </label>
               )}
             </ThemeToggler>
+            </div>
 
-                <a class="text-blue-200 hover:text-white hover:bg-gray-800 rounded-lg p-2 px-4 md:p-4 fill-current" href="/articles">
+                <a class="text-blue-200 hover:text-white hover:bg-gray-800 rounded-lg p-2 px-4 ml-1 md:p-4 fill-current" href="/articles">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="w-6 h-6">
                         <path d="M16.32 14.9l5.39 5.4a1 1 0 01-1.42 1.4l-5.38-5.38a8 8 0 111.41-1.41zM10 16a6 6 0 100-12 6 6 0 000 12z"/>
                     </svg>

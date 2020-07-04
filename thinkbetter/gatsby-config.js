@@ -10,6 +10,13 @@ module.exports = {
     title: `THINKBETTER`,
   },
   plugins: [    {
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+      // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+      trackingId: "UA-171661096-1",
+    },
+  },
+  {
     resolve: `gatsby-source-filesystem`,
     options: {
       name: `src`,

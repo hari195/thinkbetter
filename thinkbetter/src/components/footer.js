@@ -34,16 +34,13 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div class="hover:text-gray-300 hover:bg-blue-900 rounded-lg mx-48">
-                <Link to="/search/">Search</Link>
-            </div>
-            <div class="hover:text-gray-300 hover:bg-blue-900 rounded-lg mx-48">
+            <div class="hover:text-blue-500 rounded-lg ">
                 <Link to="/tags/">Tags</Link>
             </div>
-            <div class="hover:text-gray-300 hover:bg-blue-900 rounded-lg mx-48">
+            <div class="hover:text-blue-500 rounded-lg  ">
                 <Link to="/articles/">Articles</Link>
             </div>
-            <div class="hover:text-gray-300 hover:bg-blue-900 rounded-lg mx-48">
+            <div class="hover:text-blue-500 rounded-lg  ">
                 <Link to="/legal/">Legal</Link>
             </div>
         </div>
@@ -60,7 +57,7 @@ export default function Footer() {
                       <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="example@example.com" aria-label="E-MAIL ADDRESS">
                           </input>
                       <button id="subscribe" class="uppercase rounded-lg  mr-1 md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold bg-blue-900 text-white hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:shadow-outline focus:bg-red-800 whitespace-no-wrap" type="button">
-                        Subscribe <span class="text-lg mt-1">&#x2709;</span>
+                       <span class="text-lg mt-1">&#x2709;</span>  Subscribe
                       </button>
                         
                     </div>

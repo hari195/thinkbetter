@@ -20,6 +20,7 @@ export default function AllArticles (props) {
                 article
                 published
                 displaydate
+                tags
               }
               excerpt
             }

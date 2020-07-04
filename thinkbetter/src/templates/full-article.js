@@ -1,11 +1,14 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
+import kebabCase from "lodash/kebabCase"
 
 export default function BlogPost({ data }) {
     const post = data.markdownRemark
     return (
       <Layout>
+          <Helmet title={data.markdownRemark.frontmatter.title} />
       <div class="bg-primary-100 h-20 md:h-16 ">
 </div>
 <div class="bg-gray-300 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
@@ -23,6 +26,13 @@ export default function BlogPost({ data }) {
             </a>
         </div>
         <div class="flex justify items-center flex-wrap ">
+        {data.allMarkdownRemark.group.map(tag => (
+          <div class="p-1 mr-2 text-sm lowercase rounded-md text-blue-900 font-semibold shadow-inner2 hover:bg-gray-800 hover:text-white" key={tag.fieldValue}>
+            <Link class="uppercase" to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+              {tag.fieldValue} 
+            </Link>
+          </div>
+        ))}
             <div class="p-1 -ml-2">
                    <div class="p-1 lowercase rounded-md text-gray-800 bg-gray-400 font-semibold shadow-lg border hover:border-black hover:bg-gray-100 hover:text-black">
                         {data.markdownRemark.frontmatter.tags}
@@ -38,8 +48,10 @@ export default function BlogPost({ data }) {
                         brain
                     </div>
             </div>
-
         </div>
+
+
+
         
         <div class="mt-2 text-lg text-gray-900 text-justify" dangerouslySetInnerHTML={{ __html: post.html }} />
               
@@ -65,6 +77,12 @@ export default function BlogPost({ data }) {
             tags
         }
         excerpt
+      }
+      allMarkdownRemark(limit: 2000) {
+        group(field: frontmatter___tags) {
+          fieldValue
+          totalCount
+        }
       }
     }
   `

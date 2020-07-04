@@ -7,7 +7,21 @@ import kebabCase from "lodash/kebabCase"
 export default function BlogPost({ data }) {
     const post = data.markdownRemark
     const title = data.markdownRemark.frontmatter.title
+
+
+    Object.keys(data.markdownRemark.frontmatter.tags)
+    .forEach(function eachKey(key) { 
+      console.log(key);  
+      console.log(data.markdownRemark.frontmatter.tags[key]); 
+    })
+    var newarray = data.markdownRemark.frontmatter.tags.map(myFunction)
+
+function myFunction(num) {
+  console.log(num)
+}
+
     return (
+
       <Layout>
           <Helmet title={title} />
       <div class="bg-primary-100 h-20 md:h-16 ">
@@ -19,6 +33,7 @@ export default function BlogPost({ data }) {
             </div>
             <div class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">
                 Share
+                
             </div>
         </div>
         <div>
@@ -27,12 +42,13 @@ export default function BlogPost({ data }) {
             </a>
         </div>
         <div class="flex justify items-center flex-wrap ">
-        {data.allMarkdownRemark.group.map(tag => (
+                {data.markdownRemark.frontmatter.tags.map(tag => (
           <div class="p-1 mr-2 text-sm lowercase rounded-md text-blue-900 font-semibold shadow-inner2 hover:bg-gray-800 hover:text-white" key={tag.fieldValue}>
-            <Link class="uppercase" to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} 
+            <Link class="uppercase" to={`/tags/${kebabCase(tag)}/`}>
+              {tag} 
             </Link>
           </div>
+
         ))}
 
             <div class="p-1">

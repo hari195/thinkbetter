@@ -7,7 +7,13 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `THINKBETTER`,
+    title: `Think Better`,
+    titleTemplate: "%s · Think Better",
+    description:
+      "A place for models, concepts and tools from everywhere.",
+    url: "https://www.thinkbetter.blog", // No trailing slash allowed!
+    image: "/images/bolt512.png", // Path to your image you placed in the 'static' folder
+    //twitterUsername: "@occlumency",
   },
   plugins: [    {
     resolve: `gatsby-plugin-google-analytics`,

@@ -12,10 +12,11 @@ module.exports = {
     description:
       "A place for models, concepts and tools from everywhere.",
     url: "https://www.thinkbetter.blog", // No trailing slash allowed!
+    siteUrl: "https://www.thinkbetter.blog",
     image: "/images/bolt512.png", // Path to your image you placed in the 'static' folder
-    //twitterUsername: "@occlumency",
+    twitterUsername: "@occlumency",
   },
-  plugins: [    {
+  plugins: [   `gatsby-plugin-sitemap`, {
     resolve: `gatsby-plugin-google-analytics`,
     options: {
       // replace "UA-XXXXXXXXX-X" with your own Tracking ID

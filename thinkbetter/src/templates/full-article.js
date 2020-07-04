@@ -8,18 +8,6 @@ export default function BlogPost({ data }) {
     const post = data.markdownRemark
     const title = data.markdownRemark.frontmatter.title
 
-
-    Object.keys(data.markdownRemark.frontmatter.tags)
-    .forEach(function eachKey(key) { 
-      console.log(key);  
-      console.log(data.markdownRemark.frontmatter.tags[key]); 
-    })
-    var newarray = data.markdownRemark.frontmatter.tags.map(myFunction)
-
-function myFunction(num) {
-  console.log(num)
-}
-
     return (
 
       <Layout>

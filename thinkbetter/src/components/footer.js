@@ -37,14 +37,14 @@ export default function Footer() {
             <div class="hover:text-gray-300 hover:bg-blue-900 rounded-lg mx-48">
                 <Link to="/search/">Search</Link>
             </div>
-            <div>
-                Tags
+            <div class="hover:text-gray-300 hover:bg-blue-900 rounded-lg mx-48">
+                <Link to="/tags/">Tags</Link>
             </div>
             <div class="hover:text-gray-300 hover:bg-blue-900 rounded-lg mx-48">
                 <Link to="/articles/">Articles</Link>
             </div>
-            <div class="hidden">
-                Chatter
+            <div class="hover:text-gray-300 hover:bg-blue-900 rounded-lg mx-48">
+                <Link to="/legal/">Legal</Link>
             </div>
         </div>
         <div class="w-full md:w-1/3 border-t mt-5 md:border-l md:border-t-0 border-gray-500 text-center">

@@ -6,9 +6,10 @@ import kebabCase from "lodash/kebabCase"
 
 export default function BlogPost({ data }) {
     const post = data.markdownRemark
+    const title = data.markdownRemark.frontmatter.title
     return (
       <Layout>
-          <Helmet title={data.markdownRemark.frontmatter.title} />
+          <Helmet title={title} />
       <div class="bg-primary-100 h-20 md:h-16 ">
 </div>
 <div class="bg-gray-300 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
@@ -33,11 +34,7 @@ export default function BlogPost({ data }) {
             </Link>
           </div>
         ))}
-            <div class="p-1 -ml-2">
-                   <div class="p-1 lowercase rounded-md text-gray-800 bg-gray-400 font-semibold shadow-lg border hover:border-black hover:bg-gray-100 hover:text-black">
-                        {data.markdownRemark.frontmatter.tags}
-                    </div>
-            </div>
+
             <div class="p-1">
                    <div class="p-1 lowercase rounded-md text-blue-900 font-semibold shadow-lg hover:bg-gray-800 hover:text-white">
                         knowledge
@@ -50,9 +47,6 @@ export default function BlogPost({ data }) {
             </div>
         </div>
 
-
-
-        
         <div class="mt-2 text-lg text-gray-900 text-justify" dangerouslySetInnerHTML={{ __html: post.html }} />
               
     

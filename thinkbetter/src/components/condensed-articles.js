@@ -24,6 +24,7 @@ export default function CondensedArticles (props) {
                 article
                 published
                 displaydate
+                tags
               }
               excerpt
             }

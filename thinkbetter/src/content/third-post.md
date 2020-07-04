@@ -1,11 +1,11 @@
 ---
-title: "Sweet Pandas Eating Sweets"
-date: "2017-08-09"
+title: "3rd post Sweet Pandas Eating Sweets"
+date: "2017-08-08"
 condensed: "This is the short text"
 article: true
 published: true
 displaydate: "July 9, 2020"
-tags: ["animals", "Chicago", "zoos"]
+tags: ["animals", "Chicago", "hari", "zoos"]
 ---
 Pandas are really sweet.
 Here's a video of a panda eating sweets.

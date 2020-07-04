@@ -1,5 +1,5 @@
 ---
-title: "Second post Sweet Pandas Eating Sweets"
+title: "1st post Sweet Pandas Eating Sweets"
 date: "2017-08-10"
 condensed: "3333 This is the short text"
 article: true

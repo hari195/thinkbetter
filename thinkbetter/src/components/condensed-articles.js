@@ -1,5 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
+import kebabCase from "lodash/kebabCase"
 
 export default function CondensedArticles (props) {
    
@@ -52,23 +53,16 @@ export default function CondensedArticles (props) {
           </Link>
         </div>
         <div class="flex justify items-center flex-wrap ">
-            <div class="p-1 -ml-2">
-              <div class="p-1 lowercase rounded-md text-gray-800 bg-gray-400 font-semibold shadow-lg border hover:border-black hover:bg-gray-100 hover:text-black">
-                thinking
-              </div>
-            </div>
-            <div class="p-1">
-              <div class="p-1 lowercase rounded-md text-blue-900 font-semibold shadow-lg hover:bg-gray-800 hover:text-white">
-                knowledge
-              </div>
-            </div>
-            <div class="p-1">
-              <div class="p-1 lowercase rounded-md text-blue-900 font-semibold shadow-inner2 hover:bg-gray-800 hover:text-white">
-                brain
-              </div>
-            </div>
-        </div>
+                {node.frontmatter.tags.map(tag => (
+          <div class="p-1 mr-2 text-sm lowercase rounded-md text-blue-900 font-semibold shadow-inner2 hover:bg-gray-800 hover:text-white" key={tag.fieldValue}>
+            <Link class="uppercase" to={`/tags/${kebabCase(tag)}/`}>
+              {tag} 
+            </Link>
+          </div>
 
+        ))}
+        </div>
+      
         <div class="mt-1 text-gray-600 text-justify ">
           <p>{node.frontmatter.condensed}...
             <span class="uppercase text-blue-900 text-sm font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">

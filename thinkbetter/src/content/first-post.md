@@ -5,6 +5,7 @@ condensed: "3333 This is the short text"
 article: true
 published: true
 displaydate: "July 9, 2020"
+tags: ["animals", "Chicago", "zoos"]
 ---
 Second post Pandas are really sweet.
 Here's a video of a panda eating sweets.

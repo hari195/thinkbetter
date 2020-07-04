@@ -25,7 +25,7 @@ export default function BlogPost({ data }) {
         <div class="flex justify items-center flex-wrap ">
             <div class="p-1 -ml-2">
                    <div class="p-1 lowercase rounded-md text-gray-800 bg-gray-400 font-semibold shadow-lg border hover:border-black hover:bg-gray-100 hover:text-black">
-                        thinking
+                        {data.markdownRemark.frontmatter.tags}
                     </div>
             </div>
             <div class="p-1">
@@ -62,6 +62,7 @@ export default function BlogPost({ data }) {
             article
             published
             displaydate
+            tags
         }
         excerpt
       }

@@ -8,9 +8,10 @@ import { Link, graphql } from "gatsby"
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
-  const tagHeader = `${totalCount} post${
-    totalCount === 1 ? "" : "s"
-  } tagged with "${tag}"`
+  //const tagHeader = `${totalCount} post${
+   // totalCount === 1 ? "" : "s"
+  //} tagged with "${tag}"`
+
 
   return (
     <div>
@@ -19,8 +20,8 @@ const Tags = ({ pageContext, data }) => {
     </div>
 <div class="bg-gray-300 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
         <div class="flex justify-between items-center">
-        <div class="text-2xl -ml-1 md:text-3xl font-semibold  rounded px-1  pl-1"> 
-               {tagHeader}
+        <div class="uppercase text-2xl -ml-1 md:text-3xl font-semibold  rounded px-1  pl-1"> 
+               {tag}
         </div>
             <div class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">
                 Share

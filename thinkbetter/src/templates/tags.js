@@ -19,27 +19,20 @@ const Tags = ({ pageContext, data }) => {
     </div>
 <div class="bg-gray-300 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
         <div class="flex justify-between items-center">
-        <div>
-            <a class="text-3xl -ml-1 font-medium hover:text-gray-200 hover:bg-red-400 rounded px-1  pl-1" href="#"> 
+        <div class="text-2xl -ml-1 md:text-3xl font-semibold  rounded px-1  pl-1"> 
                {tagHeader}
-            </a>
         </div>
             <div class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">
                 Share
             </div>
         </div>
-   
-        
-      
-              
- 
-      <h1>{tagHeader}</h1>
+
       <ul>
         {edges.map(({ node }) => {
           const { slug } = node.fields
           const { title } = node.frontmatter
           return (
-            <li key={slug}>
+            <li key={slug} class="text-blue-600 mt-2 ml-1 hover:text-black">
               <Link to={slug}>{title}</Link>
             </li>
           )
@@ -49,7 +42,9 @@ const Tags = ({ pageContext, data }) => {
               This links to a page that does not yet exist.
               You'll come back to it!
             */}
-      <Link to="/tags">All tags</Link>
+            <div class="mt-4 p-2 font-semibold  text-blue-600 hover:text-black uppercase">
+      <Link to="/tags" >view All tags</Link>
+      </div>
       </div>
       </Layout>
       </div>

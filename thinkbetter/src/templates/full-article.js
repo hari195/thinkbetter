@@ -7,6 +7,11 @@ import kebabCase from "lodash/kebabCase"
 export default function BlogPost({ data }) {
     const post = data.markdownRemark
     const title = data.markdownRemark.frontmatter.title
+    
+    //function sayHello() {
+      //var popup = document.getElementById("myPopup");
+      //popup.classList.toggle("hidden");
+    //}
 
     return (
 
@@ -14,15 +19,15 @@ export default function BlogPost({ data }) {
           <Helmet title={title} />
       <div class="h-20 md:h-16 ">
 </div>
-<div class="bg-gray-700 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
+<div class="bg-gray-100 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
         <div class="flex justify-between items-center">
             <div class="text-gray-600 font-normal">
                 {data.markdownRemark.frontmatter.displaydate}
             </div>
-            <div class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">
-                Share
-                
-            </div>
+            <Link to="/share" class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">
+                Share      
+            </Link>
+
         </div>
         <div>
             <a class="text-3xl -ml-1 font-medium hover:text-gray-200 hover:bg-red-400 rounded px-1  pl-1" href="#"> 

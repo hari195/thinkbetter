@@ -15,6 +15,7 @@ module.exports = {
     siteUrl: "https://www.thinkbetter.blog",
     image: "/images/bolt512.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "@occlumency",
+    keywords: "mental models, thinking, thought, systems thinking, psychology"
   },
   plugins: [   `gatsby-plugin-sitemap`, {
     resolve: `gatsby-plugin-google-analytics`,

@@ -13,9 +13,9 @@ export default function CondensedCard (props) {
           <div class="text-gray-600 font-normal">
             {node.frontmatter.displaydate} 
           </div>
-          <div class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">
-            Share
-          </div>
+          <Link to="/share" class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">
+                Share      
+            </Link>
         </div>
         <div>
           <Link to={node.fields.slug} class="text-2xl -ml-1 md:text-3xl font-medium hover:text-gray-200 hover:bg-red-400 rounded px-1  pl-1" href="#"> 

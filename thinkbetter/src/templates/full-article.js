@@ -3,11 +3,14 @@ import { Link, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import kebabCase from "lodash/kebabCase"
+import SEO from "../components/seo"
 
 export default function BlogPost({ data }) {
     const post = data.markdownRemark
     const title = data.markdownRemark.frontmatter.title
-    
+    const image = post.frontmatter.image
+    ? post.frontmatter.image.childImageSharp.resize
+    : null
     //function sayHello() {
       //var popup = document.getElementById("myPopup");
       //popup.classList.toggle("hidden");
@@ -16,6 +19,12 @@ export default function BlogPost({ data }) {
     return (
 
       <Layout>
+                <SEO
+          title={post.frontmatter.title}
+          description={post.frontmatter.description || post.excerpt}
+          image={image}
+
+        />
           <Helmet title={title} />
       <div class="h-20 md:h-16 ">
 </div>

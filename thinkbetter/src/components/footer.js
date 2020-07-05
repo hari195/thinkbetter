@@ -1,16 +1,21 @@
 import React from "react"
-import {graphql, Link} from "gatsby"
-
+import {useStaticQuery, graphql, Link} from "gatsby"
+import { useLocation } from "@reach/router"
+import Share from "./share"
 
 export default function Footer() {
+    const { pathname } = useLocation()
+    console.log(pathname)
   return (
 <div>
+
     <div class="py-6 text-center md:flex md:mt-8 mx-48 justify-around ">
         <div>
             Print
         </div>
         <div class="mt-4">
             FB
+     
         </div>
         <div class="mt-4">
             Twitter
@@ -105,3 +110,4 @@ export default function Footer() {
     
   );
 }
+

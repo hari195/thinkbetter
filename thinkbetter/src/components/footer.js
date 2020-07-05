@@ -1,9 +1,24 @@
 import React from "react"
-import {Link} from "gatsby"
+import {graphql, Link} from "gatsby"
+
 
 export default function Footer() {
   return (
 <div>
+    <div class="py-6 text-center md:flex md:mt-8 mx-48 justify-around ">
+        <div>
+            Print
+        </div>
+        <div class="mt-4">
+            FB
+        </div>
+        <div class="mt-4">
+            Twitter
+        </div>
+        <div class="mt-4">
+            LinkedIn
+        </div>
+    </div>
     <div class=" bottom-0 md:flex pb-4 mt-8 mx-16 ">
         <div class="w-full md:w-1/3 mt-4 text-center md:px-2">
             <div class="font-bold uppercase mb-2">

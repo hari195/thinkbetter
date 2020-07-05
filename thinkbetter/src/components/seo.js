@@ -22,8 +22,20 @@ const SEO = ({ title, description, image, article }) => {
       image: `${siteUrl}${image || defaultImage}`,
       url: `${siteUrl}${pathname}`,
     }
+    const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
+
     return (
-        <Helmet title={seo.title} titleTemplate={titleTemplate}>
+        <Helmet link={
+          canonical
+            ? [
+                {
+                  rel: "canonical",
+                  href: canonical,
+                },
+              ]
+            : []
+        }
+        title={seo.title} titleTemplate={titleTemplate}>
           <meta name="description" content={seo.description} />
           <meta name="image" content={seo.image} />
           {seo.url && <meta property="og:url" content={seo.url} />}

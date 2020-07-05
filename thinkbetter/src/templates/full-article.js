@@ -12,9 +12,9 @@ export default function BlogPost({ data }) {
 
       <Layout>
           <Helmet title={title} />
-      <div class="bg-primary-100 h-20 md:h-16 ">
+      <div class="h-20 md:h-16 ">
 </div>
-<div class="bg-gray-300 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
+<div class="bg-gray-700 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
         <div class="flex justify-between items-center">
             <div class="text-gray-600 font-normal">
                 {data.markdownRemark.frontmatter.displaydate}

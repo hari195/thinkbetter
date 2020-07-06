@@ -46,6 +46,9 @@ export default function Footer() {
             <div class="hover:text-blue-500 rounded-lg  ">
                 <Link to="/legal/">Legal</Link>
             </div>
+            <div class="bg-gray-700 hover:text-blue-500 rounded-lg w-1/2 text-center">
+                <Share />
+            </div>
         </div>
         <div class="w-full md:w-1/3 border-t mt-5 md:border-l md:border-t-0 border-gray-500 text-center">
             <div class="mt-2 font-bold uppercase mb-2">

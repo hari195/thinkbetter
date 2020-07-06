@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import kebabCase from "lodash/kebabCase"
 import SEO from "../components/seo"
 import Share from "../components/share"
+import Tag from "../components/tag"
 
 export default function BlogPost({ data }) {
     const { pathname } = useLocation()
@@ -48,24 +49,15 @@ export default function BlogPost({ data }) {
         </div>
         <div class="flex justify items-center flex-wrap ">
                 {data.markdownRemark.frontmatter.tags.map(tag => (
-          <div class="p-1 mr-2 text-sm lowercase rounded-md text-blue-900 font-semibold shadow-inner2 hover:bg-gray-800 hover:text-white" key={tag.fieldValue}>
+          <Tag class="p-1 mr-2 text-sm lowercase rounded-md text-blue-900 font-semibold shadow-inner2 hover:bg-gray-800 hover:text-white" key={tag.fieldValue}>
             <Link class="uppercase" to={`/tags/${kebabCase(tag)}/`}>
               {tag} 
             </Link>
-          </div>
+          </Tag>
 
         ))}
 
-            <div class="p-1">
-                   <div class="p-1 lowercase rounded-md text-blue-900 font-semibold shadow-lg hover:bg-gray-800 hover:text-white">
-                        knowledge
-                    </div>
-            </div>
-            <div class="p-1">
-                   <div class="p-1 lowercase rounded-md text-blue-900 font-semibold shadow-inner2 hover:bg-gray-800 hover:text-white">
-                        brain
-                    </div>
-            </div>
+
         </div>
 
         <div class="mt-2 text-lg text-gray-900 text-justify" dangerouslySetInnerHTML={{ __html: post.html }} />

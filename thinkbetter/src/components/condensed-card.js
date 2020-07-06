@@ -3,8 +3,10 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import kebabCase from "lodash/kebabCase"
 import Share from "./share"
 import { useLocation } from "@reach/router"
+import Tag from "./tag"
 export default function CondensedCard (props) {
   const { pathname } = useLocation()
+
   
   return (
 <div >
@@ -32,11 +34,11 @@ export default function CondensedCard (props) {
         
         <div class="flex justify items-center flex-wrap ">
                 {node.frontmatter.tags.map(tag => (
-          <div class="p-1 mr-2 text-sm lowercase rounded-md text-blue-900 font-semibold shadow-inner2 hover:bg-gray-800 hover:text-white" key={tag.fieldValue}>
+          <Tag  key={tag.fieldValue}>
             <Link class="uppercase" to={`/tags/${kebabCase(tag)}/`}>
               {tag} 
             </Link>
-          </div>
+          </Tag>
 
         ))}
         </div>

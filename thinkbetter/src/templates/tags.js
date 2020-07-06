@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Layout from "../components/layout"
+import Share from "../components/share"
 
 // Components
 import { Link, graphql } from "gatsby"
@@ -24,7 +25,7 @@ const Tags = ({ pageContext, data }) => {
                {tag}
         </div>
             <div class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">
-                Share
+                <Share />
             </div>
         </div>
 

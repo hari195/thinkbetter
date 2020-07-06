@@ -1,8 +1,24 @@
 import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import {Link} from "gatsby"
+import Img from "gatsby-image"
+import { useStaticQuery,graphql } from "gatsby"
 
 const Header = () => {
+
+  const data = useStaticQuery(graphql`
+  query {
+    file(relativePath: { eq: "images/coverpic.jpg" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+  `)
    
   return (
 <div>
@@ -72,12 +88,12 @@ const Header = () => {
         </div>
     </header>
     <div class="h-16"></div>
-    <div class=" md:flex sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 ">
+    <div class=" md:flex sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 items-center ">
     <div class="md:w-1/2 items-center ">
         <div class="  font-inter font-bold">
             <a href="www.google.com"> 
                 <h1 class="flex uppercase justify-center items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-inter  font-bold md:text-2xl md:rounded-lg hover:shadow-2xl tracking-widest hover:bg-blue-900 hover:text-gray-200 ">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 md:w-8 md:h-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 ">
                         <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
                     </svg>   
                     think better
@@ -88,11 +104,11 @@ const Header = () => {
             <p>This is a blog aimed at familiarizing ideas and concepts from unfamiliar fields and building an online
                 mental toolbox to help you make better decisions and of course, <span class="font-semibold flex-no-wrap">think better.</span> 
            </p>
-           <img src="coverpic.jpg" alt="" width="500" height="600"/>
+           
         </div>
     </div>
     <div class="md:w-1/2">
-        <img src="coverpic.jpg" alt="" />
+    <Img fluid={data.file.childImageSharp.fluid} />
     </div>
 </div>
 

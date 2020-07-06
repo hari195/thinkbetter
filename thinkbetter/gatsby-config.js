@@ -30,10 +30,6 @@ module.exports = {
       name: `src`,
       path: `${__dirname}/src/`,
     },
-    options: {
-      name: `images`,
-      path: path.join(__dirname, `src`, `images`),
-    },
   },
   {
     resolve: `gatsby-plugin-manifest`,

@@ -11,15 +11,14 @@ const Header = () => {
     <header class="top-0 mb-4 z-10 bg-primary-100 fixed shadow-lg md:h-auto w-full md:px-8 py-2 transition-all duration-300 items-center justify-between"> 
     
         <div class="md:flex items-center justify-around md:justify-between">
-            <a href="www.google.com">
+     
             <h1 class="flex justify-center text-black items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-inter font-bold tracking-tighter md:text-3xl md:rounded-lg hover:shadow-2xl hover:bg-blue-900 hover:text-gray-200 ">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 md:w-6 md:h-6">
                     <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
                 </svg>   
                 <Link to="/">Think Better</Link>
             </h1>
-            </a>
-               
+       
             <div class=" flex items-center flex-wrap text-center align-center font-inter px-1 md:px-0 justify-around">
             <div class="rounded-lg p-2 align-center  px-2 pb-1   hover:text-white hover:bg-gray-800 fill-current">
             <ThemeToggler>

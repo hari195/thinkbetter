@@ -23,8 +23,11 @@ export default function Footer() {
             <div class="mb-2 mx-1 text-gray-900 text-center">
                 <p>THINKBETTER is a blog aimed at familiarizing ideas and concepts from unfamiliar fields and building an online
                      mental toolbox to help you make better decisions and of course, <span class="font-semibold flex-no-wrap">think better.</span> 
-                </p>
+          
+                     </p>
+            
             </div>
+            
         </div>
         <div class="w-full md:w-1/3 border-t mt-4 md:border-l md:border-t-0 border-gray-500 text-center">
             <div class="mt-3 font-bold uppercase mb-2">
@@ -46,9 +49,7 @@ export default function Footer() {
             <div class="hover:text-blue-500 rounded-lg  ">
                 <Link to="/legal/">Legal</Link>
             </div>
-            <div class="bg-gray-700 hover:text-blue-500 rounded-lg w-1/2 text-center">
-                <Share />
-            </div>
+
         </div>
         <div class="w-full md:w-1/3 border-t mt-5 md:border-l md:border-t-0 border-gray-500 text-center">
             <div class="mt-2 font-bold uppercase mb-2">
@@ -71,26 +72,32 @@ export default function Footer() {
             </div>
         </div>
     </div>
-    <div class="flex justify-center items-center tracking-widest font-medium mt-2 uppercase">
-        &copy; 2020 
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 md:w-6 md:h-6">
-            <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
-        </svg>    
-        think better
-    </div>
-    <br>
-    </br>
-    <div class="mt-1 pb-4 px-10  flex text-gray-600 justify-around">
-        <div class=" bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
+    <div class=" md:flex items-center text-center justify-center  tracking-widest font-medium md:mt-2 uppercase flex-no-wrap whitespace-no-wrap">
+ 
+
+        <div class="md:mx-6 text-center justify-center items-center ">
+            <Share />
+        </div>
+    
+        <div class="mt-1  flex text-gray-600 items-center justify-center">
+            <div class="m-2 bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
             <Link to="/legal/">Terms of Use</Link>
-        </div>  
-        <div class=" bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
-        <Link to="/legal/">Privacy Policy</Link>
+            </div>  
+            <div class="m-2 bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
+            <Link to="/legal/">Privacy Policy</Link>
+            </div>
+            <div class="m-2 bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
+            <Link to="/legal/">Cookies</Link>
+            </div>
         </div>
-        <div class="bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
-        <Link to="/legal/">Cookies</Link>
-        </div>
+    
     </div>
+    <div class="uppercase justify-center flex mt-2 mb-2 flex-no-wrap tracking-widest font-medium whitespace-no-wrapwhitespace-no-wrap px-5">
+        &copy; 2020 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="justify-center fill-current w-6 h-6 md:w-6 md:h-6">
+            <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
+        </svg>    think better
+        </div>
+
 </div>
     
     

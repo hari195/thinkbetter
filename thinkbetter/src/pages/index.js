@@ -14,7 +14,7 @@ export default function Home() {
         <div class=" mt-16 font-inter rounded-lg ml-8 mr-8 sm:ml-16 sm:mr-16 px-8 py-4 md:px-20 text-left">
           <div class="text-2xl -ml-1 md:text-3xl font-semibold rounded px-1  pl-1" href="#"> 
             Recent Articles
-            <span class = "uppercase rounded-lg text-lg text-gray-600 p-2 ml-4 mb-8 hover:bg-gray-500 ">
+            <span class = "uppercase rounded-lg text-lg text-gray-600 p-2 ml-4 mb-8 hover:bg-gray-500 hover:text-gray-100 ">
               <Link to="/articles/">view all</Link>
             </span>
           </div>

@@ -65,7 +65,7 @@ const Header = () => {
                     Chatter
                 </a>
 
-                <a class="uppercase rounded-lg  mr-1 md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold bg-blue-900 text-white hover:bg-gray-100 hover:text-gray-900 hover:border-black" href="#subscribe">
+                <a class="hidden uppercase rounded-lg  mr-1 md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold bg-blue-900 text-white hover:bg-gray-100 hover:text-gray-900 hover:border-black" href="#subscribe">
                      <span class="text-lg pt-4 mr-1">&#x2709;</span>Subscribe
                 </a>
             </div>  

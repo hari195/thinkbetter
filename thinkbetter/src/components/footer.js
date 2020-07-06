@@ -25,7 +25,8 @@ export default function Footer() {
 
   return (
 <div>
-    <div class=" bottom-0 md:flex pb-4 mt-8 mx-16 ">
+   <div class="hidden">
+   <div class=" hidden bottom-0 md:flex pb-4 mt-8 mx-16 ">
         <div class="w-full md:w-1/3 mt-4 text-center md:px-2">
             <div class="font-bold uppercase mb-2">
                 <div class="mt-2 font-bold uppercase mb-2">
@@ -75,7 +76,7 @@ export default function Footer() {
                     <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2zm16 3.38V6H4v1.38l8 4 8-4zm0 2.24l-7.55 3.77a1 1 0 0 1-.9 0L4 9.62V18h16V9.62z"/></svg>
                     subscribe
                 </div>
-            </div>
+            </div>  
             <div>
                 <form class="px-0 md:px-4">
                     <div class="flex border-b border-gray-600 items-center py-2">
@@ -87,9 +88,11 @@ export default function Footer() {
                         
                     </div>
                   </form>
+
             </div>
         </div>
     </div>
+   </div>
     <div class=" md:flex items-center text-center justify-center  tracking-widest font-medium md:mt-2 uppercase flex-no-wrap whitespace-no-wrap">
  
 
@@ -97,7 +100,7 @@ export default function Footer() {
             <Share title={data.site.siteMetadata.title} url={data.site.siteMetadata.siteUrl} summary={data.site.siteMetadata.description} pathname={pathname} />
         </div>
     
-        <div class="mt-1 flex text-gray-600 items-center justify-center">
+        <div class=" hidden mt-1 flex text-gray-600 items-center justify-center">
             <div class="m-2 bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
             <Link to="/legal/">Terms of Use</Link>
             </div>  

@@ -4,6 +4,24 @@ import { useLocation } from "@reach/router"
 import Share from "./share"
 
 export default function Footer() {
+    const { pathname } = useLocation()
+    const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          url
+          twitterUsername
+          title
+          siteUrl
+          keywords
+          image
+          description
+          titleTemplate
+        }
+      }
+    
+      }
+  `)
 
   return (
 <div>
@@ -76,10 +94,10 @@ export default function Footer() {
  
 
         <div class="md:mx-6 text-center justify-center items-center ">
-            <Share />
+            <Share title={data.site.siteMetadata.title} url={data.site.siteMetadata.siteUrl} summary={data.site.siteMetadata.description} pathname={pathname} />
         </div>
     
-        <div class="mt-1  flex text-gray-600 items-center justify-center">
+        <div class="mt-1 flex text-gray-600 items-center justify-center">
             <div class="m-2 bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
             <Link to="/legal/">Terms of Use</Link>
             </div>  
@@ -92,7 +110,7 @@ export default function Footer() {
         </div>
     
     </div>
-    <div class="uppercase justify-center flex mt-2 mb-2 flex-no-wrap tracking-widest font-medium whitespace-no-wrapwhitespace-no-wrap px-5">
+    <div class="uppercase justify-center flex mt-2 mb-4 flex-no-wrap tracking-widest font-medium whitespace-no-wrapwhitespace-no-wrap px-5">
         &copy; 2020 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="justify-center fill-current w-6 h-6 md:w-6 md:h-6">
             <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
         </svg>    think better

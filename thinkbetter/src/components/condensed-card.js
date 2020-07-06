@@ -5,7 +5,7 @@ import Share from "./share"
 import { useLocation } from "@reach/router"
 export default function CondensedCard (props) {
   const { pathname } = useLocation()
-  console.log
+  
   return (
 <div >
     {props.data.allMarkdownRemark.edges.map(({ node }) => ( 

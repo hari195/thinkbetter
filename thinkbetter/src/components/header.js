@@ -8,11 +8,11 @@ const Header = () => {
 <div>
 
 
-    <header class="top-0 mb-4 z-10 bg-primary-100 fixed shadow-lg md:h-auto w-full md:px-8 py-2 transition-all duration-300 items-center justify-between"> 
+    <header class="top-0 mb-4 z-10 bg-primary-100 fixed shadow-lg md:h-auto w-full md:px-12 py-2 transition-all duration-300 items-center justify-between"> 
     
         <div class="md:flex items-center justify-around md:justify-between">
      
-            <h1 class="flex justify-center text-black items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-inter font-bold tracking-tighter md:text-3xl md:rounded-lg hover:shadow-2xl hover:bg-blue-900 hover:text-gray-200 ">
+            <h1 class="flex justify-center text-black items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-sans font-bold tracking-tighter md:text-3xl md:rounded-lg hover:shadow-2xl hover:bg-blue-900 hover:text-gray-200 ">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 md:w-6 md:h-6">
                     <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
                 </svg>   
@@ -71,6 +71,30 @@ const Header = () => {
             </div>  
         </div>
     </header>
+    <div class="h-16"></div>
+    <div class=" md:flex sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 ">
+    <div class="md:w-1/2 items-center ">
+        <div class="  font-inter font-bold">
+            <a href="www.google.com"> 
+                <h1 class="flex uppercase justify-center items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-inter  font-bold md:text-2xl md:rounded-lg hover:shadow-2xl tracking-widest hover:bg-blue-900 hover:text-gray-200 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 md:w-8 md:h-8">
+                        <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
+                    </svg>   
+                    think better
+                </h1>
+            </a>
+        </div>
+        <div class="text-xl font-inter font-medium mt-4">
+            <p>This is a blog aimed at familiarizing ideas and concepts from unfamiliar fields and building an online
+                mental toolbox to help you make better decisions and of course, <span class="font-semibold flex-no-wrap">think better.</span> 
+           </p>
+           <img src="coverpic.jpg" alt="" width="500" height="600"/>
+        </div>
+    </div>
+    <div class="md:w-1/2">
+        <img src="coverpic.jpg" alt="" />
+    </div>
+</div>
 
 </div>
   );

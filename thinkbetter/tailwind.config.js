@@ -6,7 +6,8 @@ module.exports = {
 
     fontFamily:{
       'sans': ['Inter'],
-      'serif': ['Roboto Slab']
+      'serif': ['Roboto Slab'],
+      'work' : ['Work Sans']
     },
     extend: {
       boxShadow:{

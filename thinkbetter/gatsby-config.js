@@ -30,6 +30,10 @@ module.exports = {
       name: `src`,
       path: `${__dirname}/src/`,
     },
+    options: {
+      name: `images`,
+      path: path.join(__dirname, `src`, `images`),
+    },
   },
   {
     resolve: `gatsby-plugin-manifest`,
@@ -99,5 +103,5 @@ module.exports = {
   'gatsby-plugin-offline',
   'gatsby-plugin-postcss',
   `gatsby-transformer-remark`,
-  'gatsby-plugin-dark-mode'],
+  'gatsby-plugin-dark-mode',`gatsby-transformer-sharp`, `gatsby-plugin-sharp`],
 }

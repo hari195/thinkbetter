@@ -1,11 +1,14 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
+import { useLocation } from "@reach/router"
 import Layout from "../components/layout"
 import kebabCase from "lodash/kebabCase"
 import SEO from "../components/seo"
+import Share from "../components/share"
 
 export default function BlogPost({ data }) {
+    const { pathname } = useLocation()
     const post = data.markdownRemark
     const title = data.markdownRemark.frontmatter.title
     const image = post.frontmatter.image
@@ -34,7 +37,7 @@ export default function BlogPost({ data }) {
                 {data.markdownRemark.frontmatter.displaydate}
             </div>
             <div class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">
-                Share      
+                <Share title={data.markdownRemark.frontmatter.title} summary={data.markdownRemark.frontmatter.condensed} pathname = {pathname} url={data.site.siteMetadata.url}/>
             </div>
 
         </div>
@@ -96,5 +99,18 @@ export default function BlogPost({ data }) {
           totalCount
         }
       }
+      site {
+        siteMetadata {
+          url
+          twitterUsername
+          title
+          siteUrl
+          keywords
+          image
+          description
+          titleTemplate
+        }
+      }
+
     }
   `

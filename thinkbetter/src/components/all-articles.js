@@ -6,6 +6,19 @@ export default function AllArticles (props) {
    
     const data = useStaticQuery(graphql`
     query {
+      site {
+        siteMetadata {
+          url
+          twitterUsername
+          title
+          siteUrl
+          keywords
+          image
+          description
+          titleTemplate
+        }
+      }
+      
         allMarkdownRemark(
           sort: { fields: [frontmatter___date], order: DESC}
           filter: { frontmatter: {article : { eq: true}} }

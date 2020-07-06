@@ -7,6 +7,19 @@ export default function CondensedArticles (props) {
    
     const data = useStaticQuery(graphql`
     query {
+      site {
+        siteMetadata {
+          url
+          twitterUsername
+          title
+          siteUrl
+          keywords
+          image
+          description
+          titleTemplate
+        }
+      }
+      
         allMarkdownRemark(
           limit: 3
           sort: { fields: [frontmatter___date], order: DESC}

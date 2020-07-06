@@ -4,26 +4,9 @@ import { useLocation } from "@reach/router"
 import Share from "./share"
 
 export default function Footer() {
-    const { pathname } = useLocation()
-    console.log(pathname)
+
   return (
 <div>
-
-    <div class="py-6 text-center md:flex md:mt-8 mx-48 justify-around ">
-        <div>
-            Print
-        </div>
-        <div class="mt-4">
-            FB
-     
-        </div>
-        <div class="mt-4">
-            Twitter
-        </div>
-        <div class="mt-4">
-            LinkedIn
-        </div>
-    </div>
     <div class=" bottom-0 md:flex pb-4 mt-8 mx-16 ">
         <div class="w-full md:w-1/3 mt-4 text-center md:px-2">
             <div class="font-bold uppercase mb-2">

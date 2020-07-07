@@ -100,7 +100,7 @@ export default function Footer() {
             <Share title={data.site.siteMetadata.title} url={data.site.siteMetadata.siteUrl} summary={data.site.siteMetadata.description} pathname={pathname} />
         </div>
     
-        <div class=" hidden mt-1 flex text-gray-600 items-center justify-center">
+        <div class=" hidden mt-1  text-gray-600 items-center justify-center">
             <div class="m-2 bg-gray-300 text-black hover:bg-gray-700 hover:text-gray-100 p-2 rounded-lg">
             <Link to="/legal/">Terms of Use</Link>
             </div>  

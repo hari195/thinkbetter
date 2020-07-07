@@ -1,13 +1,15 @@
 import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import {Link} from "gatsby"
-import { useEffect, useState } from "react"
+import {  useState } from "react"
 
 const Header = () => {
   if( typeof window !== 'undefined') {
     window.localStorage.setItem("theme","theme-dark")
   const th = useState(() => window.localStorage.getItem("theme"))
   } 
+
+
   
   return (
 <div>
@@ -27,7 +29,8 @@ const Header = () => {
             <div class=" flex items-center flex-wrap text-center align-center font-inter px-1 md:px-0 justify-around">
             <div class="rounded-lg p-2 align-center  px-2 pb-1   hover:text-white hover:bg-gray-800 fill-current">
             <ThemeToggler>
-              {({ theme, toggleTheme }) => (
+              {
+              ({ theme, toggleTheme }) => (
                 <label id="theme-toggler">
                   <input
                     type="checkbox"
@@ -71,9 +74,7 @@ const Header = () => {
                 <Link to="/about/">About</Link>
                 </a>
 
-                <a class="hidden uppercase rounded-lg  mr-1 md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold bg-blue-900 text-white hover:bg-gray-100 hover:text-gray-900 hover:border-black" href="#subscribe">
-                     <span class="text-lg pt-4 mr-1">&#x2709;</span>Subscribe
-                </a>
+          
             </div>  
         </div>
     </header>

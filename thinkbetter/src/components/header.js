@@ -1,25 +1,10 @@
 import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import {Link} from "gatsby"
-import Img from "gatsby-image"
-import { useStaticQuery,graphql } from "gatsby"
+
 
 const Header = () => {
 
-  const data = useStaticQuery(graphql`
-  query {
-    file(relativePath: { eq: "images/coverpic.jpg" }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-  `)
-   
   return (
 <div>
 
@@ -77,8 +62,8 @@ const Header = () => {
                     <Link to="/articles/">Articles</Link>
                 </a>
 
-                <a class="hidden uppercase rounded-lg  md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold md:font-bold hover:bg-gray-400 hover:text-gray-800" href="www.google.com">
-                    Chatter
+                <a class=" uppercase rounded-lg  md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold md:font-bold hover:bg-gray-400 hover:text-gray-800" href="www.google.com">
+                <Link to="/about/">About</Link>
                 </a>
 
                 <a class="hidden uppercase rounded-lg  mr-1 md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold bg-blue-900 text-white hover:bg-gray-100 hover:text-gray-900 hover:border-black" href="#subscribe">
@@ -88,30 +73,8 @@ const Header = () => {
         </div>
     </header>
     <div class="h-16"></div>
-    <div class=" md:flex sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 items-center ">
-    <div class="md:w-1/2 items-center ">
-        <div class="  font-inter font-bold">
-            <a href="www.google.com"> 
-                <h1 class="flex uppercase justify-center items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-inter  font-bold md:text-2xl md:rounded-lg hover:shadow-2xl tracking-widest hover:bg-blue-900 hover:text-gray-200 ">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 ">
-                        <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
-                    </svg>   
-                    think better
-                </h1>
-            </a>
-        </div>
-        <div class="text-xl font-inter font-medium mt-4">
-            <p>This is a blog aimed at familiarizing ideas and concepts from unfamiliar fields and building an online
-                mental toolbox to help you make better decisions and of course, <span class="font-semibold flex-no-wrap">think better.</span> 
-           </p>
-           
-        </div>
-    </div>
-    <div class="md:w-1/2">
-    <Img fluid={data.file.childImageSharp.fluid} />
-    </div>
-</div>
 
+            
 </div>
   );
 }

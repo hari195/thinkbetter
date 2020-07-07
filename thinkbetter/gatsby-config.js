@@ -17,7 +17,8 @@ module.exports = {
     twitterUsername: "@occlumency",
     keywords: "mental models, thinking, thought, systems thinking, psychology"
   },
-  plugins: [   `gatsby-plugin-sitemap`, {
+  plugins: [   `gatsby-plugin-sitemap`, 
+  {
     resolve: `gatsby-plugin-google-analytics`,
     options: {
       // replace "UA-XXXXXXXXX-X" with your own Tracking ID
@@ -30,7 +31,15 @@ module.exports = {
       name: `src`,
       path: `${__dirname}/src/`,
     },
-  },
+   },
+   {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `images`,
+      path: `${__dirname}/src/images/`,
+  },},
+      
+  
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
@@ -43,6 +52,8 @@ module.exports = {
       icon: `src/images/bolt512.png`,
     },
   },
+
+
   {
     resolve: `gatsby-plugin-feed`,
     options: {
@@ -96,8 +107,10 @@ module.exports = {
       ],
     },
   },
+
   'gatsby-plugin-offline',
   'gatsby-plugin-postcss',
   `gatsby-transformer-remark`,
-  'gatsby-plugin-dark-mode',`gatsby-transformer-sharp`, `gatsby-plugin-sharp`],
+  'gatsby-plugin-dark-mode',`gatsby-transformer-sharp`, `gatsby-plugin-sharp`,
+],
 }

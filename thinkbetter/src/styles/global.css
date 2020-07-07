@@ -26,6 +26,8 @@
     --copy-900: #2C4D7F ;
     transition-property: all;
     transition-duration: 300ms;
+    background-color: white;
+    color: black;
 }
 
 .theme-dark {
@@ -46,6 +48,8 @@
     --copy-900: #43ef34;
     transition-property: all;
     transition-duration: 300ms;
+    background-color: black;
+    color:white;
 }
 
 .bg-pattern-hexagon {

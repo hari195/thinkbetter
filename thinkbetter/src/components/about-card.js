@@ -6,8 +6,8 @@ import Share from "./share"
 import { useLocation } from "@reach/router"
 
 export default function AboutCard () {
-  
     const { pathname } = useLocation()
+    var themeVariable = "theme-dark";
     const data = useStaticQuery(graphql`
     query {
         site {
@@ -43,6 +43,12 @@ export default function AboutCard () {
     }
     `)
      
+    if( typeof window !== 'undefined') {
+        themeVariable = window.localStorage.getItem("theme");
+      } 
+
+    
+      
   
   return (
 <div >
@@ -50,7 +56,7 @@ export default function AboutCard () {
       <div class="md:w-1/2 items-center ">
         <div class="  font-inter font-bold">
 
-                <h1 class="flex uppercase justify-center items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-inter  font-bold md:text-2xl md:rounded-lg hover:shadow-2xl tracking-widest hover:bg-blue-900 hover:text-gray-200 ">
+                <h1 class="flex uppercase mx-4 justify-center items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-inter  font-bold md:text-2xl md:rounded-lg hover:shadow-2xl tracking-widest hover:bg-blue-900 hover:text-gray-200 ">
                     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 ">
                         <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
                     </svg>   
@@ -67,7 +73,12 @@ export default function AboutCard () {
         </div>
     </div>
     <div class="md:w-1/2">
-    <Img fluid={data.lightimage.childImageSharp.fluid} />
+
+        {themeVariable === "theme-light" ? (
+        <Img fluid={data.lightimage.childImageSharp.fluid} />
+      ) : (
+        <Img fluid={data.darkimage.childImageSharp.fluid} />
+      )}
     </div>
   </div>
 </div>

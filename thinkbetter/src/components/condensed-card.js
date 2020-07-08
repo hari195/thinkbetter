@@ -19,7 +19,7 @@ export default function CondensedCard (props) {
             <div class="text-gray-600 font-normal">
                 {node.frontmatter.displaydate}
             </div>
-            <div class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">
+            <div class="uppercase font-bold  rounded p-1">
                 <Share title={node.frontmatter.title} summary={node.frontmatter.condensed} pathname = {node.fields.slug} url={props.data.site.siteMetadata.url}/>
             </div>
 

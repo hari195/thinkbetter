@@ -9,47 +9,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .theme-light {
-    --primary-100: #2c4d7f ;
-    --primary-300: #2C4D7F ;
-    --primary-500: #2C4D7F ;
-    --primary-700: #2C4D7F ;
-    --primary-900: #2C4D7F ;
+    --primary-100: #E2E8F0 ;
+    --primary-300: #A0AEC0 ;
+    --primary-500: #4A5568 ;
+    --primary-700: #2D3748 ;
+    --primary-900: #131820 ;
     --secondary-100: #2C4D7F ;
     --secondary-300: #2C4D7F ;
     --secondary-500: #2C4D7F ;
     --secondary-700: #2C4D7F ;
     --secondary-900: #2C4D7F ;
-    --copy-100: #2C4D7F ;
-    --copy-300: #2C4D7F ;
-    --copy-500: #2C4D7F ;
-    --copy-700: #2C4D7F ;
-    --copy-900: #2C4D7F ;
+    --copy-100: #6092f0 ;
+    --copy-300: #3073f0 ;
+    --copy-500: #0056f0;
+    --copy-700: #0047cc ;
+    --copy-900: #003699 ;
     transition-property: all;
     transition-duration: 300ms;
-    background-color: white;
-    color: black;
+    background-color: #E2E8F0;
+    
 }
 
-.theme-dark {
-    --primary-100: #43ef34;
-    --primary-300: #43ef34;
-    --primary-500: #43ef34;
-    --primary-700: #43ef34;
-    --primary-900: #43ef34;
+.theme-dark { 
+    --primary-900: #E2E8F0 ;
+    --primary-700: #A0AEC0 ;
+    --primary-500: #4A5568 ;
+    --primary-300: #2D3748 ;
+    --primary-100: #131820 ;
     --secondary-100: #43ef34;
     --secondary-300: #43ef34;
     --secondary-500: #43ef34;
     --secondary-700: #43ef34;
     --secondary-900: #43ef34;
-    --copy-100: #43ef34;
-    --copy-300: #2C4D7F ;
-    --copy-500: #43ef34;
-    --copy-700: #2C4D7F ;
-    --copy-900: #43ef34;
+    --copy-900: #6092f0 ;
+    --copy-700: #3073f0 ;
+    --copy-500: #0056f0;
+    --copy-300: #0047cc ;
+    --copy-100: #003699 ;
     transition-property: all;
     transition-duration: 300ms;
-    background-color: black;
-    color:white;
+    background-color: #181D26;
+    
 }
 
 .bg-pattern-hexagon {

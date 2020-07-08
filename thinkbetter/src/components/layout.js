@@ -15,7 +15,7 @@ export default function Layout({ children }) {
             </Helmet>
             <Header />
             {children}
-            <Footer class="hidden" />
+            <Footer />
             </div>
         </div>
     );

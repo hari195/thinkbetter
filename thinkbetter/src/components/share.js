@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 const Share = props => {
 
     const twitter = `https://twitter.com/intent/tweet?url=${props.url +
@@ -19,8 +17,6 @@ const Share = props => {
     return (
         
     <div class="flex justify-center text-center">
-  
-
         <div class="p-2 rounded-lg hover:bg-gray-500 text-copy-500">
             <a href={fb} target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" alt="facebook" viewBox="0 0 20 20" class="fill-current w-6 h-6" >

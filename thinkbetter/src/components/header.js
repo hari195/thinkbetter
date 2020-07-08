@@ -2,32 +2,45 @@ import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import {Link} from "gatsby"
 import {  useState } from "react"
+import { useLocation } from "@reach/router"
 
 const Header = () => {
   if( typeof window !== 'undefined') {
     window.localStorage.setItem("theme","theme-dark")
   const th = useState(() => window.localStorage.getItem("theme"))
   } 
-
-
+  let aboutTabHeader;
+  const { pathname } = useLocation()
+  if (pathname !== "/"){ aboutTabHeader =    <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
+  <Link to="/about/">About</Link>
+  </div>} 
+  else{
+    aboutTabHeader = <div class="hidden rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
+    <Link to="/about/">About</Link>
+    </div>
+  }
   
   return (
 <div>
 
-
-    <header class="top-0 mb-4 z-10 bg-primary-100 fixed shadow-lg md:h-auto w-full md:px-12 py-2 transition-all duration-300 items-center justify-between"> 
-    
+    <header class="top-0 mb-4 z-10 bg-primary-100 text-primary-900 fixed shadow-lg md:h-auto w-full md:px-12 py-2 transition-all duration-300 items-center justify-between"> 
         <div class="md:flex items-center justify-around md:justify-between">
      
-            <h1 class="flex justify-center text-black items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-sans font-bold tracking-tighter md:text-3xl md:rounded-lg hover:shadow-2xl hover:bg-blue-900 hover:text-gray-200 ">
+            <h1 class="flex justify-center text-copy-500 items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-sans font-bold tracking-tighter md:text-3xl md:rounded-lg hover:shadow-2xl hover:bg-primary-300 ">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6 md:w-6 md:h-6">
                     <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
                 </svg>   
-                <Link to="/">Think Better</Link>
+                <Link class="text-primary-900" to="/">Think Better.</Link>
             </h1>
        
             <div class=" flex items-center flex-wrap text-center align-center font-inter px-1 md:px-0 justify-around">
-            <div class="rounded-lg p-2 align-center  px-2 pb-1   hover:text-white hover:bg-gray-800 fill-current">
+                <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
+                    <Link to="/articles/">Articles</Link>
+                </div>
+
+                      {aboutTabHeader}
+
+                <div class="rounded-lg p-2 align-center  px-2 pb-1 hover:text-white hover:bg-primary-300 fill-current">
             <ThemeToggler>
               {
               ({ theme, toggleTheme }) => (
@@ -50,7 +63,7 @@ const Header = () => {
                
                             <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="fill-current w-6 h-6">
-                                <path fill="#FFF" d="M13.719 1.8A8.759 8.759 0 111.8 13.719c3.335 1.867 7.633 1.387 10.469-1.449 2.837-2.837 3.318-7.134 1.45-10.47z"/>
+                                <path fill="#1A202C" d="M13.719 1.8A8.759 8.759 0 111.8 13.719c3.335 1.867 7.633 1.387 10.469-1.449 2.837-2.837 3.318-7.134 1.45-10.47z"/>
                             </svg>
                         </div>
                   )}     
@@ -64,17 +77,7 @@ const Header = () => {
                         <path d="M16.32 14.9l5.39 5.4a1 1 0 01-1.42 1.4l-5.38-5.38a8 8 0 111.41-1.41zM10 16a6 6 0 100-12 6 6 0 000 12z"/>
                     </svg>
                 </Link>
-
-
-                <a class="uppercase rounded-lg md:ml-1 px-2 py-1 md:px-4 md:py-2 font-normal hover:bg-gray-800 hover:text-gray-200">
-                    <Link to="/articles/">Articles</Link>
-                </a>
-
-                <a class=" uppercase rounded-lg  md:ml-1 px-2 py-1 md:px-4 md:py-2 text-sm md:text-md font-semibold md:font-bold hover:bg-gray-400 hover:text-gray-800" href="www.google.com">
-                <Link to="/about/">About</Link>
-                </a>
-
-          
+                
             </div>  
         </div>
     </header>

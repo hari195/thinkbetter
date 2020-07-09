@@ -60,7 +60,7 @@ export default function BlogPost({ data }) {
 
         </div>
 
-        <div class="mt-2 text-lg text-primary-900 text-justify" dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div class="mt-2 text-md text-primary-900  tracking-normal leading-6 font-normal" dangerouslySetInnerHTML={{ __html: post.html }} />
               
     
   </div>

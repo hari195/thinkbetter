@@ -17,11 +17,10 @@ const Tags = ({ pageContext, data }) => {
   return (
     <div>
         <Layout>
-             <div class="bg-primary-100 h-20 md:h-16 ">
-    </div>
+           
 <div class="bg-primary-100 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
         <div class="flex justify-between items-center">
-        <div class="uppercase text-2xl -ml-1 md:text-3xl font-semibold text-primary-900 rounded px-1  pl-1"> 
+        <div class="capitalize text-2xl -ml-1 md:text-3xl font-semibold text-primary-900 rounded px-1  pl-1"> 
                {tag}
         </div>
             <div class="uppercase rounded p-1">

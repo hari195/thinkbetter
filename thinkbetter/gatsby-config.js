@@ -47,7 +47,7 @@ module.exports = {
       short_name: `thinkbetter`,
       start_url: `/`,
       background_color: `#f7f0eb`,
-      theme_color: `#000000`,
+      theme_color: `#0056f0`,
       display: `standalone`,
       icon: `src/images/bolt512.png`,
     },

@@ -3,12 +3,13 @@ import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import {Link} from "gatsby"
 import {  useState } from "react"
 import { useLocation } from "@reach/router"
+import useDarkMode from 'use-dark-mode';
 
 const Header = () => {
-  if( typeof window !== 'undefined') {
-    window.localStorage.setItem("theme","theme-dark")
-  const th = useState(() => window.localStorage.getItem("theme"))
-  } 
+  
+  const darkModeConfig = { classNameDark : "theme-dark", classNameLight: "theme-light"}
+
+  const darkMode = useDarkMode(true, darkModeConfig);
   let aboutTabHeader;
   const { pathname } = useLocation()
   if (pathname !== "/"){ aboutTabHeader =    <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
@@ -47,18 +48,16 @@ const Header = () => {
                 <label id="theme-toggler">
                   <input
                     type="checkbox"
-                    className="hidden"
-                    onChange={e =>
-                      toggleTheme(e.target.checked ? "theme-dark" : "theme-light")
-                    }
-                    checked={theme === "theme-dark"}
+                    class="hidden"
+                    onChange={darkMode.toggle}
+                    
                   />
-                  {theme === "theme-dark" ? (
+                  {darkMode.value === true ? (
                  <div>
                  <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current w-6 h-6">
                      <path fill="#F6AD55" d="M19 9.199h-.98c-.553 0-1 .359-1 .801 0 .441.447.799 1 .799H19c.552 0 1-.357 1-.799 0-.441-.449-.801-1-.801zM10 4.5c-3.051 0-5.5 2.449-5.5 5.5s2.449 5.5 5.5 5.5c3.05 0 5.5-2.449 5.5-5.5S13.049 4.5 10 4.5zm0 9.5c-2.211 0-4-1.791-4-4 0-2.211 1.789-4 4-4a4 4 0 010 8zm-7-4c0-.441-.449-.801-1-.801H1c-.553 0-1 .359-1 .801 0 .441.447.799 1 .799h1c.551 0 1-.358 1-.799zm7-7c.441 0 .799-.447.799-1V1c0-.553-.358-1-.799-1-.442 0-.801.447-.801 1v1c0 .553.359 1 .801 1zm0 14c-.442 0-.801.447-.801 1v1c0 .553.359 1 .801 1 .441 0 .799-.447.799-1v-1c0-.553-.358-1-.799-1zm7.365-13.234c.391-.391.454-.961.142-1.273s-.883-.248-1.272.143l-.7.699c-.391.391-.454.961-.142 1.273s.883.248 1.273-.143l.699-.699zM3.334 15.533l-.7.701c-.391.391-.454.959-.142 1.271s.883.25 1.272-.141l.7-.699c.391-.391.454-.961.142-1.274s-.883-.247-1.272.142zm.431-12.898c-.39-.391-.961-.455-1.273-.143s-.248.883.141 1.274l.7.699c.391.391.96.455 1.272.143s.249-.883-.141-1.273l-.699-.7zm11.769 14.031l.7.699c.391.391.96.453 1.272.143.312-.312.249-.883-.142-1.273l-.699-.699c-.391-.391-.961-.455-1.274-.143s-.248.882.143 1.273z"/>
                  </svg>   
-             </div>
+                  </div>
                   ) : (
                
                             <div>
@@ -71,6 +70,7 @@ const Header = () => {
                 </label>
               )}
             </ThemeToggler>
+            
             </div>
 
                 <Link to="/search/" class="hidden text-blue-200 hover:text-white hover:bg-gray-800 rounded-lg p-2 px-2 ml-1 fill-current" >

@@ -14,7 +14,7 @@ module.exports = {
     url: "https://www.thinkbetter.blog", // No trailing slash allowed!
     siteUrl: "https://www.thinkbetter.blog",
     image: "/images/bolt512.png", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@occlumency",
+    twitterUsername: "@hkr195",
     keywords: "mental models, thinking, thought, systems thinking, psychology"
   },
   plugins: [   `gatsby-plugin-sitemap`, 
@@ -52,7 +52,11 @@ module.exports = {
       icon: `src/images/bolt512.png`,
     },
   },
-
+  {
+    resolve: `gatsby-plugin-styled-components`,
+    options: {
+      // Add any options here
+    },},
 
   {
     resolve: `gatsby-plugin-feed`,

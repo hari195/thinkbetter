@@ -12,11 +12,11 @@ export default function CondensedCard (props) {
 <div >
     {props.data.allMarkdownRemark.edges.map(({ node }) => ( 
       
-      <div key={node.id} class="bg-white font-inter shadow-lg mt-4 rounded-lg ml-8 mr-8 sm:ml-16 sm:mr-16 px-12 py-8 md:px-20 md:py-12 text-left">
+      <div key={node.id} class="bg-primary-100 font-inter shadow-lg mt-4 rounded-lg ml-8 mr-8 sm:ml-16 sm:mr-16 px-12 py-8 md:px-20 md:py-12 text-left">
     
 
           <div class="flex justify-between items-center">
-            <div class="text-gray-600 font-normal">
+            <div class="text-primary-700 font-normal">
                 {node.frontmatter.displaydate}
             </div>
             <div class="uppercase font-bold  rounded p-1">
@@ -26,7 +26,7 @@ export default function CondensedCard (props) {
         </div>
 
         <div>
-          <Link to={node.fields.slug} class="text-2xl -ml-1 md:text-3xl font-semibold hover:text-gray-200 hover:bg-red-400 rounded px-1  pl-1" href="#"> 
+          <Link to={node.fields.slug} class="text-2xl -ml-1 md:text-3xl font-semibold hover:bg-primary-300 rounded px-1 text-primary-900 pl-1"> 
           {node.frontmatter.title}{" "}
           </Link>
         </div>
@@ -35,7 +35,7 @@ export default function CondensedCard (props) {
         <div class="flex justify items-center flex-wrap ">
                 {node.frontmatter.tags.map(tag => (
           <Tag  key={tag.fieldValue}>
-            <Link class="uppercase" to={`/tags/${kebabCase(tag)}/`}>
+            <Link to={`/tags/${kebabCase(tag)}/`}>
               {tag} 
             </Link>
           </Tag>
@@ -45,7 +45,7 @@ export default function CondensedCard (props) {
       
         <div class="mt-1 text-gray-600 text-justify ">
           <p>{node.frontmatter.condensed}...
-            <span class="uppercase text-blue-900 text-xs font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-2">
+            <span class="uppercase text-copy-900 text-xs font-bold hover:text-primary-900 hover:bg-primary-300 rounded p-2">
             <Link to={node.fields.slug}>continue reading</Link>
             </span>
           </p>

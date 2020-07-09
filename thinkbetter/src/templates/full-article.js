@@ -32,7 +32,7 @@ export default function BlogPost({ data }) {
           <Helmet title={title} />
       <div class="h-20 md:h-16 ">
 </div>
-<div class="bg-gray-100 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
+<div class="bg-primary-100 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
         <div class="flex justify-between items-center">
             <div class="text-gray-600 font-normal">
                 {data.markdownRemark.frontmatter.displaydate}
@@ -43,9 +43,9 @@ export default function BlogPost({ data }) {
 
         </div>
         <div>
-            <a class="text-3xl -ml-1 font-medium hover:text-gray-200 hover:bg-red-400 rounded px-1  pl-1" href="#"> 
+            <div class="text-2xl -ml-1 md:text-3xl font-semibold rounded px-1 text-primary-900 pl-1" > 
                 {data.markdownRemark.frontmatter.title}
-            </a>
+            </div>
         </div>
         <div class="flex justify items-center flex-wrap ">
                 {data.markdownRemark.frontmatter.tags.map(tag => (
@@ -60,7 +60,7 @@ export default function BlogPost({ data }) {
 
         </div>
 
-        <div class="mt-2 text-lg text-gray-900 text-justify" dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div class="mt-2 text-lg text-primary-900 text-justify" dangerouslySetInnerHTML={{ __html: post.html }} />
               
     
   </div>

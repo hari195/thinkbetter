@@ -45,8 +45,11 @@ function AboutCard () {
             </h1>
        
         <div class="text-xl font-inter font-medium mt-4 text-primary-900">
-            <p>This is a blog aimed at familiarizing ideas and concepts from unfamiliar fields and building an online
+            <p class="hidden">This is a blog aimed at familiarizing ideas and concepts from unfamiliar fields and building an online
                 mental toolbox to help you make better decisions and of course, <span class="font-semibold flex-no-wrap">think better.</span> 
+           </p>
+           <p>
+             A place for ideas, concepts and mental models from everywhere.
            </p>
           
         </div>

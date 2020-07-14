@@ -29,6 +29,7 @@ export default function CondensedCard (props) {
           <Link to={node.fields.slug} class="text-2xl -ml-1 md:text-3xl font-semibold hover:bg-primary-300 rounded px-1 text-primary-900 pl-1"> 
           {node.frontmatter.title}{" "}
           </Link>
+          {node.frontmatter.featuredImage}
         </div>
 
         

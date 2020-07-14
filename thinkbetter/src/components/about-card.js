@@ -48,8 +48,7 @@ function AboutCard () {
             <p>This is a blog aimed at familiarizing ideas and concepts from unfamiliar fields and building an online
                 mental toolbox to help you make better decisions and of course, <span class="font-semibold flex-no-wrap">think better.</span> 
            </p>
-           <Share title={data.site.siteMetadata.title} url={data.site.siteMetadata.siteUrl} summary={data.site.siteMetadata.description} pathname={pathname} />
-    
+          
         </div>
     </div>
     <div class="md:w-1/2">

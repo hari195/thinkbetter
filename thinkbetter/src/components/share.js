@@ -16,7 +16,7 @@ const Share = props => {
     
     return (
         
-    <div class="flex justify-center text-center">
+    <div class="flex justify-center text-center share">
         <div class="p-2 rounded-lg hover:bg-primary-300 text-copy-500 hover:text-primary-900">
             <a href={fb} target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" alt="facebook" viewBox="0 0 20 20" class="fill-current w-6 h-6" >

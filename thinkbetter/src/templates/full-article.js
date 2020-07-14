@@ -37,7 +37,7 @@ export default function BlogPost({ data }) {
             <div class="text-gray-600 font-normal">
                 {data.markdownRemark.frontmatter.displaydate}
             </div>
-            <div class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-gray-800 rounded p-1">
+            <div class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-primary-300 rounded p-1">
                 <Share title={data.markdownRemark.frontmatter.title} summary={data.markdownRemark.frontmatter.condensed} pathname = {pathname} url={data.site.siteMetadata.url}/>
             </div>
 

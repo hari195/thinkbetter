@@ -4,6 +4,7 @@ import Footer from "./footer"
 import Header from "./header"
 import SEO from "../components/seo"
 
+
 export default function Layout({ children }) {
     return (
         <div id="layout" >

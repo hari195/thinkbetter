@@ -96,3 +96,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox=
 }
 
 
+.inline-link{
+    color: #434;
+}
+
+.inline-link:hover{
+    color: white;
+}

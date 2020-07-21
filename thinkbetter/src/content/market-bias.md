@@ -45,7 +45,7 @@ For most people alive the 2008 financial crisis would be THE financial event tha
 
 <br/>
 
-## Key takeaways
+## Key Takeaways
 
 <br/>
 

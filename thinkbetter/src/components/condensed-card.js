@@ -46,7 +46,7 @@ export default function CondensedCard (props) {
       
         <div class="mt-1 text-gray-600 text-justify ">
           <p>{node.frontmatter.condensed}...
-            <span class="uppercase text-copy-900 text-xs font-bold hover:text-primary-900 hover:bg-primary-300 rounded p-2">
+            <span class="capitalize text-secondary-500 text-sm font-light hover:text-primary-900 hover:bg-primary-300 rounded p-1">
             <Link to={node.fields.slug}>continue reading</Link>
             </span>
           </p>

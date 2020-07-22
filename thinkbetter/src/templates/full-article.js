@@ -32,7 +32,7 @@ export default function BlogPost({ data }) {
           <Helmet title={title} />
       <div class="h-20 md:h-16 ">
 </div>
-<div class="bg-primary-100 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
+<div class="bg-primary-100 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 lg:px-48 md:py-12 text-left">
         <div class="flex justify-between items-center">
             <div class="text-gray-600 font-normal">
                 {data.markdownRemark.frontmatter.displaydate}

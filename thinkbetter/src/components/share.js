@@ -11,8 +11,8 @@ const Share = props => {
     const reddit = `http://www.reddit.com/submit?url=${props.url +
         props.pathname}&title=${props.title}`;
 
-    const linkedin = `https://www.linkedin.com/shareArticle?mini=true&url=${props.url}&title=${props.title}&summary=${props.summary}&source=`;
-
+    const linkedin = `https://www.linkedin.com/shareArticle?mini=true&url=${props.url + props.pathname}&title=${props.title}&summary=${props.summary}&source=`;
+    const linkedin2 = `https://www.linkedin.com/sharing/share-offsite/?url=${props.url}`;
     
     return (
         

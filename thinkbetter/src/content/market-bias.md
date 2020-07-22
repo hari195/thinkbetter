@@ -58,9 +58,9 @@ For most people alive the 2008 financial crisis would be THE financial event tha
 ## References
 <br/>
 
-- <span class="inline-link">[*Confirmation Bias*](https://www.psychologytoday.com/us/blog/science-choice/201504/what-is-confirmation-bias)</span>
-- <span class="inline-link">[*Consumer Shopping WEF*](https://www.weforum.org/agenda/2020/05/coronavirus-covid19-consumers-shopping-goods-economics-industry)</span>
-- <span class="inline-link">[*Consumer Spending*](https://www.visualcapitalist.com/how-u-s-consumers-are-spending-differently-during-covid-19/)</span>
-- <span class="inline-link">[*Systemic Trust*](https://www.files.ethz.ch/isn/103730/316_Systemic%20Trust.pdf)</span>
-- <span class="inline-link">[*Why commodities are volatile assets?*](https://www.thebalance.com/why-commodities-are-volatile-assets-4126754)</span>
-- <span class="inline-link">[*The Big Short*](https://www.imdb.com/title/tt1596363/)</span>
+- <span class="inline-link">[Confirmation Bias](https://www.psychologytoday.com/us/blog/science-choice/201504/what-is-confirmation-bias)</span>
+- <span class="inline-link">[Consumer Shopping WEF](https://www.weforum.org/agenda/2020/05/coronavirus-covid19-consumers-shopping-goods-economics-industry)</span>
+- <span class="inline-link">[Consumer Spending](https://www.visualcapitalist.com/how-u-s-consumers-are-spending-differently-during-covid-19/)</span>
+- <span class="inline-link">[Systemic Trust*](https://www.files.ethz.ch/isn/103730/316_Systemic%20Trust.pdf)</span>
+- <span class="inline-link">[Why commodities are volatile assets?](https://www.thebalance.com/why-commodities-are-volatile-assets-4126754)</span>
+- <span class="inline-link">[The Big Short](https://www.imdb.com/title/tt1596363/)</span>

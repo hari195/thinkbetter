@@ -113,7 +113,7 @@ export default function Footer() {
         </div>
     
     </div>
-    <div class="uppercase justify-center flex mt-2 mb-4 flex-no-wrap tracking-widest font-medium whitespace-no-wrap px-5 text-primary-900">
+    <div class="uppercase justify-center flex mt-2 mb-4 flex-no-wrap tracking-widest font-medium whitespace-no-wrap px-5 text-secondary-500">
         &copy; 2020 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="justify-center fill-current w-6 h-6 md:w-6 md:h-6">
             <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
         </svg>    think better

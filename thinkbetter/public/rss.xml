@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Think Better Blog RSS Feed]]></title><description><![CDATA[A place for models, concepts and tools from everywhere.]]></description><link>https://www.thinkbetter.blog</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 22 Jul 2020 16:34:28 GMT</lastBuildDate><item><title><![CDATA[Product-Market Fit in a Solution Space]]></title><description><![CDATA[Product-Market fit is a stage during the initial days of a startup when the product and users align. Sam Altman characterizes it as when the…]]></description><link>https://www.thinkbetter.blog/content/product-market-fit-solution-space/</link><guid isPermaLink="false">https://www.thinkbetter.blog/content/product-market-fit-solution-space/</guid><pubDate>Mon, 20 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;br/&gt;
+&lt;p&gt;Product-Market fit is a stage during the initial days of a startup when the product and users align. &lt;span class=&quot;inline-link&quot;&gt;&lt;a href=&quot;https://twitter.com/sama&quot;&gt;Sam Altman&lt;/a&gt;&lt;/span&gt; characterizes it as when the user start talking about your product to others on their own. &lt;span class=&quot;inline-link&quot;&gt;&lt;a href=&quot;http://paulgraham.com/ds.html&quot;&gt;Paul Graham&apos;s definition&lt;/a&gt;&lt;/span&gt;: Product market fit is when you build something that people want.
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Startups take different time to achieve this depending on the problem it is trying to solve and the industry that it&apos;s in. Before a startup reaches product market fit, it will iterate through multiple solutions based on the feedback from different stakeholders. Shorter this feedback loop is, the &lt;span class=&quot;inline-link&quot;&gt;&lt;a href=&quot;http://theleanstartup.com/&quot;&gt;&quot;leaner&quot;&lt;/a&gt;&lt;/span&gt; it is. The tricky part of achieving product-market fit is that it is a 2 dimensional problem. Each time you tweak the product, that in turn also shift the market for that new solution.
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;This journey until when the startup achieves product-market fit could be visualized as a 3 dimensional surface within a solution space for the problem that the startup is trying to solve. Any point on the surface is a feasible solution (simply meaning that it is valid and within physical and economic constraints), the closer this point is to the x-y plane, the closer it is to product-market fit. In this representation, a minima on the surface would be a natural point of equilibrium for a startup to reach. Startups would then need to traverse over this surface to find the minima, and the number of steps that it would take to reach will be the number of feedback loops that would be required.  One solution space can have multiple minimums, the same way one problem can be solved in many ways. There exist different sets of decisions that would lead to these minimums over time. These different minimum could cater to different segments of the market. An easy example is Slack and Whatsapp. At it&apos;s core, they are both instant messaging apps but they are build, marketed and sold in a completed different way where the former is aimed to be a tool for the enterprise while the latter is part of an individual&apos;s social media presence.
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Narrower the depression means fewer steps would be required to reach the minimum compared to a broader minimum. This doesn&apos;t necessarily mean the it is easier to reach product market fir if the depression is narrower. To better understand this, we need to understand what goes into each step that is traversed on the surface. &lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;Each step on the surface may include the following&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Customer Feedback&lt;/li&gt;
+&lt;li&gt;Data Harvesting and Analytics&lt;/li&gt;
+&lt;li&gt;Research Work&lt;/li&gt;
+&lt;li&gt;Engineering&lt;/li&gt;
+&lt;li&gt;Financial and Legal checks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;p&gt;Each step is dependent on &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How the company is organised&lt;/li&gt;
+&lt;li&gt;Roadmap and vision&lt;/li&gt;
+&lt;li&gt;Economic Constraints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;h2&gt;Key Takeaways&lt;/h2&gt;
+&lt;br/&gt;
+&lt;ol&gt;
+&lt;li&gt;The journey of a startup from ideation to product market fit can be visualised as a point on a 3d dimensional surface. A minima on this surface is an optimal solution, ie, product-market fit&lt;/li&gt;
+&lt;li&gt;The characteristics of the surface are indicative of the nature of the industry and the problem that the startup is trying to solve&lt;/li&gt;
+&lt;li&gt;There can exist multiple ways to achieve product-market fit within a solution space.&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Three Biases in the Market]]></title><description><![CDATA[The market seems to be reacting unsually well despite the rising numbers of COVID-19 cases. There are a combination of biases at play and…]]></description><link>https://www.thinkbetter.blog/content/market-bias/</link><guid isPermaLink="false">https://www.thinkbetter.blog/content/market-bias/</guid><pubDate>Tue, 14 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;br/&gt;
+&lt;p&gt;The market seems to be reacting unsually well despite the rising numbers of COVID-19 cases. There are a combination of biases at play and here are a few of them.&lt;/p&gt;
+&lt;br/&gt;  
+&lt;img class=&quot;mb-2&quot; width=&quot;60%&quot; height=&quot;auto&quot; src=&quot;https://images.unsplash.com/photo-1559589689-577aabd1db4f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=768&amp;q=80&quot;&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;h2&gt;Confirmation Bias&lt;/h2&gt;
+&lt;br/&gt;
+&lt;p&gt;Relief packages were announced by various government worldwide at the onset of the pandemic. This might have caused the market to reach positively initially. But the remainder of the recovery could be attributed to a very common bias known as confirmation bias. This bias make people believe certain things to be true simply because they want it to be true. When someone see&apos;s information that reinforces their existing beliefs, they are more prone to accept it than question it. This can lead to major blunders as it can turn a blind spot and hide from you the most common of gaps in a reasoning or an idea.&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2&gt;Opportunity Cost&lt;/h2&gt;
+&lt;br/&gt;
+The stock market might be the best of alternative compared to other options.
+Consumer spending trend has taken a hit due to the pandemic. Since eating out and travelling has mainly been put off, there is considerably less amount of spending in the past few months. This also means that market participants have more cash around. And having more of something can lead us to take more risks that we were unwilling to take otherwise. Since the 2008 financial crisis, there is an overall decreased trust in financial institutions. Especially in times like this when there is a higher chances of default. This can make the market participant be wary of the more complicated financial products altogether. Commodities are quite volatile during times like these and might not be a very easy option for most investors to allocate there money to. Relatively risk free options (like T-bills) doesn&apos;t seem that attractive either for an average investor. A lot of great companies are trading at a much lower price than its book value. This  makes investing in stocks also quite attractive. Not to forget options like Vanguard which offers a piece of the economy over a long periods of time. And investing in a dip reduces the friction to put in your money for most participants.
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;h2&gt;Fear of missing out (FOMO)&lt;/h2&gt;
+&lt;br/&gt;
+&lt;p&gt;For most people alive the 2008 financial crisis would be THE financial event that they have witnessed first hand. Movies like the big short have popularized and glamourized such events. News the hedge fund manager Bill Ackman made from betting on the eminent market dip also glamourizes it. Collectively this raises a feeling of FOMO among market participant. Nudging them even more and not letting them make the same mistakes in this dip. This could also have accelerated the market recovery despite the macro-economic situation.&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2&gt;Key Takeaways&lt;/h2&gt;
+&lt;br/&gt;
+&lt;ol&gt;
+&lt;li&gt;The market price is the collective reflection of the market participant&apos;s sentiment.&lt;/li&gt;
+&lt;li&gt;This reflection is often a future average. Meaning that, to some degree it accounts for the events likely to happen in the future.&lt;/li&gt;
+&lt;li&gt;The time window of the future average is quite short. ONe way to think about this is that if the market participants comprised majorly (like 80% or so) of long term investors, the future average would be indicative for a longer time window.  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;br/&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&quot;inline-link&quot;&gt;&lt;a href=&quot;https://www.psychologytoday.com/us/blog/science-choice/201504/what-is-confirmation-bias&quot;&gt;Confirmation Bias&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;inline-link&quot;&gt;&lt;a href=&quot;https://www.weforum.org/agenda/2020/05/coronavirus-covid19-consumers-shopping-goods-economics-industry&quot;&gt;Consumer Shopping WEF&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;inline-link&quot;&gt;&lt;a href=&quot;https://www.visualcapitalist.com/how-u-s-consumers-are-spending-differently-during-covid-19/&quot;&gt;Consumer Spending&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;inline-link&quot;&gt;&lt;a href=&quot;https://www.files.ethz.ch/isn/103730/316_Systemic%20Trust.pdf&quot;&gt;Systemic Trust*&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;inline-link&quot;&gt;&lt;a href=&quot;https://www.thebalance.com/why-commodities-are-volatile-assets-4126754&quot;&gt;Why commodities are volatile assets?&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;inline-link&quot;&gt;&lt;a href=&quot;https://www.imdb.com/title/tt1596363/&quot;&gt;The Big Short&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>

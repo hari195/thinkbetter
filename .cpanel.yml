@@ -4,4 +4,4 @@ deployment:
   - export DEPLOYPATH=/home/thinnisi/public_html/
   - /bin/rm -Rf $DEPLOYPATH
   - /bin/mkdir $DEPLOYPATH
-  - /bin/cp -R /thinkbetter/public/* $DEPLOYPATH
+  - /bin/cp /thinkbetter/public/* $DEPLOYPATH

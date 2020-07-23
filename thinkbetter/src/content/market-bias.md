@@ -2,7 +2,7 @@
 title: "Three Biases in the Market"
 date: "2020-07-14"
 condensed: "Why the market has recovered despite COVID-19"
-article: true
+type: article
 published: true
 displaydate: "July 14, 2020"
 tags: ["Mental Models","Finance","Stock Market", "Cognitive Bias"]
@@ -13,7 +13,6 @@ The market seems to be reacting unsually well despite the rising numbers of COVI
 
 <br/>  
 <img class="mb-2" width="60%" height="auto" src="https://images.unsplash.com/photo-1559589689-577aabd1db4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80">
-
 
 <br/>
 
@@ -61,6 +60,7 @@ For most people alive the 2008 financial crisis would be THE financial event tha
 - <span class="inline-link">[Confirmation Bias](https://www.psychologytoday.com/us/blog/science-choice/201504/what-is-confirmation-bias)</span>
 - <span class="inline-link">[Consumer Shopping WEF](https://www.weforum.org/agenda/2020/05/coronavirus-covid19-consumers-shopping-goods-economics-industry)</span>
 - <span class="inline-link">[Consumer Spending](https://www.visualcapitalist.com/how-u-s-consumers-are-spending-differently-during-covid-19/)</span>
-- <span class="inline-link">[Systemic Trust*](https://www.files.ethz.ch/isn/103730/316_Systemic%20Trust.pdf)</span>
+- <span class="inline-link">[Systemic Trust](https://www.files.ethz.ch/isn/103730/316_Systemic%20Trust.pdf)</span>
 - <span class="inline-link">[Why commodities are volatile assets?](https://www.thebalance.com/why-commodities-are-volatile-assets-4126754)</span>
 - <span class="inline-link">[The Big Short](https://www.imdb.com/title/tt1596363/)</span>
+- <span class="inline-link">[Illustrative image from Unsplash](https://www.unsplash.com)</span>

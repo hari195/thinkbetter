@@ -78,7 +78,7 @@ export default function BlogPost({ data }) {
             title
             date
             condensed
-            article
+            type
             published
             displaydate
             tags

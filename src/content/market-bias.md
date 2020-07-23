@@ -63,4 +63,4 @@ For most people alive the 2008 financial crisis would be THE financial event tha
 - <span class="inline-link">[Systemic Trust](https://www.files.ethz.ch/isn/103730/316_Systemic%20Trust.pdf)</span>
 - <span class="inline-link">[Why commodities are volatile assets?](https://www.thebalance.com/why-commodities-are-volatile-assets-4126754)</span>
 - <span class="inline-link">[The Big Short](https://www.imdb.com/title/tt1596363/)</span>
-- <span class="inline-link">[Illustrative image from Unsplash](https://www.unsplash.com)</span>
+- <span class="inline-link">[Illustrative image from Unsplash](https://www.unsplash.com)</span> 

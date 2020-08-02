@@ -44,7 +44,7 @@ const Tags = ({ pageContext, data }) => {
               You'll come back to it!
             */}
             <div class="-mx-2 mt-4 font-semibold uppercase">
-      <Link to="/tags" class="p-2 text-copy-500 hover:text-primary-900 rounded-lg hover:bg-primary-300" >view All tags</Link>
+      <Link to="/tags" class="p-2 text-secondary-500 hover:text-primary-900 rounded-lg hover:bg-primary-300" >view All tags</Link>
       </div>
       </div>
       </Layout>

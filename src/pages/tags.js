@@ -23,7 +23,7 @@ const TagsPage = ({
         {group.map(tag => (
           <li class=" mt-2 -ml-2 " key={tag.fieldValue}>
             <Link class="uppercase inline-block hover:text-primary-900 text-copy-500 hover:bg-primary-300 rounded p-1 px-2" to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} <span class = "text-primary-700 hover:bg-primary-300  lowercase text-sm">&bull; {tag.totalCount} posts</span>
+              {tag.fieldValue} <span class="text-secondary-500">&bull;</span> <span class = "text-primary-700 hover:bg-primary-300  lowercase text-sm"> {tag.totalCount} posts</span>
             </Link>
           </li>
         ))}

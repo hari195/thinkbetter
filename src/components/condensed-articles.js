@@ -6,7 +6,7 @@ import CondensedCard from "./condensed-card"
 export default function CondensedArticles (props) {
    
     const data = useStaticQuery(graphql`
-    query {
+    query  {
       site {
         siteMetadata {
           url
@@ -19,7 +19,7 @@ export default function CondensedArticles (props) {
           titleTemplate
         }
       }
-      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "article"}}}) {
+      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "article"}}}, limit: 3) {
         totalCount
         edges {
           node {
@@ -41,6 +41,7 @@ export default function CondensedArticles (props) {
         }
       }
     }
+    
   `)
 
   return (

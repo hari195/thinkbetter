@@ -39,6 +39,10 @@ const Header = () => {
                     <Link to="/articles/">Articles</Link>
                 </div>
 
+                <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
+                    <Link to="/tags/">Browse</Link>
+                </div>
+
                       {aboutTabHeader}
 
                 <div class="rounded-lg p-2 align-center  px-2 pb-1 hover:text-white hover:bg-primary-300 fill-current">

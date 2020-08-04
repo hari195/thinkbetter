@@ -3,7 +3,7 @@ import React from 'react'
 const Share = props => {
 
     const twitter = `https://twitter.com/intent/tweet?url=${props.url +
-        props.pathname}&text=${props.title} by @hkr195`;
+        props.pathname}&text=${props.title} by @harikrishnan195 | @ThinkBetterBlog`;
 
     const fb = `https://www.facebook.com/sharer/sharer.php?u=${props.url +
         props.pathname}`;

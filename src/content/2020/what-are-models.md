@@ -5,7 +5,7 @@ condensed: "And why they are important."
 type: article
 published: true
 displaydate: "July 27, 2020"
-tags: ["Mental Models", "Systems"]
+tags: ["Mental Models", "Systems", "Models"]
 ---
 <br/>
 
@@ -39,5 +39,3 @@ This makes it one of the most important reasons as to why we need more models th
 <br/>
 
 - <span class="inline-link">[Centre for Advanced Spatial Analysis: Lecture 1](http://www.spatialcomplexity.info/files/2012/01/MRes-Lecture-1.pdf)</span>
-- <span class="inline-link">[Consumer Shopping WEF](https://www.weforum.org/agenda/2020/05/coronavirus-covid19-consumers-shopping-goods-economics-industry)</span>
-

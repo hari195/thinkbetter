@@ -5,7 +5,7 @@ condensed: "A new way to think about Product-Market fit"
 type: article
 published: true
 displaydate: "July 20, 2020"
-tags: ["Mental Models","Entrepreneurship"]
+tags: ["Mental Models","Entrepreneurship", "Models"]
 ---
 
 

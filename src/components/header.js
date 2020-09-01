@@ -35,6 +35,9 @@ const Header = () => {
             </h1>
        
             <div class=" flex items-center flex-wrap text-center align-center font-inter px-1 md:px-0 justify-around">
+            <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
+                    <Link to="/chatter/">Chatter</Link>
+                </div>
                 <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
                     <Link to="/articles/">Articles</Link>
                 </div>

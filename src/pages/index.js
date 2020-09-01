@@ -3,14 +3,14 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import CondensedArticles from "../components/condensed-articles"
 import AllArticles from "../components/all-articles"
-import AboutCard from "../components/about-card"
+import CondensedAboutCard from "../components/condensed-about-card"
 
 export default function Home() {
   return (
     
     <div>
       <Layout>
-      <AboutCard /> 
+      <CondensedAboutCard /> 
         <br>
         </br>
         <div class=" font-inter rounded-lg ml-8 mr-8 sm:ml-16 sm:mr-16 px-8 py-4 md:px-20 text-left">

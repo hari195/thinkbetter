@@ -24,7 +24,7 @@ const Header = () => {
   return (
 <div>
 
-    <header class="top-0 mb-4 z-10 bg-primary-100 text-primary-900 fixed shadow-lg md:h-auto w-full md:px-12 py-2 transition-all duration-300 items-center justify-between"> 
+    <header class="top-0 mb-4 z-10 bg-primary-100 text-primary-900 fixed shadow-lg md:h-auto w-full md:px-12 py-2  transition-all duration-300 items-center justify-between"> 
         <div class="md:flex items-center justify-around md:justify-between">
      
             <h1 class="flex justify-center  items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-sans font-bold tracking-tighter md:text-3xl md:rounded-lg hover:shadow-2xl hover:bg-primary-300 ">
@@ -36,7 +36,7 @@ const Header = () => {
        
             <div class=" flex items-center flex-wrap text-center align-center font-inter px-1 md:px-0 justify-around">
             <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
-                    <Link to="/chatter/">Notes</Link>
+                    <Link to="/notes/">Notes</Link>
                 </div>
                 <div class="hidden rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
                     <Link to="/articles/">Articles</Link>
@@ -48,7 +48,7 @@ const Header = () => {
 
                       {aboutTabHeader}
 
-                <div class="rounded-lg p-2 align-center  px-2 pb-1 hover:text-white hover:bg-primary-300 fill-current">
+                <div class="rounded-lg p-2 align-center  px-2 pb-1  hover:text-white hover:bg-primary-300 fill-current">
             <ThemeToggler>
               {
               ({ theme, toggleTheme }) => (

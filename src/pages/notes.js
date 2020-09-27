@@ -1,10 +1,10 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import AllChatter from "../components/all-chatter"
+import AllNotes from "../components/all-notes"
 
 
-export default function Chatter() {
+export default function Notes() {
   return (
     
     <div>
@@ -19,7 +19,7 @@ export default function Chatter() {
           </div>
         </div>
 
-        <AllChatter/>
+        <AllNotes/>
         <br>
         </br>
 

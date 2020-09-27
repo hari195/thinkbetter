@@ -2,7 +2,7 @@
 title: "What are Models?"
 date: "2020-07-27"
 condensed: "And why they are important."
-type: chatter
+type: notes
 published: true
 displaydate: "July 27, 2020"
 tags: ["Mental Models", "Systems", "Models"]

@@ -3,7 +3,7 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import CondensedArticles from "../components/condensed-articles"
 import AllArticles from "../components/all-articles"
-import AllChatter from "../components/all-chatter"
+import AllNotes from "../components/all-notes"
 import AllContent from "../components/all-content"
 import CondensedAboutCard from "../components/condensed-about-card"
 
@@ -20,13 +20,13 @@ export default function Home() {
           <div class="text-2xl -ml-1 md:text-3xl font-semibold rounded px-1 pl-1 text-primary-900"> 
             Notes
             <span class = "hidden  uppercase rounded-lg text-lg text-primary-700 p-2 ml-4 mb-8  ">
-              &bull;<Link class="ml-6 hover:bg-primary-300 p-2 rounded-lg" to="/chatter/">view all</Link>
+              &bull;<Link class="ml-6 hover:bg-primary-300 p-2 rounded-lg" to="/notes/">view all</Link>
             </span>
           </div>
         </div>
 
 
-        <AllChatter/>
+        <AllNotes/>
         <br>
         </br>
 

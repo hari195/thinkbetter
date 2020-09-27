@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import FullCard from "./full-card"
 
-export default function AllChatter (props) {
+export default function AllNotes (props) {
    
     const data = useStaticQuery(graphql`
     query{
@@ -18,7 +18,7 @@ export default function AllChatter (props) {
           titleTemplate
         }
       }
-      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "chatter"}}}, limit:3) {
+      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "notes"}}}, limit:3) {
         totalCount
         edges {
           node {

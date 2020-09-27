@@ -12,9 +12,9 @@ export default function Chatter() {
 
         <br>
         </br>
-        <div class="mt-8 font-inter rounded-lg ml-8 mr-8 sm:ml-16 sm:mr-16 px-8 py-4 md:px-20 text-left">
+        <div class="mt-2 font-inter rounded-lg ml-8 mr-8 sm:ml-16 sm:mr-16 px-8 py-4 md:px-20 text-left">
           <div class="text-2xl -ml-1 text-primary-900 md:text-3xl font-semibold rounded px-1  pl-1" > 
-            Chatter
+            Notes
         
           </div>
         </div>

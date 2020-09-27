@@ -18,7 +18,7 @@ export default function AllChatter (props) {
           titleTemplate
         }
       }
-      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "chatter"}}}) {
+      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "chatter"}}}, limit:3) {
         totalCount
         edges {
           node {

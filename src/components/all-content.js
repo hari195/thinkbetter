@@ -18,7 +18,7 @@ export default function AllContent (props) {
           titleTemplate
         }
       }
-      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, limit:3) {
         totalCount
         edges {
           node {

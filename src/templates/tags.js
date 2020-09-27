@@ -23,7 +23,7 @@ const Tags = ({ pageContext, data }) => {
         <div class="capitalize text-2xl -ml-1 md:text-3xl font-semibold text-primary-900 rounded px-1  pl-1"> 
                {tag}
         </div>
-            <div class="uppercase rounded p-1">
+            <div class=" hidden uppercase rounded p-1">
                 <Share />
             </div>
         </div>
@@ -34,7 +34,7 @@ const Tags = ({ pageContext, data }) => {
           const { title } = node.frontmatter
           return (
             <li key={slug} class=" mt-2 -ml-2  ">
-              <Link class="inline-block hover:text-primary-900 text-copy-500 hover:bg-primary-300 rounded p-1 px-2" to={slug}>{title}</Link> <br></br>
+              <Link class="inline-block text-secondary-500 hover:text-primary-900 hover:bg-primary-300 rounded p-1 px-2" to={slug}>{title}</Link> <br></br>
             </li>
           )
         })}

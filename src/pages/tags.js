@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import kebabCase from "lodash/kebabCase"
 import { Link, graphql } from "gatsby"
 
+
 const TagsPage = ({
   data: {
     allMarkdownRemark: { group },
@@ -22,8 +23,14 @@ const TagsPage = ({
         <ul class="mt-2">
         {group.map(tag => (
           <li class=" mt-2 -ml-2 " key={tag.fieldValue}>
-            <Link class="uppercase inline-block hover:text-primary-900 text-copy-500 hover:bg-primary-300 rounded p-1 px-2" to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} <span class="text-secondary-500">&bull;</span> <span class = "text-primary-700 hover:bg-primary-300  lowercase text-sm"> {tag.totalCount} posts</span>
+            <Link class="uppercase inline-block text-secondary-500 hover:text-primary-900 hover:bg-primary-300 rounded p-1 px-2" to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+              {tag.fieldValue} 
+              <span class="hidden text-secondary-500">
+                &bull;
+              </span> 
+              <span class = "ml-2 -mt-1 px-2  border-2 border-secondary-500 rounded-full text-primary-900 lowercase text-sm"> 
+                {tag.totalCount} 
+              </span>
             </Link>
           </li>
         ))}

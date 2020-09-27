@@ -34,7 +34,7 @@ const Tags = ({ pageContext, data }) => {
           const { title } = node.frontmatter
           return (
             <li key={slug} class=" mt-2 -ml-2  ">
-              <Link class="inline-block text-secondary-500 hover:text-primary-900 hover:bg-primary-300 rounded p-1 px-2" to={slug}>{title}</Link> <br></br>
+              <Link class="inline-block text-secondary-300 hover:text-primary-900 hover:bg-primary-300 rounded p-1 px-2" to={slug}>{title}</Link> <br></br>
             </li>
           )
         })}

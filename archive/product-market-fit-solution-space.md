@@ -3,7 +3,7 @@ title: "Product-Market Fit in a Solution Space"
 date: "2020-07-20"
 condensed: "A new way to think about Product-Market fit"
 type: article
-published: true
+published: false
 displaydate: "July 20, 2020"
 tags: ["Mental Models","Entrepreneurship", "Models"]
 ---

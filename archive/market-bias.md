@@ -3,7 +3,7 @@ title: "Three Biases in the Market"
 date: "2020-07-14"
 condensed: "Why the market has recovered despite COVID-19"
 type: article
-published: true
+published: false
 displaydate: "July 14, 2020"
 tags: ["Mental Models","Finance","Stock Market", "Cognitive Bias"]
 ---

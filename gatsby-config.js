@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: `Think Better`,
-    titleTemplate: "%s · Think Better",
+    titleTemplate: "%s",
     description:
       "A place for models, concepts and tools from everywhere.",
     url: "https://www.thinkbetter.blog", // No trailing slash allowed!

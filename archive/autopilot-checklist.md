@@ -3,7 +3,7 @@ title: "Autopiloting with Checklists"
 date: "2020-07-23"
 condensed: "How to use checklists to get into a state of flow"
 type: article
-published: true
+published: false
 displaydate: "July 23, 2020"
 tags: ["Productivity"]
 ---

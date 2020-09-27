@@ -15,7 +15,7 @@ const TagsPage = ({
 <div>
     <Layout>
     
-        <div class="bg-primary-100 shadow-lg font-inter rounded-lg mt-4 sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 text-left">
+        <div class="bg-primary-100 shadow-lg font-inter rounded-lg mt-4 mx-2 sm:ml-16 sm:mr-16 px-8 py-6 md:px-20 md:py-12 text-left">
             <div class="text-2xl -ml-1 md:text-3xl font-semibold  rounded px-1  pl-1 text-primary-900"> 
                 Tags    
             </div>

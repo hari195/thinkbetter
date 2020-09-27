@@ -14,7 +14,7 @@ const Share = props => {
     const linkedin = `https://www.linkedin.com/shareArticle?mini=true&url=${props.url + props.pathname}&title=${props.title}&summary=${props.summary}&source=`;
     const linkedin2 = `https://www.linkedin.com/sharing/share-offsite/?url=${props.url + props.pathname}`;
     
-    const mail = `mailto:?subject=${props.title}&body=Check out this article at ${props.url + props.pathname}`;
+    const mail = `mailto:?subject=${props.title}&body=Check this out at ${props.url + props.pathname}`;
     return (
         
     <div class="flex justify-center text-center share">

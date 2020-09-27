@@ -12,14 +12,14 @@ export default function FullCard (props) {
 <div >
     {props.data.allMarkdownRemark.edges.map(({ node }) => ( 
       
-      <div key={node.id} class="bg-primary-100 font-inter shadow-lg  rounded-lg px-4 md:px-40 py-10 text-left">
+      <div key={node.id} class="bg-primary-100 font-inter shadow-lg  rounded-lg px-4 md:px-20 py-10 text-left">
     
 
           <div class="flex justify-between items-center">
-            <div class="text-secondary-500 font-normal">
+            <div class="text-primary-900 font-normal">
                 {node.frontmatter.displaydate}
             </div>
-            <div class="uppercase font-bold  rounded p-1">
+            <div class="uppercase font-bold rounded p-1">
                 <Share title={node.frontmatter.title} summary={node.frontmatter.condensed} pathname = {node.fields.slug} url={props.data.site.siteMetadata.url}/>
             </div>
 

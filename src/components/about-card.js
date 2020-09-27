@@ -55,7 +55,7 @@ function AboutCard () {
         </div>
     </div>
     <div class="md:w-1/2">
-        <img src={'../../darkcoverpic.jpg'} class="rounded-lg" alt="Hello" />
+        <img src={'../../darkcoverpic.jpg'} class="rounded-lg h-64 w-auto md:ml-12" alt="Hello" />
     </div>
   </div>
 </div>

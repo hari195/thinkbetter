@@ -12,11 +12,11 @@ export default function FullCard (props) {
 <div >
     {props.data.allMarkdownRemark.edges.map(({ node }) => ( 
       
-      <div key={node.id} class="bg-primary-100 font-inter shadow-lg mt-4 rounded-lg ml-8 mr-8 sm:ml-16 sm:mr-16 px-12 py-10 md:px-20 text-left">
+      <div key={node.id} class="bg-primary-100 font-inter shadow-lg mt-4 rounded-lg px-4 md:px-40 py-10 text-left">
     
 
           <div class="flex justify-between items-center">
-            <div class="text-primary-700 font-normal">
+            <div class="text-secondary-500 font-normal">
                 {node.frontmatter.displaydate}
             </div>
             <div class="uppercase font-bold  rounded p-1">

@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/productivity/","result":{"data":{"allMarkdownRemark":{"totalCount":0,"edges":[]}},"pageContext":{"tag":"Productivity"}}}
+{"componentChunkName":"component---src-templates-tags-js","path":"/tags/productivity/","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/content/2020/discipline/"},"frontmatter":{"title":"Discipline"}}}]}},"pageContext":{"tag":"Productivity"}}}

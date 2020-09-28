@@ -1,5 +1,5 @@
 ---
-title: "Product-Market Fit in a Solution Space"
+title: "Visualizing Product-Market Fit"
 date: "2020-07-20"
 condensed: "A new way to think about Product-Market fit"
 type: article

@@ -17,7 +17,7 @@ const SEO = ({ title, description, image, article}) => {
       keywords,
     } = site.siteMetadata
     const seo = {
-      title: titleTemplate || defaultTitle,
+      title: titleTemplate,
       description: description || defaultDescription,
       image: `${siteUrl}${image || defaultImage}`,
       url: `${siteUrl}${pathname}`,

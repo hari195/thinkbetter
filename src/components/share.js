@@ -2,21 +2,23 @@ import React from 'react'
 
 const Share = props => {
 
-    const twitter = `https://twitter.com/intent/tweet?url=${props.url +
-        props.pathname}&text=${props.title} by @thoughtsbyhkr | @ThinkBetterBlog`;
+    const twitter = `https://twitter.com/intent/tweet?url=${props.url+props.pathname}&text=${props.title} @ThinkBetterBlog by @thoughtsbyhkr`;
 
-    const fb = `https://www.facebook.com/sharer/sharer.php?u=${props.url +
-        props.pathname}`;
+    const fb = `https://www.facebook.com/sharer/sharer.php?u=${props.url + props.pathname}`;
 
-    const reddit = `http://www.reddit.com/submit?url=${props.url +
-        props.pathname}&title=${props.title}`;
+    const reddit = `http://www.reddit.com/submit?url=${props.url + props.pathname}&title=${props.title}`;
 
-    const linkedin = `https://www.linkedin.com/shareArticle?mini=true&url=${props.url + props.pathname}&title=${props.title}&summary=${props.summary}&source=`;
-    const linkedin2 = `https://www.linkedin.com/sharing/share-offsite/?url=${props.url + props.pathname}`;
+    const linkedin2 = `https://www.linkedin.com/shareArticle?&url=${props.url + props.pathname}&title=${props.title}&summary=${props.summary}`;
+    const linkedin = `https://www.linkedin.com/sharing/share-offsite/?url=${props.url + props.pathname}`;
     
     const mail = `mailto:?subject=${props.title}&body=Check this out at ${props.url + props.pathname}`;
-    return (
-        
+    return (<div>
+        <head>
+        <meta property='og:title' content='Title of the article'/> 
+        <meta property='og:image' content='//media.example.com/ 1234567.jpg'/>
+        <meta property='og:description' content='Description that will show in the preview'/>
+        <meta property='og:url' content='//www.example.com/URL of the article' />
+        </head>
     <div class="flex justify-center text-center share">
         <div class="p-2 rounded-lg hover:bg-primary-300 text-copy-500 hover:text-primary-900">
             <a href={fb} target="_blank">
@@ -60,7 +62,7 @@ const Share = props => {
             </a>
         </div>
     </div>
-                  
+    </div>     
     )
 }
 

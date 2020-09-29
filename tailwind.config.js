@@ -35,6 +35,11 @@ module.exports = {
         700:'var(--copy-700)',
         900:'var(--copy-900)',
         },
+        brand: {
+          100:'var(--brand-100)',
+          500:'var(--brand-500)',
+          900:'var(--brand-900)',
+          },
 
       },
     },

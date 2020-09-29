@@ -25,6 +25,9 @@
     --copy-500: #0056f0;
     --copy-300: #0047cc ;
     --copy-100: #003699 ;
+    --brand-100: #6092f0;
+    --brand-500: #0056f0;
+    --brand-900: #003699;
     transition-property: all;
     transition-duration: 300ms;
     background-color: #181D26;
@@ -48,6 +51,9 @@
     --copy-500: #0056f0;
     --copy-700: #0047cc ;
     --copy-900: #003699 ;
+    --brand-100: #6092f0;
+    --brand-500: #0056f0;
+    --brand-900: #003699;
     transition-property: all;
     transition-duration: 300ms;
     background-color: #E2E8F0;

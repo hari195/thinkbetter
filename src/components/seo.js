@@ -17,7 +17,7 @@ const SEO = ({ title, description, image, article}) => {
       keywords,
     } = site.siteMetadata
     const seo = {
-      title: title || defaultTitle,
+      title: titleTemplate || defaultTitle,
       description: description || defaultDescription,
       image: `${siteUrl}${image || defaultImage}`,
       url: `${siteUrl}${pathname}`,
@@ -36,11 +36,12 @@ const SEO = ({ title, description, image, article}) => {
             : []
         }
         title={seo.title} titleTemplate={titleTemplate}>
+          
           <meta name="description" content={seo.description} />
           <meta name="image" content={seo.image} />
           {seo.url && <meta property="og:url" content={seo.url} />}
           {(article ? true : null) && <meta property="og:type" content="article" />}
-          {seo.title && <meta property="og:title" content={seo.title} />}
+          <meta property="og:title" content={titleTemplate} />
           {seo.description && (
             <meta property="og:description" content={seo.description} />
           )}

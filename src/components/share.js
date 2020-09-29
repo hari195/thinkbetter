@@ -8,17 +8,12 @@ const Share = props => {
 
     const reddit = `http://www.reddit.com/submit?url=${props.url + props.pathname}&title=${props.title}`;
 
-    const linkedin2 = `https://www.linkedin.com/shareArticle?&url=${props.url + props.pathname}&title=${props.title}&summary=${props.summary}`;
-    const linkedin = `https://www.linkedin.com/sharing/share-offsite/?url=${props.url + props.pathname}`;
+    const linkedin = `https://www.linkedin.com/shareArticle?&url=${props.url + props.pathname}&title=${props.title}&summary=${props.summary}`;
+    const linkedin2 = `https://www.linkedin.com/sharing/share-offsite/?url=${props.url + props.pathname}`;
     
     const mail = `mailto:?subject=${props.title}&body=Check this out at ${props.url + props.pathname}`;
     return (<div>
-        <head>
-        <meta property='og:title' content='Title of the article'/> 
-        <meta property='og:image' content='//media.example.com/ 1234567.jpg'/>
-        <meta property='og:description' content='Description that will show in the preview'/>
-        <meta property='og:url' content='//www.example.com/URL of the article' />
-        </head>
+     
     <div class="flex justify-center text-center share">
         <div class="p-2 rounded-lg hover:bg-primary-300 text-copy-500 hover:text-primary-900">
             <a href={fb} target="_blank">

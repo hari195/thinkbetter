@@ -4,7 +4,7 @@ date: "2020-10-01"
 condensed: "What if content can evolve over time?"
 type: notes
 published: true
-displaydate: "Ocotober 1, 2020"
+displaydate: "October 1, 2020"
 tags: ["Thinking", "Psychology", "Mental Models"]
 ---
 <br/>

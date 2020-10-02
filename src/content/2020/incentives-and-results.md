@@ -1,7 +1,7 @@
 ---
 title: "Incentives and Results"
 date: "2020-10-01"
-condensed: "What if content can evolve over time?"
+condensed: "How incentives canexplain results better?"
 type: notes
 published: true
 displaydate: "October 1, 2020"

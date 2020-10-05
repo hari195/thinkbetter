@@ -1,0 +1,21 @@
+---
+title: "Spotlight Effect"
+date: "2020-10-05"
+condensed: "When we think of the world with ourselves at the center of it."
+type: notes
+published: true
+displaydate: "October 5, 2020"
+tags: ["Thinking", "Mental Models", "Psychology"]
+---
+<br/>
+
+Have you ever tripped while walking in public and felt the gaze of everyone around you? But in reality, nobody even noticed. Well that is the <span class="inline-link">[spotlight effect](https://en.wikipedia.org/wiki/Spotlight_effect#:~:text=The%20spotlight%20effect%20is%20the,noticed%20by%20others%20is%20uncommon.)</span>. You tend to believe that you are getting all this attention due to something. We percieve the world around us with ourselves at the center of it. And in these circumstances it is very hard to accurately evaluate other people's perceptions on you. It is a common tendency over-estimate this.
+
+</br>
+
+Too much of this and it can lead to anxiety issues and can foster an inability to perform under any sort of pressure. The spotlight effect can skew your judgements and the way you set up your personal value system. Spotlight effect is driven by another bias known as Anchoring. <span class="inline-link">[Anchoring](https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)#:~:text=Anchoring%20or%20focalism%20is%20a,%2C%20arguments%2C%20estimates%2C%20etc.)</span> is a concpet in behavioural economics which describes how we rely heavily on the information fed to us early on affects the decision we make.
+
+<br/>
+
+## References
+- <span class="inline-link"> [Spotlight Effect by The Decision Lab](https://thedecisionlab.com/biases/spotlight-effect/)</span>

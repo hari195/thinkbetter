@@ -14,10 +14,11 @@ tags: ["Technology", "Business"]
         <img class="mx-auto mb-4 items-center justify-center" width="50%" height="auto" src="https://miro.medium.com/max/875/1*OC4rR9I_FAX0T5Y30nyOLw.png">
     </div>
     <div class="text-center inline-link mb-2">
+
         
 [Gartner Hype Cycle](https://en.wikipedia.org/wiki/Hype_cycle)
 
-    </div>
+</div>
 </figure>
 
 
@@ -34,11 +35,11 @@ A hype cycle is a <span class="inline-link">[branded](https://www.gartner.com/en
 
 </br>
 
-Gartner, an American research firm publishes these cycles after extensive analysis to lend a more standard perspective of a new technology. However, it is not scientific and not all technology trends tend to make it till stage 5. It has also been noted that the figure resembles the impulse response to an elastic system.
+<span class="inline-link">[Gartner](https://www.gartner.com/en)</span>, an American research firm publishes these cycles after extensive analysis to lend a more standard perspective of a new technology. However, it is not scientific and not all technology trends tend to make it till stage 5. It has also been noted that the figure resembles the impulse response to an elastic system.
 
 </br>
 
-### Hype cycle for emerging technologies, 2020
+### Hype cycle for emerging technologies, 2020 (Source: Gartner)
 
 </br>
 

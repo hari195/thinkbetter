@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Think Better Blog RSS Feed]]></title><description><![CDATA[A place for models, concepts and tools from everywhere.]]></description><link>https://www.thinkbetter.blog</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 12 Oct 2020 06:56:13 GMT</lastBuildDate><item><title><![CDATA[Hype Cycle]]></title><description><![CDATA[A hype cycle is a branded graphical representation of maturity and adoption of new technologies. The hype cycle is divided into 5 regions…]]></description><link>https://www.thinkbetter.blog/content/2020/hype-cycle/</link><guid isPermaLink="false">https://www.thinkbetter.blog/content/2020/hype-cycle/</guid><pubDate>Sun, 11 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;br/&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Think Better Blog RSS Feed]]></title><description><![CDATA[A place for models, concepts and tools from everywhere.]]></description><link>https://www.thinkbetter.blog</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 12 Oct 2020 07:02:08 GMT</lastBuildDate><item><title><![CDATA[Hype Cycle]]></title><description><![CDATA[Gartner Hype Cycle A hype cycle is a branded graphical representation of maturity and adoption of new technologies. The hype cycle is…]]></description><link>https://www.thinkbetter.blog/content/2020/hype-cycle/</link><guid isPermaLink="false">https://www.thinkbetter.blog/content/2020/hype-cycle/</guid><pubDate>Sun, 11 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;br/&gt;
 &lt;figure&gt;
     &lt;div class=&quot;flex items-center&quot;&gt;
         &lt;img class=&quot;mx-auto mb-4 items-center justify-center&quot; width=&quot;50%&quot; height=&quot;auto&quot; src=&quot;https://miro.medium.com/max/875/1*OC4rR9I_FAX0T5Y30nyOLw.png&quot;&gt;
     &lt;/div&gt;
     &lt;div class=&quot;text-center inline-link mb-2&quot;&gt;
-        
-[Gartner Hype Cycle](https://en.wikipedia.org/wiki/Hype_cycle)
-&lt;pre&gt;&lt;code&gt;&amp;#x3C;/div&gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Hype_cycle&quot;&gt;Gartner Hype Cycle&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/figure&gt;
 &lt;p&gt;A hype cycle is a &lt;span class=&quot;inline-link&quot;&gt;&lt;a href=&quot;https://www.gartner.com/en/research/methodologies/gartner-hype-cycle&quot;&gt;branded&lt;/a&gt;&lt;/span&gt; graphical representation of maturity and adoption of new technologies. The hype cycle is divided into 5 regions&lt;/p&gt;
 &lt;/br&gt;
@@ -19,9 +17,9 @@
 &lt;li&gt;&lt;strong&gt;Plateau of Productivity&lt;/strong&gt; : The technology now has entered a more stable stage. The technology has been commercialised and mainstream adoption starts.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/br&gt;
-&lt;p&gt;Gartner, an American research firm publishes these cycles after extensive analysis to lend a more standard perspective of a new technology. However, it is not scientific and not all technology trends tend to make it till stage 5. It has also been noted that the figure resembles the impulse response to an elastic system.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;inline-link&quot;&gt;&lt;a href=&quot;https://www.gartner.com/en&quot;&gt;Gartner&lt;/a&gt;&lt;/span&gt;, an American research firm publishes these cycles after extensive analysis to lend a more standard perspective of a new technology. However, it is not scientific and not all technology trends tend to make it till stage 5. It has also been noted that the figure resembles the impulse response to an elastic system.&lt;/p&gt;
 &lt;/br&gt;
-&lt;h3&gt;Hype cycle for emerging technologies, 2020&lt;/h3&gt;
+&lt;h3&gt;Hype cycle for emerging technologies, 2020 (Source: Gartner)&lt;/h3&gt;
 &lt;/br&gt;
 &lt;div class=&quot;flex items-center&quot;&gt;
 &lt;img class=&quot;mx-auto mb-4 items-center justify-center&quot; width=&quot;50%&quot; height=&quot;auto&quot; src=&quot;https://emtemp.gcom.cloud/ngw/globalassets/en/newsroom/images/graphs/ethc2020.png&quot;&gt;

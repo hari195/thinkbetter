@@ -10,14 +10,14 @@ tags: ["Technology", "Business"]
 <br/>
 
 <figure>
-<div class="flex items-center">
-<img class="mx-auto mb-4 items-center justify-center" width="50%" height="auto" src="https://miro.medium.com/max/875/1*OC4rR9I_FAX0T5Y30nyOLw.png">
-</div>
-<div class="text-center inline-link mb-2">
-
+    <div class="flex items-center">
+        <img class="mx-auto mb-4 items-center justify-center" width="50%" height="auto" src="https://miro.medium.com/max/875/1*OC4rR9I_FAX0T5Y30nyOLw.png">
+    </div>
+    <div class="text-center inline-link mb-2">
+        
 [Gartner Hype Cycle](https://en.wikipedia.org/wiki/Hype_cycle)
 
-</div>
+    </div>
 </figure>
 
 

@@ -11,7 +11,7 @@ tags: ["Technology", "Business"]
 
 <figure>
     <div class="flex items-center">
-        <img class="mx-auto mb-4 w-full md:w-6/12" height="auto" src="https://miro.medium.com/max/875/1*OC4rR9I_FAX0T5Y30nyOLw.png"/>
+        <img class="mx-auto mb-4 md:w-6/12 w-full " height="auto" src="https://miro.medium.com/max/875/1*OC4rR9I_FAX0T5Y30nyOLw.png"/>
     </div>
 <div class="text-center inline-link mb-2">
 
@@ -43,7 +43,7 @@ A hype cycle is a <span class="inline-link">[branded](https://www.gartner.com/en
 </br>
 
 <div class="flex items-center">
-<img class="mx-auto mb-4 w-full md:w-6/12" height="auto" src="https://emtemp.gcom.cloud/ngw/globalassets/en/newsroom/images/graphs/ethc2020.png">
+<img class="mx-auto mb-4 md:w-6/12 w-full" height="auto" src="https://emtemp.gcom.cloud/ngw/globalassets/en/newsroom/images/graphs/ethc2020.png">
 </div>
 
 

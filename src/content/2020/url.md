@@ -14,7 +14,7 @@ The internet is built on 3 pillars: HTML, which is used to make web pages; HTTP 
 <br/>
 
 ## URL Syntax
-    scheme: [ // [ userinfo@ ] host [ :port ] ] [ / ] [ path ] [ ?query ] [#fragment ]
+scheme: [ // [ userinfo@ ] host [ :port ] ] [ / ] [ path ] [ ?query ] [#fragment ]
 
 <br/>
 

@@ -31,6 +31,12 @@ _Fall of Northern Rock, Iceland -> Fallout of Bear Sterns –> Lehman Brothers �
 
 <br/> 
 
-<span class="inline-link">[The Linchpin Theory: Global economy hanging by a thread](https://edtimes.in/linchpin-theory-global-economy-hanging-thread/#:~:text=The%20Linchpin%20Theory%20expounds%20the,to%20a%20man%2Dmade%20situation.)</span>
+<span class="inline-link">
 
-<span class="inline-link">[Linchpin Effect](https://unofficed.com/lessons/the-linchpin-effect/)</span>
+[The Linchpin Theory](https://edtimes.in/linchpin-theory-global-economy-hanging-thread/#:~:text=The%20Linchpin%20Theory%20expounds%20the,to%20a%20man%2Dmade%20situation.)
+
+</span>
+
+<span class="inline-link">
+
+[Linchpin Effect](https://unofficed.com/lessons/the-linchpin-effect/)</span>

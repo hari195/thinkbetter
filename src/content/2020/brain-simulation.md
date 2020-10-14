@@ -30,4 +30,7 @@ Brain simulation deals with creating a computer model of the brain. Such models 
 </br>
 
 ## References
-- <span class="inline-link">[The four biggest challenges in brain simulation](https://www.nature.com/articles/d41586-019-02209-z)</span>
+
+<br>
+
+<span class="inline-link">[The four biggest challenges in brain simulation](https://www.nature.com/articles/d41586-019-02209-z)</span>

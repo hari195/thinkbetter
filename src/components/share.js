@@ -8,8 +8,8 @@ const Share = props => {
 
     const reddit = `http://www.reddit.com/submit?url=${props.url + props.pathname}&title=${props.title}`;
 
-    const linkedin = `https://www.linkedin.com/shareArticle?&url=${props.url + props.pathname}&title=${props.title}&summary=${props.summary}`;
-    const linkedin2 = `https://www.linkedin.com/sharing/share-offsite/?url=${props.url + props.pathname}`;
+    const linkedin2 = `https://www.linkedin.com/shareArticle?&url=${props.url + props.pathname}&title=${props.title}&summary=${props.summary}`;
+    const linkedin = `https://www.linkedin.com/sharing/share-offsite/?url=${props.url + props.pathname}`;
     
     const mail = `mailto:?subject=${props.title}&body=Check this out at ${props.url + props.pathname}`;
     return (<div>

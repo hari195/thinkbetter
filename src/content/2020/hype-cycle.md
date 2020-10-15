@@ -9,6 +9,10 @@ tags: ["Technology", "Business"]
 ---
 <br/>
 
+<meta property='og:title' content='Title of the article'/>
+<meta property='og:description' content='Description that will show in the preview'/>
+<meta property='og:url' content=''/>
+
 <figure>
     <div class="flex items-center">
         <img class="mx-auto mb-4 md:w-6/12  " height="auto" src="https://miro.medium.com/max/875/1*OC4rR9I_FAX0T5Y30nyOLw.png"/>

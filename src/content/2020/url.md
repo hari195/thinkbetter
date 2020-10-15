@@ -1,11 +1,11 @@
 ---
-title: "How the URL was built"
+title: "How to read a URL"
 date: "2020-10-12"
 condensed: "The address for everything"
 type: notes
 published: true
 displaydate: "October 12, 2020"
-tags: ["Technology", "Dev", "Internet"]
+tags: ["Technology", "Programming", "Internet"]
 ---
 <br/>
 

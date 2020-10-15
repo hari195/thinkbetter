@@ -21,7 +21,6 @@
 <url> <loc>https://www.thinkbetter.blog/content/2020/what-are-models/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.thinkbetter.blog/tags/biology/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.thinkbetter.blog/tags/business/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.thinkbetter.blog/tags/dev/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.thinkbetter.blog/tags/economics/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.thinkbetter.blog/tags/economy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.thinkbetter.blog/tags/entrepreneurship/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -35,6 +34,7 @@
 <url> <loc>https://www.thinkbetter.blog/tags/mental-models/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.thinkbetter.blog/tags/models/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.thinkbetter.blog/tags/productivity/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.thinkbetter.blog/tags/programming/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.thinkbetter.blog/tags/psychology/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.thinkbetter.blog/tags/research/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.thinkbetter.blog/tags/social-media/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

@@ -21,4 +21,4 @@ Traditionally, freight forwarders take up all these work, but even then the proc
 
 <br/>
 
-*<span class="inline-link">[The Flexport Business Model](https://productmint.com/the-flexport-business-model-how-does-flexport-make-money/)</span>*
+<span class="inline-link">[The Flexport Business Model](https://productmint.com/the-flexport-business-model-how-does-flexport-make-money/)</span>

@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Share = props => {
-
+    const twitter_follow = `https://twitter.com/thinkbetterblog?ref_src=twsrc%5Etfw`;
     const twitter = `https://twitter.com/intent/tweet?url=${props.url+props.pathname}&text=${props.title} @ThinkBetterBlog by @thoughtsbyhkr`;
-
+    
     const fb = `https://www.facebook.com/sharer/sharer.php?u=${props.url + props.pathname}`;
 
     const reddit = `http://www.reddit.com/submit?url=${props.url + props.pathname}&title=${props.title}`;

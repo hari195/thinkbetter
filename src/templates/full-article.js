@@ -29,7 +29,7 @@ export default function BlogPost({ data }) {
           image={image}
 
         />
-          <Helmet title={title} />
+          <Helmet title={post.frontmatter.title} />
       <div class="h-20 md:h-16 ">
 </div>
 <div class="bg-primary-100 shadow-lg font-inter rounded-lg sm:ml-16 sm:mr-16 px-6 py-6 lg:px-32 text-left">

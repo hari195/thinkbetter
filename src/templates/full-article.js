@@ -24,12 +24,11 @@ export default function BlogPost({ data }) {
 
       <Layout>
                 <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
-          image={image}
-
-        />
-          <Helmet title={post.frontmatter.title} />
+                  title={title}
+                  description={post.frontmatter.description || post.excerpt}
+                  image={image}
+                />
+          <Helmet title={title} />
       <div class="h-20 md:h-16 ">
 </div>
 <div class="bg-primary-100 shadow-lg font-inter rounded-lg sm:ml-16 sm:mr-16 px-6 py-6 lg:px-32 text-left">
@@ -38,7 +37,7 @@ export default function BlogPost({ data }) {
                 {data.markdownRemark.frontmatter.displaydate}
             </div>
             <div class="uppercase text-blue-900 font-bold hover:text-gray-200 hover:bg-primary-300 rounded p-1">
-                <Share title={data.markdownRemark.frontmatter.title} summary={data.markdownRemark.frontmatter.condensed} pathname = {pathname} url={data.site.siteMetadata.url}/>
+                <Share title={title} summary={data.markdownRemark.frontmatter.condensed} pathname = {pathname} url={data.site.siteMetadata.url}/>
             </div>
 
         </div>

@@ -7,12 +7,12 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Think Better hu",
-    titleTemplate: "uh %s",
+    title: "Think Better",
+    titleTemplate: "%s",
     description:
       "A place for models, concepts and tools from everywhere.",
-    url: "https://www.thinkbetter.blog", // No trailing slash allowed!
-    siteUrl: "https://www.thinkbetter.blog",
+    url: "http://www.thinkbetter.blog", // No trailing slash allowed!
+    siteUrl: "http://www.thinkbetter.blog",
     image: "/images/bolt512.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "@ThinkBetterBlog",
     keywords: "mental models, thinking, thought, systems thinking, psychology"
@@ -44,7 +44,7 @@ module.exports = {
     resolve: `gatsby-plugin-manifest`,
     options: {
       name: `THINKBETTER`,
-      short_name: `thinkbetter`,
+      short_name: `thinkbetterh`,
       start_url: `/`,
       background_color: `#f7f0eb`,
       theme_color: `#0056f0`,

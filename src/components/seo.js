@@ -36,7 +36,7 @@ const SEO = ({ title, description, image, article}) => {
             : []
         }
         title={seo.title} titleTemplate={seo.title}>
-          <head prefix="og: http://ogp.me/ns#">
+          
           <meta name="title" property="og:title" content={seo.title} />
 
           <meta name="image" content={seo.image} />
@@ -56,7 +56,7 @@ const SEO = ({ title, description, image, article}) => {
             <meta name="twitter:description" content={seo.description} />
           )}
           {seo.image && <meta name="twitter:image" content={seo.image} />}
-          </head>
+
           </Helmet>
       )
   }

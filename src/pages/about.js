@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 
 import AboutCard from "../components/about-card"
@@ -9,6 +9,7 @@ export default function Home() {
     
     <div>
       <Layout>
+      <SEO title="About"/>
       <AboutCard /> 
       </Layout>
     </div>

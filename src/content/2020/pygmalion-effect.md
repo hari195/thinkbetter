@@ -5,7 +5,7 @@ condensed: ""
 type: notes
 published: true
 displaydate: "October 19, 2020"
-tags: ["Mental Model", "Psychology"]
+tags: ["Mental Models", "Psychology"]
 ---
 <br/>
 

@@ -35,7 +35,7 @@ const SEO = ({ title, description, image, article}) => {
               ]
             : []
         }
-         titleTemplate={seo.title}>
+        title={seo.title} titleTemplate={seo.title}>
           
           <meta name="title" property="og:title" content={seo.title} />
           <meta name="description" property="og:description" content={seo.description} />

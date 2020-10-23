@@ -22,10 +22,15 @@ This is a free-of-charge account that users can use to hold, receive and send mo
 
 ## How they make money
 <br>
+
 1. Fee on transaction: The markup that they set on each transaction dependent on the amount being transferred.
+
 2. Borderless Account: Even though the account itself is free-of-charge, the transactions are subject to a fee.
+
 3. TransferWise for business: Companies can use their account to accept and make payments for their global business. This eliminates the hassle for managing different currencies.
+
 4. TransferWise for banks: They provide an API for banks to use the TransferWise network to make payments, enabling them to provide cheap rates and faster money transfers. 
+
 
 <br>
 <br>

@@ -23,7 +23,7 @@ const SEO = ({ title, description, image, article}) => {
       url: `${siteUrl}${pathname}`,
     }
     const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
-    console.log(title);
+
     return (
         <Helmet link={
           canonical
@@ -36,27 +36,25 @@ const SEO = ({ title, description, image, article}) => {
             : []
         }
         title={seo.title} titleTemplate={seo.title}>
+            <meta property="og:url" content={seo.url} />
             <meta property="og:title" content={title} />
-          {seo.url && <meta property="og:url" content={seo.url} />}
-
-          {(article ? true : null) && <meta property="og:type" content="article" />}
+            <meta property="og:type" content="website" />
+            {seo.image && <meta property="og:image" content={seo.image} />}
+            <meta name="twitter:card" content="summary_large_image" />
+            {twitterUsername && (
+              <meta name="twitter:creator" content={twitterUsername} />
+            )}
           
-          {seo.image && <meta property="og:image" content={seo.image} />}
-          <meta name="twitter:card" content="summary_large_image" />
-          {twitterUsername && (
-            <meta name="twitter:creator" content={twitterUsername} />
-          )}
-         
-          {seo.description && (
-            <meta name="twitter:description" content={seo.description} />
-          )}
-          {seo.image && <meta name="twitter:image" content={seo.image} />}
-        
-          <meta name="author" content="Harikrishnan"></meta>
-          <meta property="og:description" content={seo.description} />
-          <meta name="description" content={seo.description} />
-          <meta name="image" content={seo.image} />
-          </Helmet>
+            {seo.description && (
+              <meta name="twitter:description" content={seo.description} />
+            )}
+            {seo.image && <meta name="twitter:image" content={seo.image} />}
+          
+            <meta name="author" content="Harikrishnan"></meta>
+            <meta property="og:description" content={seo.description} />
+            <meta name="description" content={seo.description} />
+            <meta name="image" content={seo.image} />
+            </Helmet>
       )
   }
 

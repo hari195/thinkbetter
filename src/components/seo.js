@@ -17,13 +17,13 @@ const SEO = ({ title, description, image, article}) => {
       keywords,
     } = site.siteMetadata
     const seo = {
-      title: title ,
+      title: title || defaultTitle,
       description: description,
       image: `${siteUrl}${image || defaultImage}`,
       url: `${siteUrl}${pathname}`,
     }
     const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
-
+    console.log(title);
     return (
         <Helmet link={
           canonical
@@ -36,6 +36,7 @@ const SEO = ({ title, description, image, article}) => {
             : []
         }
         title={seo.title} titleTemplate={seo.title}>
+            <meta property="og:title" content={title} />
           {seo.url && <meta property="og:url" content={seo.url} />}
 
           {(article ? true : null) && <meta property="og:type" content="article" />}
@@ -50,7 +51,7 @@ const SEO = ({ title, description, image, article}) => {
             <meta name="twitter:description" content={seo.description} />
           )}
           {seo.image && <meta name="twitter:image" content={seo.image} />}
-          <meta name="title" property="og:title" content={seo.title} />
+        
           <meta name="author" content="Harikrishnan"></meta>
           <meta property="og:description" content={seo.description} />
           <meta name="description" content={seo.description} />

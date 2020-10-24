@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Think ",
+    title: "Think Better",
     titleTemplate: "%s",
     description:
       "A place for models, concepts and tools from everywhere.",

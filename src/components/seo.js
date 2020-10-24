@@ -37,8 +37,12 @@ const SEO = ({ title, description, image, article}) => {
         }
         title={seo.title} titleTemplate={seo.title}>
             <meta property="og:url" content={seo.url} />
-            <meta property="og:title" content={title} />
+            <meta property="og:title" content={seo.title} />
             <meta property="og:type" content="website" />
+            <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+            <meta property="og:type"               content="article" />
+            <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
+            <meta property="og:description"        content="How much does culture influence creative thinking?" />
             {seo.image && <meta property="og:image" content={seo.image} />}
             <meta name="twitter:card" content="summary_large_image" />
             {twitterUsername && (

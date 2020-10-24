@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{w2l6:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return r}));var a=n("q1tI"),l=n.n(a),o=n("Bl7J");function r(){return l.a.createElement("div",null,l.a.createElement(o.a,null,l.a.createElement("div",{class:"mt-24 px-20 text-3xl md:text-5xl text-center font-bold"},"404...Oops! The page you are looking for is not available!")))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-d1a001f5fbf9b6bf7368.js.map

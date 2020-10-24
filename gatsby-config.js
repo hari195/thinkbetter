@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Think Better",
+    title: "Think ",
     titleTemplate: "%s",
     description:
       "A place for models, concepts and tools from everywhere.",
@@ -44,7 +44,7 @@ module.exports = {
     resolve: `gatsby-plugin-manifest`,
     options: {
       name: `THINKBETTER`,
-      short_name: `thinkbetterh`,
+      short_name: `thinkbetter`,
       start_url: `/`,
       background_color: `#f7f0eb`,
       theme_color: `#0056f0`,

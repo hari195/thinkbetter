@@ -39,6 +39,7 @@ const SEO = ({ title, description, image, article}) => {
             <meta property="og:url" content={seo.url} />
             <meta property="og:title" content={seo.title} />
             <meta property="og:type" content="website" />
+            <meta name="google-site-verification" content="P-4DzXlQgeDoYsnJCDG1G0munzxCKnGqoQNBQwAsPfg" />
 
             {seo.image && <meta property="og:image" content={seo.image} />}
             <meta name="twitter:card" content="summary_large_image" />

@@ -1,7 +1,7 @@
 ---
 title: "Software for War"
 date: "2020-10-27"
-condensed: "Thinking irrationally."
+condensed: "Software systems that can go to war."
 type: notes
 published: true
 displaydate: "October 27, 2020"

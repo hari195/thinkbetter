@@ -49,7 +49,7 @@ function CondensedAboutCard () {
                 mental toolbox to help you make better decisions and of course, <span class="font-semibold flex-no-wrap">think better.</span> 
            </p>
            <p>
-             A place for ideas, concepts and mental models from everywhere.
+             A place for ideas, concepts and mental models from everywhere. Connect with me <a class="inline-link" href="www.twitter.com/thoughtsbyhkr">@thoughtsbyhkr</a>
            </p>
           
         </div>

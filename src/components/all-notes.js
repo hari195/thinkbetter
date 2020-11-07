@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import FullCard from "./full-card"
+import CondensedCard from "./condensed-card";
 
 export default function AllNotes (props) {
    

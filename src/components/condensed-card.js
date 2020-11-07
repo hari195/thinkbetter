@@ -12,7 +12,7 @@ export default function CondensedCard (props) {
 <div >
     {props.data.allMarkdownRemark.edges.map(({ node }) => ( 
       
-      <div key={node.id} class="bg-primary-100 font-inter shadow-lg mt-4 rounded-lg ml-8 mr-8 sm:ml-16 sm:mr-16 px-12 py-8 md:px-20 md:py-12 text-left">
+      <div key={node.id} class="bg-primary-100 font-inter shadow-lg  rounded-lg px-6 md:px-16 mb-2 border-2 border-copy-100 md:mx-10 py-10 text-left">
     
 
           <div class="flex justify-between items-center">
@@ -20,7 +20,7 @@ export default function CondensedCard (props) {
                 {node.frontmatter.displaydate}
             </div>
             <div class="uppercase font-bold  rounded p-1">
-                <Share title={node.frontmatter.title} summary={node.frontmatter.condensed} pathname = {node.fields.slug} url={props.data.site.siteMetadata.url}/>
+                <Share title={node.frontmatter.title} summary={node.excerpt} pathname = {node.fields.slug} url={props.data.site.siteMetadata.url}/>
             </div>
 
         </div>
@@ -45,8 +45,8 @@ export default function CondensedCard (props) {
         </div>
       
         <div class="mt-1 text-gray-600 text-justify ">
-          <p>{node.frontmatter.condensed}...
-            <span class="capitalize text-secondary-500 text-sm font-light hover:text-primary-900 hover:bg-primary-300 rounded p-1">
+          <p>{node.excerpt}
+            <span class="capitalize text-secondary-500 text-md font-light hover:text-primary-900 hover:bg-primary-300 rounded p-1">
             <Link to={node.fields.slug}>continue reading</Link>
             </span>
           </p>

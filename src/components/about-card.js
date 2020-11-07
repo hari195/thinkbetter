@@ -44,12 +44,14 @@ function AboutCard () {
                 <div className="text-primary-900" >Think Better<span class="text-secondary-500">.</span></div>
             </h1>
        
-        <div class="text-xl font-inter font-medium mt-4 text-primary-900 text-center">
+        <div class="text-xl font-inter font-medium mt-6 md:mt-4 text-primary-900 text-center">
             <p class="hidden">This is a blog aimed at familiarizing ideas and concepts from unfamiliar fields and building an online
                 mental toolbox to help you make better decisions and of course, <span class="font-semibold flex-no-wrap">think better.</span> 
            </p>
            <p>
-             A place for ideas, concepts and mental models from everywhere. Connect with me <a class="inline-link" href="http://www.twitter.com/thoughtsbyhkr">@thoughtsbyhkr</a>
+             A place for <span class="copy-underline">ideas</span>, <span class="copy-underline">concepts</span> and <span class="copy-underline">mental models</span> from everywhere.
+             <br></br> <br></br> <Link class="inline-link" to="https://thinkbetterblog.substack.com/embed">Subscribe</Link> to receive <span class="copy-underline">exclusive</span> notes and a weekly round-up. 
+             <br></br>Connect with me <a class="inline-link" href="http://www.twitter.com/thoughtsbyhkr">@thoughtsbyhkr</a>
            </p>
           
         </div>

@@ -35,18 +35,9 @@ const Header = () => {
             </h1>
        
             <div class=" flex items-center flex-wrap text-center align-center font-inter px-1 md:px-0 justify-around">
-            <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
-                    <Link to="/notes/">Notes</Link>
-                </div>
-                <div class="hidden rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
-                    <Link to="/articles/">Articles</Link>
-                </div>
+           
 
-                <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
-                    <Link to="/tags/">Browse</Link>
-                </div>
-
-                      {aboutTabHeader}
+                      
 
                 <div class="rounded-lg p-2 align-center  px-2 pb-1  hover:text-white hover:bg-primary-300 fill-current">
             <ThemeToggler>
@@ -79,6 +70,22 @@ const Header = () => {
             </ThemeToggler>
             
             </div>
+
+            {aboutTabHeader}
+
+            <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
+                    <Link to="/notes/">Notes</Link>
+                </div>
+            
+
+                <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
+                    <Link to="/tags/">Browse</Link>
+                </div>
+
+                <div class=" rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md bg-secondary-500 hover:bg-primary-300 text-black">
+                    <Link to="https://thinkbetterblog.substack.com/embed">Subscribe</Link>
+                </div>
+
 
                 <Link to="/search/" class="hidden text-blue-200 hover:text-white hover:bg-gray-800 rounded-lg p-2 px-2 ml-1 fill-current" >
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="w-6 h-6">

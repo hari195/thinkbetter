@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{gBnD:function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return u}));var a=t("q1tI"),l=t.n(a),r=(t("Wbzz"),t("Bl7J"));t("X4HG");function u(){return l.a.createElement("div",null,l.a.createElement(r.a,null,l.a.createElement("br",null),"Legal"))}}}]);
-//# sourceMappingURL=component---src-pages-legal-js-b738cbd85656a471bf70.js.map

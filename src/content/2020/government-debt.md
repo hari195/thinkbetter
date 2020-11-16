@@ -18,5 +18,5 @@ Here is a cool infographic abour the US Debt.
 
 <div>
 <img src="https://www.fisherinvestments.com/-/media/Fisher/PrivateClientGroup/Images/DotCom/US/insights/Articles/fisher-investments-brief-history-of-us-debt-infographic.jpg"/>
-<p><a href="https://www.fisherinvestments.com/en-us/insights/articles/commentary/brief-history-of-US-debt-infographic">Brief History of US Debt - An infographic</a> by the team at <a href="https://www.fisherinvestments.com/en-us">Fisher Investments</a></p>
+<p><a class="inline-link" href="https://www.fisherinvestments.com/en-us/insights/articles/commentary/brief-history-of-US-debt-infographic">Brief History of US Debt - An infographic</a> by the team at <a class="inline-link" href="https://www.fisherinvestments.com/en-us">Fisher Investments</a></p>
 </div>

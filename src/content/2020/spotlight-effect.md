@@ -13,7 +13,7 @@ Have you ever tripped while walking in public and felt the gaze of everyone arou
 
 </br>
 
-Too much of this and it can lead to anxiety issues and can foster an inability to perform under any sort of pressure. The spotlight effect can skew your judgements and the way you set up your personal value system. Spotlight effect is driven by another bias known as Anchoring. <span class="inline-link">[Anchoring](https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)#:~:text=Anchoring%20or%20focalism%20is%20a,%2C%20arguments%2C%20estimates%2C%20etc.)</span> is a concpet in behavioural economics which describes how we rely heavily on the information fed to us early on affects the decision we make.
+Too much of this and it can lead to anxiety issues and can foster an inability to perform under any sort of pressure. The spotlight effect can skew your judgements and the way you set up your personal value system. Spotlight effect is driven by another bias known as Anchoring. <span class="inline-link">[Anchoring](https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)#:~:text=Anchoring%20or%20focalism%20is%20a,%2C%20arguments%2C%20estimates%2C%20etc.)</span> is a concept in behavioural economics which describes how we rely heavily on the information fed to us early on affects the decision we make.
 
 <br/>
 

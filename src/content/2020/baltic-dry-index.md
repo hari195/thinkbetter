@@ -1,5 +1,5 @@
 ---
-title: "Baltic Dry I    ndex"
+title: "Baltic Dry Index"
 date: "2020-11-28"
 condensed: ""
 type: notes

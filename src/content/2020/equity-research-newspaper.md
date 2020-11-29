@@ -16,4 +16,10 @@ They both are similar in some aspects.
 - Both have to adapt to falling information costs. The gap between "quality" and "quantity" became more.
 - Both compete for engagement. They want to write what their readers want to see. 
 
-But these differ as well. In the newspaper industry there are 3 main players; the editorial, the advertisers and the readers. While in equity research there are research analyst firms and institutional investing firms. The business models are quite different. There can be a conflict of interest
+<br>
+
+But these differ as well. In the newspaper industry there are 3 main players; the editorial, the advertisers and the readers. While in equity research there are research analyst firms and institutional investing firms. The business models are quite different. 
+
+<br>
+
+Inspired by <span class="inline-link">[this](https://netinterest.substack.com/p/the-cautionary-tale-of-equity-research)</span>

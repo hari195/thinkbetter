@@ -22,7 +22,7 @@ _The assassination of Archduke Ferdinand –>Austria declares war on Serbia –>
 
 <br/>
 
-### 2008 FInancial Crisis
+### 2008 Financial Crisis
 _Fall of Northern Rock, Iceland -> Fallout of Bear Sterns –> Lehman Brothers –> JP Morgan Chase –>Morgan Stanley –> Merrill Lynch –> American and global economy_
 
 <br/>

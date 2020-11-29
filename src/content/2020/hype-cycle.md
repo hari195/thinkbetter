@@ -28,9 +28,9 @@ A hype cycle is a <span class="inline-link">[branded](https://www.gartner.com/en
 
 1. __Innovation Trigger__ : A trigger, usually in the academic world, that enables some new kind of technology. Sometimes this can also be triggers caused by media exposure.
 2. __Peak of Inflated Expectation__ : The innovation trigger causes a lot of hype and leads to success stories and stories of failure. However, the bias is highly towards the success stories during this time. A reason for this is probably a combination of <span class="inline-link">[survivorship bias](https://en.wikipedia.org/wiki/Survivorship_bias)</span> and not knowing just enough about the new technology.
-3. __Trough of disillusionment__ : As time goes by, the hype drops. The gap between what is acutually possible with the technology and aspirations narrow.
+3. __Trough of disillusionment__ : As time goes by, the hype drops. The gap between what is actually possible with the technology and aspirations narrow.
 4. __Slope of Enlightment__ : Now even more time has passed and there is a very good technical and practical idea on what the technology is capable and what markets are viable. An industry begins to form around it.
-5. __Plateau of Productivity__ : The technology now has entered a more stable stage. The technology has been commercialised and mainstream adoption starts.
+5. __Plateau of Productivity__ : The technology now has entered a more stable stage. The technology has been commercialized and mainstream adoption starts.
 
 </br>
 

@@ -17,7 +17,7 @@ A pulse oximeter is used to measure the oxygen level in your blood using a non-i
 
 <br>
 
-1. Amount of light absorbed in directly proportional to the concetration of the light absorbing surface.
+1. Amount of light absorbed in directly proportional to the concentration of the light absorbing surface.
 2. Amount of light absorbed is directly proportional to the length of the path that the light has to take through the light absorbing surface.
 3. Oxygenated and Deoxygenated Haemoglobin absorb red light and infrared light differently.
 

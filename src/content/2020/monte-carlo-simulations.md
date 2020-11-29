@@ -13,4 +13,4 @@ Monte Carlo simulations are used to determine the probability of an outcome from
 
 <br>
 
-Of course, a model can only predict and account for whatever is built into it. If there are inefficienies and non-linearities that were approximated to simplify the model, that will be reflected in the outcome as well. Monte Carlo simulations have applications in a wide range of fields including <span class="inline-link">[finance](http://thinkbetter.blog/tags/finance/)</span>, statistical physics, oil exploration etc.
+Of course, a model can only predict and account for whatever is built into it. If there are inefficiencies and non-linearities that were approximated to simplify the model, that will be reflected in the outcome as well. Monte Carlo simulations have applications in a wide range of fields including <span class="inline-link">[finance](http://thinkbetter.blog/tags/finance/)</span>, statistical physics, oil exploration etc.

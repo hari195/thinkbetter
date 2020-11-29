@@ -17,4 +17,4 @@ A stochastic process is a random process that changes over time. In probability 
 
 <br/>
 
-<span class="inline-link">[Markov process](https://www.randomservices.org/random/markov/index.html#:~:text=A%20Markov%20process%20is%20a,important%20classes%20of%20random%20processes)</span> is a random process in which the future in independent of the past given the present. This is another example of a stochastic proccess. And a chain of such events for a <span class="inline-link">[Markov Chain](https://en.wikipedia.org/wiki/Markov_chain)</span>. Any game that is entierly determined by a dice is an example of a Markov Chain.
+<span class="inline-link">[Markov process](https://www.randomservices.org/random/markov/index.html#:~:text=A%20Markov%20process%20is%20a,important%20classes%20of%20random%20processes)</span> is a random process in which the future in independent of the past given the present. This is another example of a stochastic process. And a chain of such events for a <span class="inline-link">[Markov Chain](https://en.wikipedia.org/wiki/Markov_chain)</span>. Any game that is entirely determined by a dice is an example of a Markov Chain.

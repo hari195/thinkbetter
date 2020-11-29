@@ -9,7 +9,7 @@ tags: ["Mental Models", "Psychology"]
 ---
 <br/>
 
-This is bias where there is a tendency to reach a conclusion based on the first stimuli we get. This tendency may also be attributed as an energy/saving behaviour. Once we think about out first conclusion, we have given it more ammunition. This can lead to 2 things. Firstly, we will stop accepting newer ideas and viewpoints into our thinking. Secondly, we try to reason out why the first conclusion is the right one. A mental routine to counter this bias is to acknowledge this and to think invertedly. Where you assume that the first conlcusion HAS to be wrong. This will allow us to ask more objective questions rather than settling in with the first conclusion.
+This is bias where there is a tendency to reach a conclusion based on the first stimuli we get. This tendency may also be attributed as an energy/saving behaviour. Once we think about out first conclusion, we have given it more ammunition. This can lead to 2 things. Firstly, we will stop accepting newer ideas and viewpoints into our thinking. Secondly, we try to reason out why the first conclusion is the right one. A mental routine to counter this bias is to acknowledge this and to think inversely. Where you assume that the first conclusion HAS to be wrong. This will allow us to ask more objective questions rather than settling in with the first conclusion.
 
 <br>
 

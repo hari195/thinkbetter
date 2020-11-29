@@ -9,7 +9,7 @@ tags: ["Mental Models", "Psychology"]
 ---
 <br/>
 
-Metacognition is "thinking about thinking". It is being aware of what and how we think and why we think in a particular way. This is a skill that can compound very well if used properly. Metacognition is critical to learning. We need to engage different ways of learning for different type of knowledge we are trying to acquire. Reflecting on the very steps of learning and the acts involved is part of metacognition. Spending time on relfection after tasks that were particularly testing the limits of your ability is a good way to practice metacognition.
+Metacognition is "thinking about thinking". It is being aware of what and how we think and why we think in a particular way. This is a skill that can compound very well if used properly. Metacognition is critical to learning. We need to engage different ways of learning for different type of knowledge we are trying to acquire. Reflecting on the very steps of learning and the acts involved is part of metacognition. Spending time on reflection after tasks that were particularly testing the limits of your ability is a good way to practice metacognition.
 
 <br>
 

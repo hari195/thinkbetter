@@ -19,4 +19,4 @@ He has also described 4 ways to practice deliberate lateral thinking:
 1. __Awareness__ : First step is to be cognizant of how the brain works and how it thinks. You'll have to do some kind of meta-thinking and figure out what were the thoughts that you thought and what patterns and constraints were assumed.
 2. __Random Stimulation__ : We have a tendency to avoid distractions when trying to think. One way to trigger lateral thinking is to let these stimuli be acknowledged in the thinking process.
 3. __Alternatives__ : Even after solving a problem or if the solution is obvious, it is still useful to keep it aside and think about other ways it can be solved. 
-4. __Alteration__ : This technique involves reversing different elements of the problem, questioning whats taken for granted. One easy way to do this is to ask questions starting with "What if..?".
+4. __Alteration__ : This technique involves reversing different elements of the problem, questioning what's taken for granted. One easy way to do this is to ask questions starting with "What if..?".

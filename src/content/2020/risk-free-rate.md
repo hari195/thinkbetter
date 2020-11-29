@@ -9,7 +9,7 @@ tags: ["Finance", "Investing", "Economics"]
 ---
 <br/>
 
-Risk free rate is the rate of return for a risk free investment, i.e an investment that will payout no matter what the scenario or condition is. This is usually used as a baseline to compare other investment opportunities. The most common risk free rate is the current rate of return of US Treasury bills or of another national banks. One reason it is considered as risk free is that if the central bank runs out of money to pay back the obligations, they will just print more money. But this is not completely true, as there are soverign bonds that do default. This happens because the country print more money and that devalues their currency. This increases their already existing outstanding debt and can lead to a default. Benchmarks on financial instruments from rating agencies can be used as proxies for the risk free rate. 
+Risk free rate is the rate of return for a risk free investment, i.e an investment that will payout no matter what the scenario or condition is. This is usually used as a baseline to compare other investment opportunities. The most common risk free rate is the current rate of return of US Treasury bills or of another national banks. One reason it is considered as risk free is that if the central bank runs out of money to pay back the obligations, they will just print more money. But this is not completely true, as there are sovereign bonds that do default. This happens because the country print more money and that devalues their currency. This increases their already existing outstanding debt and can lead to a default. Benchmarks on financial instruments from rating agencies can be used as proxies for the risk free rate. 
 
 </br>
 

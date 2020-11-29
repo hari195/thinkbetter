@@ -13,7 +13,7 @@ Spatial computing can be considered as an extension of IoT for objects in space.
 
 <br>
 
-For a technology like this to manifest there should exist a high speed, low latency network that will allow this kind of high bandwidth communication across multiple objects and the subsequent processing of that data. Another prerequisite could be the need of a common language that these disparate objects and underlying technology can use to talk to each other. Lastly, the usecases need to be simplified and dumbed down to make it profitable and viable for development and innovation. A use-case that is quite common now an array of sensors spread in the aisles of a supermarket to better understand the behaviour of the customers.
+For a technology like this to manifest there should exist a high speed, low latency network that will allow this kind of high bandwidth communication across multiple objects and the subsequent processing of that data. Another prerequisite could be the need of a common language that these disparate objects and underlying technology can use to talk to each other. Lastly, the use-cases need to be simplified and dumbed down to make it profitable and viable for development and innovation. A use-case that is quite common now an array of sensors spread in the aisles of a supermarket to better understand the behaviour of the customers.
 
 <br>
 

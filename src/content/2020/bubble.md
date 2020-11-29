@@ -13,4 +13,4 @@ A bubble is an economic event where the market price of an asset rises rapidly. 
 
 <br>
 
-There can be many reasons as to why the market behaves this way. The dot-com bubble of 2000 was fuelled by the collective illusion that internet based businesses will have very high leverage and low costs to run a business. However, that was not the case. Making an internet business viable was hard. The speculation led to a huge increase in prices of such companies.
+There can be many reasons as to why the market behaves this way. The dot-com bubble of 2000 was fueled by the collective illusion that internet based businesses will have very high leverage and low costs to run a business. However, that was not the case. Making an internet business viable was hard. The speculation led to a huge increase in prices of such companies.

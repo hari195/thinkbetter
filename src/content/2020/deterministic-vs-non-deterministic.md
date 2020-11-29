@@ -13,4 +13,4 @@ In computer science, if a particular algorithm produces the same result for the 
 
 <br/>
 
-In physics, if a system is represented by a set of diffrential equations than it is said to be deterministic. Complex systems and processes can be broken down in into smaller entities, whose behaviour can be predicted in a better way. This can be applied to understanding businesses and balance sheets. Conversely, complex systems can be build up using simpler and more determistic systems.
+In physics, if a system is represented by a set of differential equations than it is said to be deterministic. Complex systems and processes can be broken down in into smaller entities, whose behaviour can be predicted in a better way. This can be applied to understanding businesses and balance sheets. Conversely, complex systems can be build up using simpler and more deterministic systems.

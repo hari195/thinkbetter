@@ -9,7 +9,7 @@ tags: ["Economy", "Investing"]
 ---
 <br/>
 
-This is an index issued daily by the London Stock Exchange. It directly measure the demand for shipping capacity versus the supply of dry bulk carriers. The supply of cargo ships are quite tight as it takes a lot of time to commision a ship. It is more costly to park a  ship for some parts of the time. So marginal increase in the demand can push the index quite high. 
+This is an index issued daily by the London Stock Exchange. It directly measure the demand for shipping capacity versus the supply of dry bulk carriers. The supply of cargo ships are quite tight as it takes a lot of time to commission a ship. It is more costly to park a  ship for some parts of the time. So marginal increase in the demand can push the index quite high. 
 
 <br>
 
@@ -27,7 +27,7 @@ The BDI is a practical economic indicator on a global scale. THe BDi is also a m
 
 <br>
 
-BDI is a very visible indicator of demand for materials and commodities globally. It is a simple index and is difficult to manipulate. Since the index is directly calculated from prices around the world it is driven by supply and demand, it is shielded from the involvement of government, speculators and other key players. BDI usually goes up when the ecomoies around the world are growing, the demand and there in the prices of commodities grow, compaies and stock prices around the world continue to increase in value
+BDI is a very visible indicator of demand for materials and commodities globally. It is a simple index and is difficult to manipulate. Since the index is directly calculated from prices around the world it is driven by supply and demand, it is shielded from the involvement of government, speculators and other key players. BDI usually goes up when the economies around the world are growing, the demand and there in the prices of commodities grow, companies and stock prices around the world continue to increase in value
 
 <br>
 

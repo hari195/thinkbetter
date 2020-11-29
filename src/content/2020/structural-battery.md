@@ -9,7 +9,7 @@ tags: ["Research", "Technology", "EV"]
 ---
 <br/>
 
-Batteries have always been a limitation for electriying devices and vehicles. 
+Batteries have always been a limitation for electrifying devices and vehicles. 
 
 <br>
 
@@ -17,4 +17,4 @@ Batteries have always been a limitation for electriying devices and vehicles.
 
 <br>
 
-One way to increase overall efficiency is the reduce the weight of the battery storage. This can be done either by embedding the battery within the structure or making the structure itself the battery. In a structural battery, the cells have to be molded into the shape of an aircraft body or a smartphone case. But having structural batteries is a huge safety risk. A crash or dent could potentially set of an unstoppable chemical reaction. Aviation is a hard industry to electrify. Simply because the fuel used is 40 times more energy dense than typical lithium batteries. This would mean the airplanes would end up being really heavy. Embedding batteries into different parts of the structure isn't as efficeint as making the structure from the battery itself. New combinations of cell chemistry are being researched upon, where the electrolyte is a semi-rigid polymer resembling cartilage. And these cells could potentially be embedded into moving parts like robots just like fat. Fat is an efficient energy storage, it is distributed across the body and it serves other functions like insulation as well.
+One way to increase overall efficiency is the reduce the weight of the battery storage. This can be done either by embedding the battery within the structure or making the structure itself the battery. In a structural battery, the cells have to be molded into the shape of an aircraft body or a smartphone case. But having structural batteries is a huge safety risk. A crash or dent could potentially set of an unstoppable chemical reaction. Aviation is a hard industry to electrify. Simply because the fuel used is 40 times more energy dense than typical lithium batteries. This would mean the airplanes would end up being really heavy. Embedding batteries into different parts of the structure isn't as efficient as making the structure from the battery itself. New combinations of cell chemistry are being researched upon, where the electrolyte is a semi-rigid polymer resembling cartilage. And these cells could potentially be embedded into moving parts like robots just like fat. Fat is an efficient energy storage, it is distributed across the body and it serves other functions like insulation as well.

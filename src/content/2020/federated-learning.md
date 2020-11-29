@@ -13,4 +13,4 @@ tags: ["Technology", "AI", "Research"]
 
 <br>
 
-A major field where this can be used is in the <span class="inline-link">[digital health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7490367/)</span> vertical. Starting from all the data that is harvested from wearbles of consumers to data from hospitals and insurances. It fits into the criteria of having a very dispersed data and can still fulfill legislation like GDPR.
+A major field where this can be used is in the <span class="inline-link">[digital health](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7490367/)</span> vertical. Starting from all the data that is harvested from wearables of consumers to data from hospitals and insurances. It fits into the criteria of having a very dispersed data and can still fulfill legislation like GDPR.

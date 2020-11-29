@@ -9,7 +9,7 @@ tags: ["Technology", "Programming", "Internet"]
 ---
 <br/>
 
-The internet is built on 3 pillars: HTML, which is used to make web pages; HTTP which is used to send and receive infromation over the internet; and the URL.
+The internet is built on 3 pillars: HTML, which is used to make web pages; HTTP which is used to send and receive information over the internet; and the URL.
 
 <br/>
 
@@ -19,7 +19,7 @@ scheme: [ // [ userinfo@ ] host [ :port ] ] [ / ] [ path ] [ ?query ] [#fragment
 <br/>
 
 - Scheme is the protocol. In most cases it is either HTTP or HTTPS. It tells the browser what protocol to use to fetch the requested resource
-- Userinfo substring is optional. The substring is of the format username:password.
+- User-info substring is optional. The substring is of the format username:password.
 - Host consists of the domain name. The web browser uses it to fetch the IP address that is hosting the web site. A DNS behaves like a look-up table to fetch the right IP address for the domain name.
 - Port number indicates which gate to use to communicate with the web server.
 - Path resolves a file within the web server. 

@@ -9,7 +9,7 @@ tags: ["Technology", "Future", "Data"]
 ---
 <br/>
 
-It is <span class="inline-link">[projected](https://www.mdpi.com/2078-1547/6/1/117/htm) that cloud computing will account for 13% of world electricity consumption by 2030. A prediction is that, in the future the computing power wont be the bottleneck or the parameter to optimize. It will be energy consumption. Maybe that will even become benchmarks for developing state of the art AI/ML Algorithms. With chips going down to 5nm and server grade hardware pushing its limits as well. The performance bottleneck will soon be insignificant compared to the energy tax each iteration of an algorithm would take. 
+It is <span class="inline-link">[projected](https://www.mdpi.com/2078-1547/6/1/117/htm)</span> that cloud computing will account for 13% of world electricity consumption by 2030. A prediction is that, in the future the computing power wont be the bottleneck or the parameter to optimize. It will be energy consumption. Maybe that will even become benchmarks for developing state of the art AI/ML Algorithms. With chips going down to 5nm and server grade hardware pushing its limits as well. The performance bottleneck will soon be insignificant compared to the energy tax each iteration of an algorithm would take. 
 
 <br>
 

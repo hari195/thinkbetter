@@ -5,7 +5,7 @@ condensed: ""
 type: notes
 published: true
 displaydate: "December 5, 2020"
-tags: ["Startups", "Business"]
+tags: ["Startups", "Business", "Mental Models"]
 ---
 <br/>
 

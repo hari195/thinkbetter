@@ -9,7 +9,7 @@ tags: ["Finance", "Investing"]
 ---
 <br/>
 
-Not everyone generates the same returns from investing. They differ based on the decisions they takes. That is why it ends up being a zero sum game. You will make money when you are able to buy at a lower price and sell at a higher price. And at both times you need to have another market participant on the other side of the transaction. However, there are a few ways you can have an advantage.
+Not everyone generates the same returns from investing. They differ based on the decisions they take. That is why it ends up being a zero sum game. You will make money when you are able to buy at a lower price and sell at a higher price. And at both times you need to have another market participant on the other side of the transaction. However, there are a few ways you can have an advantage.
 
 <br>
 

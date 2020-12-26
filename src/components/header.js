@@ -27,7 +27,7 @@ const Header = () => {
     <header class="top-0 mb-4 z-10 bg-primary-100 text-primary-900 fixed shadow-lg md:h-auto w-full md:px-12 py-2  transition-all duration-300 items-center justify-between"> 
         <div class="md:flex items-center justify-around md:justify-between">
      
-            <h1 class="flex justify-center  items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-sans font-bold tracking-tighter md:text-3xl md:rounded-lg hover:shadow-2xl hover:bg-primary-300 ">
+            <h1 class="flex justify-center  items-center whitespace-nowrap px-2 md:py-1 text-center text-xl font-sans font-bold tracking-tighter md:text-3xl md:rounded-lg hover:shadow-2xl hover:bg-primary-300 ">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current text-copy-500 w-6 h-6 md:w-6 md:h-6">
                     <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
                 </svg>   

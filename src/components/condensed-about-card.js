@@ -37,7 +37,7 @@ function CondensedAboutCard () {
       <div class="md:w-1/2 items-center ">
         
 
-      <h1 class="flex justify-center invisible hover:visible items-center whitespace-no-wrap px-2 md:py-1 text-center text-xl font-sans font-bold tracking-tighter md:text-3xl md:rounded-lg">
+      <h1 class="flex justify-center invisible hover:visible items-center whitespace-nowrap px-2 md:py-1 text-center text-xl font-sans font-bold tracking-tighter md:text-3xl md:rounded-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" class="fill-current text-copy-500 w-6 h-6 md:w-6 md:h-6">
                     <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z"/>
                 </svg>   
@@ -46,7 +46,7 @@ function CondensedAboutCard () {
        
         <div class="text-xl font-inter font-medium mt-4 text-primary-900">
             <p class="hidden">This is a blog aimed at familiarizing ideas and concepts from unfamiliar fields and building an online
-                mental toolbox to help you make better decisions and of course, <span class="font-semibold flex-no-wrap">think better.</span> 
+                mental toolbox to help you make better decisions and of course, <span class="font-semibold flex-nowrap">think better.</span> 
            </p>
            <p>
              A place for ideas, concepts and mental models from everywhere. 

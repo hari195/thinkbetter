@@ -82,7 +82,7 @@ const Header = () => {
                     <Link to="/tags/">Browse</Link>
                 </div>
 
-                <div class=" rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md bg-secondary-500 hover:bg-primary-300 text-black">
+                <div class="hidden rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md bg-secondary-500 hover:bg-primary-300 text-black">
                     <Link to="https://thinkbetterblog.substack.com/embed">Subscribe</Link>
                 </div>
 

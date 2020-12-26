@@ -50,7 +50,10 @@ function AboutCard () {
            </p>
            <p>
              A place for <span class="copy-underline">ideas</span>, <span class="copy-underline">concepts</span> and <span class="copy-underline">mental models</span> from everywhere.
-             <br></br> <br></br> <Link class="inline-link" to="https://thinkbetterblog.substack.com/embed">Subscribe</Link> to receive <span class="hidden copy-underline">exclusive notes</span> a weekly round-up. 
+             
+             <br></br>
+             
+             <div class="hidden"><Link class="inline-link" to="https://thinkbetterblog.substack.com/embed">Subscribe</Link> to receive <span class="hidden copy-underline">exclusive notes</span> a weekly round-up. </div>
              <br></br>Connect with me <a class="inline-link" href="http://www.twitter.com/thoughtsbyhkr">@thoughtsbyhkr</a>
            </p>
           

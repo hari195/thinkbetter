@@ -5,7 +5,7 @@ condensed: ""
 type: notes
 published: true
 displaydate: "November 22, 2020"
-tags: ["Finance", "Investing"]
+tags: ["Finance", "Investing", "Economy"]
 ---
 <br/>
 

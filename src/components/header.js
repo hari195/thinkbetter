@@ -12,11 +12,11 @@ const Header = () => {
   const darkMode = useDarkMode(true, darkModeConfig);
   let aboutTabHeader;
   const { pathname } = useLocation()
-  if (pathname !== "/"){ aboutTabHeader =    <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
+  if (pathname !== "/"){ aboutTabHeader =    <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-sm md:text-sm hover:bg-primary-300">
   <Link to="/about/">About</Link>
   </div>} 
   else{
-    aboutTabHeader = <div class="hidden rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
+    aboutTabHeader = <div class="hidden rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-sm md:text-sm hover:bg-primary-300">
     <Link to="/about/">About</Link>
     </div>
   }
@@ -24,7 +24,7 @@ const Header = () => {
   return (
 <div>
 
-    <header class="top-0 mb-4 z-10 bg-primary-100 text-primary-900 fixed shadow-lg md:h-auto w-full md:px-12 py-2  transition-all duration-300 items-center justify-between"> 
+    <header class="top-0 mb-4 z-10 bg-primary-100 text-primary-900 fixed shadow-lg md:h-auto w-full md:px-40 py-2  transition-all duration-300 items-center justify-between"> 
         <div class="md:flex items-center justify-around md:justify-between">
      
             <h1 class="flex justify-center  items-center whitespace-nowrap px-2 md:py-1 text-center text-xl font-sans font-bold tracking-tighter md:text-3xl md:rounded-lg hover:shadow-2xl hover:bg-primary-300 ">
@@ -73,16 +73,19 @@ const Header = () => {
 
             {aboutTabHeader}
 
-            <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
+            <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-sm md:text-sm hover:bg-primary-300">
                     <Link to="/notes/">Notes</Link>
                 </div>
-            
 
-                <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md hover:bg-primary-300">
+                <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-sm md:text-sm hover:bg-primary-300">
+                    <Link to="/resources/">Resources</Link>
+                </div>
+
+                <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-sm md:text-sm hover:bg-primary-300">
                     <Link to="/tags/">Browse</Link>
                 </div>
 
-                <div class="hidden rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-md md:text-md bg-secondary-500 hover:bg-primary-300 text-black">
+                <div class="hidden rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-sm md:text-sm bg-secondary-500 hover:bg-primary-300 text-black">
                     <Link to="https://thinkbetterblog.substack.com/embed">Subscribe</Link>
                 </div>
 

@@ -17,13 +17,21 @@ const TagsPage = ({
 <div>
     <Layout>
         <SEO title="Tags"/>
-        <div class="bg-primary-100 shadow-lg font-inter rounded-lg mt-4 mx-2 sm:ml-16 sm:mr-16 px-8 py-6 md:px-20 md:py-12 text-left">
-            <div class="text-2xl -ml-1 md:text-3xl font-semibold  rounded px-1  pl-1 text-primary-900"> 
-                Tags    
+
+        <div class=" font-inter rounded-lg sm:mx-2 md:mx-20 px-2 pt-4 md:px-24 items-center text-center md:text-left">
+          <div class="text-3xl px-8 mb-4 mt-2  font-semibold rounded   text-primary-900 align-middle items-center flex"> 
+            Tags
+          </div>
+        </div>
+
+
+        <div class="mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg">
+            <div class="hidden mb-2 text-2xl -ml-1 md:text-2xl font-semibold  rounded px-1  pl-1 text-primary-900"> 
+                Browse   
             </div>
         <ul class="mt-2">
         {group.map(tag => (
-          <li class=" mt-2 -ml-2 " key={tag.fieldValue}>
+          <li class="  -ml-2 " key={tag.fieldValue}>
             <Link class="uppercase inline-block text-secondary-500 hover:text-primary-900 hover:bg-primary-300 rounded p-1 px-2" to={`/tags/${kebabCase(tag.fieldValue)}/`}>
               {tag.fieldValue} 
               <span class="hidden text-secondary-500">

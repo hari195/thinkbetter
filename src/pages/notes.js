@@ -10,14 +10,13 @@ export default function Notes() {
     <div>
       <Layout>
 
-        <br>
-        </br>
-        <div class="font-inter rounded-lg ml-4 mr-4 sm:mx-2  px-8 pt-4 md:px-20 md:text-left items-center text-center">
-          <div class="text-2xl -ml-1 text-primary-900 md:text-3xl font-semibold rounded px-1  pl-1" > 
+        <div class=" font-inter rounded-lg sm:mx-2 md:mx-20 px-2 pt-4 md:px-24 items-center text-center md:text-left">
+          <div class="text-3xl px-8 mb-4 mt-2  font-semibold rounded   text-primary-900 align-middle items-center flex"> 
             Notes
-        
           </div>
         </div>
+
+       
 
         <AllNotes/>
         <br>

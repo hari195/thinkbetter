@@ -41,22 +41,51 @@ export default function Resources() {
           </div>
         </div>
 
-    <div class=" mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
+        <div class="hidden mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
       <div class="flex justify-between items-center">
         <div class="text-2xl font-semibold mb-4 text-primary-900 ">
-           Thinkbetter Tech Stack
+           Podcast Episodes
         </div>
         <div class="uppercase font-bold rounded p-1">
           <Share title={data.site.siteMetadata.title} url={data.site.siteMetadata.siteUrl} summary={data.site.siteMetadata.description} pathname={pathname} />  
         </div>
       </div>
       <ul class="list-disc text-lg">
+        <li class="inline-link"><a href="https://www.youtube.com/watch?v=3qHkcs3kG44&ab_channel=PowerfulJRE">
+          Joe Rogan x Naval Ravikant
+        </a></li>
+        <li class="inline-link"><a href="https://www.youtube.com/watch?v=HiYo14wylQw&ab_channel=TimFerriss">
+          Tim Ferris x Naval Ravikant
+        </a></li>
+        <li class="inline-link"><a href="https://fs.blog/knowledge-project/bill-ackman/">
+          The Knowledge Podcast x Bill Ackman
+        </a></li>
+        <li class="inline-link"><a href="https://fs.blog/knowledge-project/sanjay-bakshi/">
+          The Knowledge Podcast x Sanjay Bakshi
+        </a></li>
+      
+      </ul>
+    </div>
+
+    <div class=" mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
+      <div class="flex justify-between items-center">
+        <div class="text-lg md:text-2xl font-semibold mb-4 text-primary-900 ">
+           Thinkbetter Tech Stack
+        </div>
+        <div class="uppercase font-bold rounded p-1">
+          <Share title={data.site.siteMetadata.title} url={data.site.siteMetadata.siteUrl} summary={data.site.siteMetadata.description} pathname={pathname} />  
+        </div>
+      </div>
+      <ul class="list-disc text-md md:text-lg">
         <li class="inline-link"><a href="https://www.gatsbyjs.com/"> Gatsby JS</a></li>
         <li class="inline-link"><a href="https://tailwindcss.com/"> Tailwind CSS</a></li>
       </ul>
     </div>
 
-    <div class="hidden mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
+
+
+
+     <div class="hidden mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
       <div class="flex justify-between items-center">
         <div class="text-2xl font-semibold mb-4 text-primary-900 ">
            Topic
@@ -66,14 +95,17 @@ export default function Resources() {
         </div>
       </div>
       <ul class="list-disc text-lg">
-        <li class="inline-link"><a href="#"> Bullet 1</a></li>
-        <li class="inline-link"><a href="#"> Bullet 1</a></li>
-        <li class="inline-link"><a href="#"> Bullet 1</a></li>
-        <li class="inline-link"><a href="#"> Bullet 1</a></li>
+        <li class="inline-link"><a href="#">
+          Bullet 1
+        </a></li>
+        <li class="inline-link"><a href="#">
+          Bullet 1
+        </a></li>
+        <li class="inline-link"><a href="#">
+          Bullet 1
+        </a></li>
       </ul>
-    </div>
-
-        
+    </div>       
 
         
       </Layout>

@@ -1,7 +1,7 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import FullCard from "./full-card"
-import CondensedCard from "./condensed-card";
+
 
 export default function AllNotes (props) {
    
@@ -46,7 +46,12 @@ export default function AllNotes (props) {
   return (
 <div >
     <FullCard data={data} />
+
+
+
 </div>
+
+
 
   );
 }

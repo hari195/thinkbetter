@@ -13,7 +13,7 @@ module.exports = {
       "A place for models, concepts and tools from everywhere.",
     url: "http://www.thinkbetter.blog", // No trailing slash allowed!
     siteUrl: "http://www.thinkbetter.blog",
-    image: "/images/bolt512.png", // Path to your image you placed in the 'static' folder
+    image: "/images/darkcoverpic.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "@ThinkBetterBlog",
     keywords: "mental models, thinking, thought, systems thinking, psychology"
   },

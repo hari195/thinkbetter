@@ -36,7 +36,7 @@ export default function Resources() {
           <div class="text-3xl px-8 mb-4 mt-2  font-semibold rounded   text-primary-900 align-middle items-center flex"> 
             Resources
           </div>
-          <div class="px-8 mb-4 text-primary-900">
+          <div class="hidden px-8 mb-4 text-primary-900">
             Curated resources on varying topics from everywhere.
           </div>
         </div>
@@ -44,21 +44,19 @@ export default function Resources() {
     <div class=" mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
       <div class="flex justify-between items-center">
         <div class="text-2xl font-semibold mb-4 text-primary-900 ">
-           Topic
+           Thinkbetter Tech Stack
         </div>
         <div class="uppercase font-bold rounded p-1">
           <Share title={data.site.siteMetadata.title} url={data.site.siteMetadata.siteUrl} summary={data.site.siteMetadata.description} pathname={pathname} />  
         </div>
       </div>
       <ul class="list-disc text-lg">
-        <li class="inline-link"><a href="#"> Bullet 1</a></li>
-        <li class="inline-link"><a href="#"> Bullet 1</a></li>
-        <li class="inline-link"><a href="#"> Bullet 1</a></li>
-        <li class="inline-link"><a href="#"> Bullet 1</a></li>
+        <li class="inline-link"><a href="https://www.gatsbyjs.com/"> Gatsby JS</a></li>
+        <li class="inline-link"><a href="https://tailwindcss.com/"> Tailwind CSS</a></li>
       </ul>
     </div>
 
-    <div class=" mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
+    <div class="hidden mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
       <div class="flex justify-between items-center">
         <div class="text-2xl font-semibold mb-4 text-primary-900 ">
            Topic

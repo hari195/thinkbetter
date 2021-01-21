@@ -41,7 +41,7 @@ export default function Resources() {
           </div>
         </div>
 
-        <div class="hidden mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
+        <div class="mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
       <div class="flex justify-between items-center">
         <div class="text-2xl font-semibold mb-4 text-primary-900 ">
            Podcast Episodes

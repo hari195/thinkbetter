@@ -3,6 +3,9 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    screens: {
+      'md':'768px',
+    },
 
     fontFamily:{
       'sans': ['Inter'],

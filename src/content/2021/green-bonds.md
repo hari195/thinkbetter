@@ -8,7 +8,8 @@ displaydate: "January 22, 2021"
 tags: ["Finance", "Crypto", "Environment"]
 ---
 <br/> 
-Green Bonds are used to raise money for environment and climate related projects. The financial instrument makes use of the debt capital markets to fund green initiatives. Governments and corporates are issuing green bonds to bring in capital. The World Bank is a major issuer of green bonds. As per a report from PwC, it is expected that 2021 will see the largest ever issuance of green bonds. 
+Green Bonds are used to raise money for environment and climate related projects. The financial instrument makes use of the debt capital markets to fund green initiatives. Governments and corporates are issuing green bonds to bring in capital. The World Bank is a major issuer of green bonds. As per a report from PwC, it is expected that 2021 will see the largest ever issuance of green bonds.
+ 
 
 <br>
 

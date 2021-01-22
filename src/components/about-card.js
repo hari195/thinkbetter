@@ -33,8 +33,8 @@ function AboutCard () {
   
   return (
 <div >
-<div class=" md:flex sm:ml-16 sm:mr-16 px-6 py-6 md:px-20 md:py-12 items-center ">
-      <div class="md:w-1/2 items-center ">
+<div class=" md:flex sm:ml-16 sm:mr-16 px-6 py-6 md:px-24 md:py-12 items-center ">
+      <div class="md:w-1/2 md:ml-24 items-center ">
         
 
       <h1 class="md:flex justify-center hidden items-center whitespace-nowrap px-2 md:py-1 text-center text-xl font-sans font-bold tracking-tighter md:text-3xl md:rounded-lg">
@@ -51,8 +51,13 @@ function AboutCard () {
            <p>
              A place for <span class="copy-underline">ideas</span>, <span class="copy-underline">concepts</span> and <span class="copy-underline">mental models</span> from everywhere.
              
+             <div class="hidden">
+               Check out <span class="text-red-500 font-bold">Lattice</span> for analysis on different companies.  
+              <span class="inline-link"> Subscribe</span> for a weekly update of interesting notes and analysis delivered to your inbox.
              <br></br>
              
+             </div>
+
              <div class="hidden"><Link class="inline-link" to="https://thinkbetterblog.substack.com/embed">Subscribe</Link> to receive <span class="hidden copy-underline">exclusive notes</span> a weekly round-up. </div>
              <br></br>Connect with me <a class="inline-link" href="http://www.twitter.com/thoughtsbyhkr">@thoughtsbyhkr</a>
            </p>

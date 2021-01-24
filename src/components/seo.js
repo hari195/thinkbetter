@@ -24,6 +24,7 @@ const SEO = ({ title, description, image, article}) => {
     }
     const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
 
+
     return (
         <Helmet link={
           canonical
@@ -56,6 +57,8 @@ const SEO = ({ title, description, image, article}) => {
             <meta property="og:description" content={seo.description} />
             <meta name="description" content={seo.description} />
             <meta property="og:image" content={seo.image} />
+
+
             </Helmet>
       )
   }

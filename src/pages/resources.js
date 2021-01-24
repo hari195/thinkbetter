@@ -63,6 +63,9 @@ export default function Resources() {
         <li class="inline-link"><a href="https://fs.blog/knowledge-project/sanjay-bakshi/">
           The Knowledge Podcast x Sanjay Bakshi
         </a></li>
+        <li class="inline-link"><a href="https://podcasts.google.com/feed/aHR0cHM6Ly9pbnZlc3RsaWtldGhlYmVzdC5saWJzeW4uY29tL3Jzcw/episode/ZTkwN2I2NTRkNDc4NDRhZGIwZTkxN2E3MWYzNTIzZGU?sa=X&ved=0CA0QkfYCahcKEwiojonBg7LuAhUAAAAAHQAAAAAQAQ">
+         Invest Like the Best x Chris Bloomstran x What Makes a Quality Company
+        </a></li>
       
       </ul>
     </div>

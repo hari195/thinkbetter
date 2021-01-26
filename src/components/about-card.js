@@ -2,6 +2,7 @@ import React from "react"
 import { Link,useStaticQuery,graphql } from "gatsby"
 import Share from "./share"
 import { useLocation } from "@reach/router"
+import RevueSubcribe from "./revue-subscribe"
 
 
 function AboutCard () {
@@ -50,7 +51,7 @@ function AboutCard () {
            </p>
            <p>
              A place for <span class="copy-underline">ideas</span>, <span class="copy-underline">concepts</span> and <span class="copy-underline">mental models</span> from everywhere.
-             
+
              <div class="hidden">
                Check out <span class="text-red-500 font-bold">Lattice</span> for analysis on different companies.  
               <span class="inline-link"> Subscribe</span> for a weekly update of interesting notes and analysis delivered to your inbox.

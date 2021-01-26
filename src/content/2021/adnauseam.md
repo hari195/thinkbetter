@@ -8,7 +8,8 @@ displaydate: "January 24, 2021"
 tags: ["Technology", "Business", "Social Media", "Data"]
 ---
 <br>
-AdNauseam is a free browser extension that tries to trick advertising networks by messing with your browsing data. AdNauseam works locally, and itself doesn't send the data out to any other services. It comes with 3 opt-in features which includes hide ads, clock ads and block malware. 
+AdNauseam is a free browser extension that tries to trick advertising networks by messing with your browsing data. AdNauseam works locally, and itself doesn't send the data out to any other services. It comes with 3 opt-in features which includes hide ads, clock ads and block malware.
+ 
 
 <br>
 

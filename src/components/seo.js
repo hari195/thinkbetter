@@ -43,7 +43,7 @@ const SEO = ({ title, description, image, article}) => {
             <meta name="google-site-verification" content="P-4DzXlQgeDoYsnJCDG1G0munzxCKnGqoQNBQwAsPfg" />
 
             {seo.image && <meta property="og:image" content={seo.image} />}
-            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:card" content={seo.image} />
             {twitterUsername && (
               <meta name="twitter:creator" content={twitterUsername} />
             )}

@@ -43,7 +43,7 @@ const SEO = ({ title, description, image, article}) => {
             <meta name="google-site-verification" content="P-4DzXlQgeDoYsnJCDG1G0munzxCKnGqoQNBQwAsPfg" />
 
             {seo.image && <meta property="og:image" content={seo.image} />}
-            <meta name="twitter:card" content={seo.image} />
+            <meta name="twitter:card" content="summary_large_image" />
             {twitterUsername && (
               <meta name="twitter:creator" content={twitterUsername} />
             )}
@@ -51,7 +51,7 @@ const SEO = ({ title, description, image, article}) => {
             {seo.description && (
               <meta name="twitter:description" content={seo.description} />
             )}
-            <meta name="twitter:image" content={seo.image} />
+            <meta name="twitter:image" content="https://thinkbetter.blog/darkcoverpic.jpg" />
           
             <meta name="author" content="Harikrishnan"></meta>
             <meta property="og:description" content={seo.description} />

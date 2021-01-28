@@ -1,7 +1,6 @@
 import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import {Link} from "gatsby"
-import {  useState } from "react"
 import { useLocation } from "@reach/router"
 import useDarkMode from 'use-dark-mode';
 
@@ -11,6 +10,7 @@ const Header = () => {
 
   const darkMode = useDarkMode(true, darkModeConfig);
   let aboutTabHeader;
+  let subscribeTabHeader;
   const { pathname } = useLocation()
   if (pathname !== "/"){ aboutTabHeader =    <div class="rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-sm md:text-sm hover:bg-primary-300">
   <Link to="/about/">About</Link>
@@ -19,6 +19,15 @@ const Header = () => {
     aboutTabHeader = <div class="hidden rounded-lg uppercase md:ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-sm md:text-sm hover:bg-primary-300">
     <Link to="/about/">About</Link>
     </div>
+  }
+
+  if (pathname !== "/subscribe/"){ subscribeTabHeader = <div class="rounded-lg uppercase ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-sm md:text-sm bg-secondary-500 hover:bg-primary-300 text-black">
+            <Link to="/subscribe/">Subscribe</Link>
+        </div>} 
+  else{
+    subscribeTabHeader = <div class="hidden rounded-lg uppercase ml-1 px-2 py-1 md:px-4 md:py-2 font-semibold text-sm md:text-sm bg-secondary-500 hover:bg-primary-300 text-black">
+            <Link to="/subscribe/">Subscribe</Link>
+        </div>
   }
   
   return (
@@ -105,6 +114,7 @@ const Header = () => {
             <Link to="https://landing.mailerlite.com/webforms/landing/l7c4p8">Subscribe</Link>
         </div>
                 
+        {subscribeTabHeader}
         <Link to="/search/" class="hidden text-blue-200 hover:text-white hover:bg-gray-800 rounded-lg p-2 px-2 ml-1 fill-current" >
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="w-6 h-6">
                 <path d="M16.32 14.9l5.39 5.4a1 1 0 01-1.42 1.4l-5.38-5.38a8 8 0 111.41-1.41zM10 16a6 6 0 100-12 6 6 0 000 12z"/>

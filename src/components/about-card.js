@@ -49,17 +49,21 @@ function AboutCard () {
             <p class="hidden">This is a blog aimed at familiarizing ideas and concepts from unfamiliar fields and building an online
                 mental toolbox to help you make better decisions and of course, <span class="font-semibold flex-nowrap">think better.</span> 
            </p>
-           <p>
+           <p class="hidden">
              A place for <span class="copy-underline">ideas</span>, <span class="copy-underline">concepts</span> and <span class="copy-underline">mental models</span> from everywhere.
-
+            </p>
+            <p>
+              Exploring the intersections between <span class="copy-underline">thinking</span>, <span class="copy-underline">finance</span> and <span class="copy-underline">tech</span>.
+            </p>
+            <p>
              <div class="hidden">
                Check out <span class="text-red-500 font-bold">Lattice</span> for analysis on different companies.  
               <span class="inline-link"> Subscribe</span> for a weekly update of interesting notes and analysis delivered to your inbox.
-             <br></br>
+     
              
              </div>
              <div class="hidden"><Link class="inline-link" to="https://thinkbetterblog.substack.com/embed">Subscribe</Link> to receive <span class="hidden copy-underline">exclusive notes</span> a weekly round-up. </div>
-             <br></br>Connect with me <a class="inline-link" href="http://www.twitter.com/thoughtsbyhkr">@thoughtsbyhkr</a>
+      Connect with me <a class="inline-link" href="http://www.twitter.com/thoughtsbyhkr">@thoughtsbyhkr</a>
            </p>
           
         </div>

@@ -9,7 +9,7 @@ export default function RevueSubscribe({ children }) {
               Subscribe
               </div>
               <div class="mt-4 text-primary-900">
-                A weekly newsletter with curated and exclusive content on thinking, investing and tech.
+                A weekly newsletter with curated content on thinking, investing and tech.
               </div>
               <div class="align-center justify-items-center mx-8 my-4">
                 <img src={'../../darkcoverpic.jpg'} class="rounded-lg " alt="Hello" />

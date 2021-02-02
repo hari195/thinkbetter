@@ -41,6 +41,24 @@ export default function Resources() {
           </div>
         </div>
 
+
+     <div class=" mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
+      <div class="flex justify-between items-center">
+        <div class="text-2xl font-semibold mb-4 text-primary-900 ">
+           API
+        </div>
+        <div class="uppercase font-bold rounded p-1">
+          <Share title={data.site.siteMetadata.title} url={data.site.siteMetadata.siteUrl} summary={data.site.siteMetadata.description} pathname={pathname} />  
+        </div>
+      </div>
+      <ul class="list-disc text-lg">
+        <li class="inline-link"><a href="https://public-apis.io/">
+          Public APIs
+        </a></li>
+      </ul>
+    </div>   
+
+
         <div class="mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
       <div class="flex justify-between items-center">
         <div class="text-2xl font-semibold mb-4 text-primary-900 ">
@@ -87,6 +105,8 @@ export default function Resources() {
 
 
 
+
+  
 
      <div class="hidden mt-4 px-8 md:mx-36 md:py-8 md:px-16  border-1 rounded-md text-primary-900 shadow-lg" >
       <div class="flex justify-between items-center">

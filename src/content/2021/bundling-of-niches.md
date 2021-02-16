@@ -13,15 +13,15 @@ Media in the past were limited by the medium. News by physically printing newspa
 
 <br>
 
-Until then services were usually bundled. You didn't have to subscribe to Sports News, World News or Business News separately. They all came as a bundle. The same goes for television. The unit economics made sense to bundle these even if not all customers are interested in each product or service. However with the internet it became easier for services to offer these individual products with no additional cost. And now we are seeing the great unbundling as Ben Thompson wrote in a 2017 article.
+Until then services were usually bundled. You didn't have to subscribe to Sports News, World News or Business News separately. They all came as a bundle. The same goes for television. The unit economics made sense to bundle these even if not all customers are interested in each product or service. However with the internet it became easier for services to offer these individual products with no additional cost. And now we are seeing the great unbundling as Ben Thompson wrote in a 2017 <span class="inline-link">[article](https://stratechery.com/2017/the-great-unbundling/)</span>.
 
 <br>
 
-There are two problems from the customer point of view. Today there are just too many subscriptions. According to Forbes, as of mid-2019, the average American subscribes to 3.4 streaming services. Managing subscriptions, payments, logins and being able to find the right content for you to consume is often a task in itself. Secondly, most customers have a monthly subscription budget. Which means that they have to choose what they would like to subscribe to. 
+There are two problems from the customer point of view. Today there are just too many subscriptions. According to <span class="inline-link">[Forbes](https://www.forbes.com/sites/tonifitzgerald/2019/03/29/how-many-streaming-video-services-does-the-average-person-subscribe-to/?sh=6993bac46301)</span>, as of mid-2019, the average American subscribes to 3.4 streaming services. Managing subscriptions, payments, logins and being able to find the right content for you to consume is often a task in itself. Secondly, most customers have a monthly subscription budget. Which means that they have to choose what they would like to subscribe to. 
 
 <br>
 
-Recently, there is a great influx of individual creators trying to carve out a space for themselves. Substack has popularised and hyped that anyone with a mailing list could start creating a content and put some of it behind a paywall. Creators focus on niches to gain some ground initially but eventually they too diversify and spread out. Which is not a bad thing, but is it enough to justify the monthly paid subscription even then? Probably yes, because by then readers are not only buying into the content but also the brand around it.
+Recently, there is a great influx of individual creators trying to carve out a space for themselves. <span class="inline-link">[Substack](https://substack.com/)</span> has popularised and hyped that anyone with a mailing list could start creating a content and put some of it behind a paywall. Creators focus on niches to gain some ground initially but eventually they too diversify and spread out. Which is not a bad thing, but is it enough to justify the monthly paid subscription even then? Probably yes, because by then readers are not only buying into the content but also the brand around it.
 
 <br>
 

@@ -119,8 +119,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox=
 }
 
 .inline-quote{
-    color:var(--secondary-100);
+    color:var(--copy-500);
     padding: 1.25em;
+    font-style: italic;
 }
 
 .inline-link:hover{

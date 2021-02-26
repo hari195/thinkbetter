@@ -4,15 +4,15 @@ import React from "react"
 export default function RevueSubscribe({ children }) {
 
     return (
-        <div id="revue-subscribe" class="text-center p-6 md:mx-96 mt-10 border-2  border-secondary-500 rounded-lg">
+        <div id="revue-subscribe" class="text-center p-6 md:mx-32 mt-10 border-2  border-secondary-500 rounded-lg">
             <div class=" text-xl md:text-3xl font-bold text-primary-900">
-              Subscribe
+              Subscribe to ⚡Fractional.
               </div>
               <div class="mt-4 text-primary-900">
-                A weekly newsletter with curated content on thinking, investing and tech.
+                For a weekly newsletter with notes, ideas and curated content on thinking, investing and tech delivered right to your inbox every week. See past issues <a href="https://email.thinkbetter.blog" class="inline-link">here</a>.
               </div>
               <div class="align-center justify-items-center mx-8 my-4">
-                <img src={'../../darkcoverpic.jpg'} class="rounded-lg " alt="Hello" />
+                <img src={'../../../darkcoverpic.jpg'} class="rounded-lg " />
               </div>
               <div id="revue-embed">
               <form action="https://www.getrevue.co/profile/thoughtsbyhkr/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">

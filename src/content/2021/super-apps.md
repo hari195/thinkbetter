@@ -25,11 +25,11 @@ Why are they becoming more popular? From a user point of view, super apps can ti
 
 <br>
 
-Super apps by definition is a suite of apps. More often users can find things they didn't know they actually need in them. But easily get hooked because of the other services they are already using within a super app. Not to mention the data benefits. More data about users and their behaviour for the company, but from a user point of view it is still just one company. 
+Super apps by definition is a suite of apps. More often users can find features that they didn't know that they wanted. It provides a good imperative to easily get hooked on these features simply because of its convenience. Super apps benefit from the amount of data it has access to. The users still only see one company and one set of privacy policy.
 
 <br>
 
-This is also a direct outcome of API's fueling digital growth. Most companies would like to build a brand and business around a service or a product. While there are some companies that are better off with just offering an API and let other businesses in the value chain figure out market discovery, marketing etc. Getting features/integrated to a super app is like getting featured in the front page of reddit, but for API companies.
+This is also a direct outcome of API's fueling digital growth. Most companies would like to build a brand and business around a service or a product. Some companies are better off with just offering an API and letting other businesses figure out the rest of the value chain. Getting features/integrated to a super app is like getting featured in the front page of reddit, but for API companies.
 
 <br>
 

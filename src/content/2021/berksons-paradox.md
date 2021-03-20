@@ -1,0 +1,24 @@
+---
+title: "Berkson's Paradox"
+date: "2021-03-20"
+condensed: ""
+type: notes
+published: true
+displaydate: "March 20, 2021"
+tags: ["Mental Models"]
+---
+<br>
+
+Berkson's Paradox is a type of sampling bias. This paradox can lead to experimental studies concluding that 2 events are related when they are actually not. This was first identified in case-controlled studies. 
+
+<br>
+
+A study by <span class="inline-link">[Sackett(1979)](http://www.epidemiology.ch/history/PDF%20bg/Sackett%20DL%201979%20bias%20in%20analytic%20research.pdf)</span> portrays this paradox quite well. He wanted to study the presence or absence of respiratory disease and locomotor disease. He took 2 samples. One from a random community from the general population and one from the hospital. When looking at the results from the hospital sample, the data points out that the it is much more likely to have a locomotor disease if you have a respiratory disease. But it is not true. This correlation emerges from the fact that it is more likely to have patients that are admitted for both diseases in the hospital, while we are not considering the part of the population that neither has a respiratory disease nor a locomotor disease.
+
+<br>
+
+When looking at the results from the community sample it was clear that there is no correlation between the 2 disease. 
+
+<br>
+
+Control group based studies are common in many studies not only restricted to healthcare. Especially around studies to evaluate industry and consumer trends. It is important to look at where the data is coming from i.e. who is in the sample population and how that relates to the big picture.

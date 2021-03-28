@@ -5,7 +5,7 @@ condensed: ""
 type: notes
 published: true
 displaydate: "March 28, 2021"
-tags: ["Hardware", "Technology", "Automotive"]
+tags: ["Hardware", "Technology", "Automotive", "EV"]
 ---
 <br>
 

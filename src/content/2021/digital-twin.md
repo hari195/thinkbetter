@@ -4,7 +4,7 @@ date: "2021-03-26"
 condensed: ""
 type: notes
 published: true
-displaydate: "March 6, 2021"
+displaydate: "March 26, 2021"
 tags: ["Hardware", "Technology", "Models"]
 ---
 <br>

@@ -31,7 +31,7 @@ export default function RevueSubscribe({ children }) {
               <div class="revue-form-actions ">
                 <input type="submit" value="Subscribe" class="mt-4 hover:bg-primary-300  text-sm font-bold bg-secondary-500 rounded-md  text-primary-100 p-2 px-4" name="member[subscribe]" id="member_submit"/>
               </div>
-              <div class="revue-form-footer text-xs text-primary-900 mt-2">Unsubscribe anytime. By subscribing, you agree with Revue’s <a target="_blank" class="inline-link" href="https://www.getrevue.co/terms">Terms</a> and <a target="_blank" class="inline-link" href="https://www.getrevue.co/privacy">Privacy Policy</a>. On subscribing, a confirmation e-mail will be sent to your email address.</div>
+              <div class="revue-form-footer text-xs text-primary-900 mt-2">Check your mail for an activation link. Unsubscribe anytime. By subscribing, you agree with Revue’s <a target="_blank" class="inline-link" href="https://www.getrevue.co/terms">Terms</a> and <a target="_blank" class="inline-link" href="https://www.getrevue.co/privacy">Privacy Policy</a>.</div>
               </form>
             </div>
         </div>

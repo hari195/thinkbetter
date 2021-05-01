@@ -14,3 +14,11 @@ tags: ["Investing", "Economics", "Finance"]
 <br>
 
 <span class="inline-link">[In 2019](https://investorplace.com/2020/09/10-spac-ipo-stocks-to-buy-as-the-market-enters-bear-territory/)</span>, there were 59 SPAC IPOs that collectively raised $13.6 billion. Year to date, a total of 55 SPACs have raised $22.5 billion. Some famous SPAC IPO's include <span class="inline-link">[Nikola](https://fortune.com/2020/09/11/nikola-which-went-public-via-a-spac-is-accused-of-deception/)</span>, <span class="inline-link">[Virgin Galactic](https://www.wsj.com/articles/richard-bransons-virgin-raises-480-million-with-spac-11601642288)</span>, <span class="inline-link">[Pershing Square Tontine Holdings](https://www.debevoise.com/insights/publications/2020/07/bill-ackman-and-pershing-square-launch-largest)</span>. Michael Bloomberg is in <span class="inline-link">[talks](https://nypost.com/2020/10/20/michael-bloomberg-in-talks-to-take-his-media-empire-public/?utm_source=morning_brew)</span> with hedge fund manager <span class="inline-link">[Bill Ackman](https://en.wikipedia.org/wiki/Bill_Ackman)</span> to take his media empire public.
+
+<br>
+
+## Related
+
+<br>
+
+<span class="inline-link">[Thinking of Using a SPAC to Go Public? Here's What to Consider](https://www.toptal.com/finance/ipo-consultants/spac-ipo)</span>

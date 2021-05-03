@@ -59,9 +59,12 @@ function AboutCard () {
              <div class="hidden">
                Check out <span class="text-red-500 font-bold">Lattice</span> for analysis on different companies.  
               <span class="inline-link"> Subscribe</span> for a weekly update of interesting notes and analysis delivered to your inbox.
-     
-             
              </div>
+
+            <div>
+              Pre-order your free copy of <a class="text-green-500 hover:text-primary-900 hover:underline" href="https://gum.co/TimelessPrimerToInvesting">A Timeless Primer to Investing</a>
+            </div>
+
              <div class="hidden"><Link class="inline-link" to="https://thinkbetterblog.substack.com/embed">Subscribe</Link> to receive <span class="hidden copy-underline">exclusive notes</span> a weekly round-up. </div>
       Connect with me <a class="inline-link" href="http://www.twitter.com/thoughtsbyhkr">@thoughtsbyhkr</a>
            </p>

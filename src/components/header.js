@@ -81,6 +81,10 @@ const Header = () => {
           <Link to="/notes/">Notes</Link>
         </div>
 
+         <div class="hidden rounded-lg uppercase md:ml-1 px-1 py-1 md:px-2 md:py-1 font-semibold text-sm md:text-sm hover:bg-primary-300">
+          <Link to="/deep-dives/">Deep Dives</Link>
+        </div>
+
         <div class="rounded-lg uppercase md:ml-1 px-1 py-1 md:px-2 md:py-1 font-semibold text-sm md:text-sm hover:bg-primary-300">
             <Link to="/resources/">Resources</Link>
         </div>

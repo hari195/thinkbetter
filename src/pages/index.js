@@ -24,7 +24,7 @@ export default function Home(props) {
 
         <div class=" font-inter rounded-lg sm:mx-2 md:mx-36 px-2 pt-4 md:px-24 items-center text-center md:text-left">
           <div class="text-3xl mb-4  font-semibold rounded   text-primary-900 align-middle items-center flex"> 
-            Notes <span class="text-primary-900 border-2 border-secondary-500 rounded-full px-2 ml-2 text-sm" >10/{data.allMarkdownRemark.totalCount}</span>
+            Latest <span class="text-primary-900 border-2 border-secondary-500 rounded-full px-2 ml-2 text-sm" >3/{data.allMarkdownRemark.totalCount}</span>
             <span class = " uppercase rounded-lg text-lg ml-2">
               &bull;<Link class="ml-2 inline-link rounded-lg" to="/notes/">view all</Link>
             </span>

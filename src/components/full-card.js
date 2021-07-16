@@ -1,9 +1,10 @@
 import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import {  Link } from "gatsby"
 import kebabCase from "lodash/kebabCase"
 import Share from "./share"
 import { useLocation } from "@reach/router"
 import Tag from "./tag"
+import TitleRender from "./title-render"
 export default function FullCard (props) {
   const { pathname } = useLocation()
 
@@ -25,15 +26,15 @@ export default function FullCard (props) {
 
         </div>
 
-        <div>
-          <Link to={node.fields.slug} class="text-2xl -ml-1 md:text-3xl font-semibold hover:bg-primary-300 rounded px-1 text-primary-900 pl-1"> 
+        <TitleRender data={node}>
+            
+          <Link to={node.fields.slug}> 
           {node.frontmatter.title}{" "}
           </Link>
-          {node.frontmatter.featuredImage}
-        </div>
+        </TitleRender>
 
         
-        <div class="flex justify items-center flex-wrap ">
+        <div class="flex justify items-center flex-wrap mt-2 ">
                 {node.frontmatter.tags.map(tag => (
           <Tag  key={tag.fieldValue}>
             <Link to={`/tags/${kebabCase(tag)}/`}>

@@ -35,6 +35,7 @@ export default function AllNotes (props) {
               published
               displaydate
               tags
+              type
             }
             excerpt
           }

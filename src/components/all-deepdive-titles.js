@@ -1,8 +1,9 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import CondensedCard from "./condensed-card"
+import { Link, useStaticQuery, graphql } from "gatsby"
+import TitleOnlyCard from "./title-only-card";
 
-export default function AllArticles (props) {
+
+export default function AllNotes (props) {
    
     const data = useStaticQuery(graphql`
     query{
@@ -18,7 +19,7 @@ export default function AllArticles (props) {
           titleTemplate
         }
       }
-      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "article"}}}) {
+      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "deepdive"}}}) {
         totalCount
         edges {
           node {
@@ -26,6 +27,7 @@ export default function AllArticles (props) {
               slug
             }
             id
+            html
             frontmatter {
               title
               date
@@ -43,8 +45,13 @@ export default function AllArticles (props) {
 
   return (
 <div >
-    <CondensedCard data={data} />
+    <TitleOnlyCard data={data} />
+
+
+
 </div>
+
+
 
   );
 }

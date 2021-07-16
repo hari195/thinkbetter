@@ -19,7 +19,7 @@ export default function RecentNotes (props) {
           titleTemplate
         }
       }
-      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {type: {eq: "notes"}}}, limit: 10) {
+      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, limit: 3) {
         totalCount
         edges {
           node {
@@ -35,6 +35,7 @@ export default function RecentNotes (props) {
               published
               displaydate
               tags
+              type
             }
             excerpt
           }
